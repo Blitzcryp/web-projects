@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.bar{
+    height: 10%;
+    width: 100%;
+
+    background: green;
+
+    animation: load 6s ease-out 1;
+
+    border: 5px solid black;
+
+    transform: rotateZ(30deg) rotateX(30deg) rotateY(-30deg);
+
+    box-shadow: 10px 60px 2px 2px black;
+}
+
+@keyframes load{
+    0%{
+        width: 0%;
+        background-color: red;
+    }
+    25%{
+        width: 30%;
+        background: red;
+        background-image: linear-gradient(to right, red, yellow);
+    }
+
+    75%{
+        width: 70%;
+        background: yellow;
+        background-image: linear-gradient(to right, red, yellow, green);
+    }
+
+    100%{
+        width: 100%;
+        background: green;
+    }
+}
+
+
