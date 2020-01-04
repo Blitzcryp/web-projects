@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    background-image: linear-gradient(to right, #4776E6, #8E54E9);  /* Chrome 10-25, Safari 5.1-6 */
+    
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -1;
+    animation: luminate 2s linear infinite;
+}
+#sun{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    top: 85px;
+    background-image: linear-gradient(#FF8008, #FFC837);
+}
+.ray{
+    width: 90px;
+    height: 10px;
+    background-image: linear-gradient(#FF8008, #FFC837);
+    position: relative;
+    border-radius: 20px;
+}
+.ray1{
+    left: 150px;
+}
+.ray2{
+    left: -150px;
+}
+.ray3{
+    top: -200px;
+    width: 10px;
+    height: 90px;
+}
+.ray4{
+
+    width: 10px;
+    height: 90px;
+}
+.ray5{
+    transform: rotate(45deg);
+    left: 100px;
+    top: -100px;
+}
+.ray6{
+    transform: rotate(45deg);
+    top: -300px;
+    left: -100px;
+}
+.ray7{
+    transform: rotate(-45deg);
+    left: -100px;
+    top: -100px;
+}
+.ray8{
+    transform: rotate(-45deg);
+    left: 100px;
+    top: -320px;
+}
+
+@keyframes luminate{
+    0%{
+        transform: scale(0.9) rotate(180deg);
+    }
+
+    50%{
+        transform: scale(1.10);
+    }
+    100%{
+        transform: scale(0.90) rotate(-180deg);
+    }
+}
+
+.cloudy{
+    display: flex;
+    z-index: -1;
+
+}
+
+.cloud{
+    width: 250px;
+    height: 60px;
+    background-color: lightgray;
+
+    position: relative;
+    left: 150px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 50px;
+}
+
+.cloud-segment-1{
+    width: 100px;
+    height: 100px;
+    border-radius: 100% 100% 0% 0%;
+    background-color: lightgray;
+
+    position: inherit;
+    top: -60px;
+    left: 40px;
+}
+
+.cloud-segment-2{
+    width: 90px;
+    height: 90px;
+    border-radius: 100% 100% 0% 0%;
+    background-color: lightgray;
+
+    position: inherit;
+    left: 130px;
+    top: -150px;
+}
+
+.cloud1,.cloud2,.cloud3,.cloud4,.cloud5{
+    position: relative;
+    animation-name: clouds;
+    animation-timing-function: 2s;
+    animation-iteration-count: infinite;
+}
+
+.cloud1{
+    top: 100px;
+    
+    animation-duration: 7s;
+}
+.cloud2{
+    top: -100px;
+    left: 50px;
+
+
+    animation-duration: 6s;
+}
+.cloud3{
+    animation-duration: 5s;
+}
+.cloud4{
+    top: -200px;
+    left: -20px;
+
+    animation-duration: 4s;
+}
+
+.cloud5{
+    top: 50px;
+    left: -200px;
+
+    animation-duration: 3.5s;
+}
+
+
+@keyframes clouds{
+    0%{
+        transform: translateX(10px) scale(0.9);
+    }
+    50%{
+        transform: translateX(-10px) scale(1.1);
+    }
+    100%{
+        transform: scale(0.9);
+    }
+}
+
+.rain{
+    display: flex;
+    flex-direction: row;
+
+    position: relative;
+}
+
+@mixin raindrops($width, $height, $position, $left, $top, $bg-color, $border-radius, $transf, $time){
+    width: $width;
+    height: $height;
+    position: $position;
+    left: $left;
+    top: $top;
+    background-color: $bg-color;
+
+    border-radius: $border-radius;
+    transform: rotate($transf);    
+    animation: rain $time ease-in infinite;
+}
+.raindrop-1{
+    @include raindrops(10px, 70px, inherit, 50px, -100px, cyan, 25px, 30deg, 3.5s);
+}
+.raindrop-2{
+    @include raindrops(10px, 70px, inherit, 150px, -100px, cyan, 25px, 30deg, 2.5s);
+}
+.raindrop-3{
+    @include raindrops(10px, 70px, inherit, 100px, -100px, cyan, 25px, 30deg, 1.5s);
+}
+
+@keyframes rain{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.lightning{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0;
+    animation: light 5s ease-in infinite;
+}
+/*
+@keyframes light{
+    0%{
+        opacity: 1;
+    }
+    6%{
+      opacity: 0.9;  
+    }
+    8%{
+        opacity: 0;
+    }
+}
+*/

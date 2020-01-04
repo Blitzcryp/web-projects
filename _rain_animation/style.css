@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: -webkit-gradient(linear, left top, right top, from(#4776E6), to(#8E54E9));
+  background-image: linear-gradient(to right, #4776E6, #8E54E9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sun {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: -1;
+  -webkit-animation: luminate 2s linear infinite;
+          animation: luminate 2s linear infinite;
+}
+
+#sun {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  position: relative;
+  top: 85px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF8008), to(#FFC837));
+  background-image: linear-gradient(#FF8008, #FFC837);
+}
+
+.ray {
+  width: 90px;
+  height: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF8008), to(#FFC837));
+  background-image: linear-gradient(#FF8008, #FFC837);
+  position: relative;
+  border-radius: 20px;
+}
+
+.ray1 {
+  left: 150px;
+}
+
+.ray2 {
+  left: -150px;
+}
+
+.ray3 {
+  top: -200px;
+  width: 10px;
+  height: 90px;
+}
+
+.ray4 {
+  width: 10px;
+  height: 90px;
+}
+
+.ray5 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  left: 100px;
+  top: -100px;
+}
+
+.ray6 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: -300px;
+  left: -100px;
+}
+
+.ray7 {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  left: -100px;
+  top: -100px;
+}
+
+.ray8 {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  left: 100px;
+  top: -320px;
+}
+
+@-webkit-keyframes luminate {
+  0% {
+    -webkit-transform: scale(0.9) rotate(180deg);
+            transform: scale(0.9) rotate(180deg);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(0.9) rotate(-180deg);
+            transform: scale(0.9) rotate(-180deg);
+  }
+}
+
+@keyframes luminate {
+  0% {
+    -webkit-transform: scale(0.9) rotate(180deg);
+            transform: scale(0.9) rotate(180deg);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(0.9) rotate(-180deg);
+            transform: scale(0.9) rotate(-180deg);
+  }
+}
+
+.cloudy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: -1;
+}
+
+.cloud {
+  width: 250px;
+  height: 60px;
+  background-color: lightgray;
+  position: relative;
+  left: 150px;
+  border-radius: 25px 25px 25px 25px;
+  margin-left: 50px;
+}
+
+.cloud-segment-1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100% 100% 0% 0%;
+  background-color: lightgray;
+  position: inherit;
+  top: -60px;
+  left: 40px;
+}
+
+.cloud-segment-2 {
+  width: 90px;
+  height: 90px;
+  border-radius: 100% 100% 0% 0%;
+  background-color: lightgray;
+  position: inherit;
+  left: 130px;
+  top: -150px;
+}
+
+.cloud1, .cloud2, .cloud3, .cloud4, .cloud5 {
+  position: relative;
+  -webkit-animation-name: clouds;
+          animation-name: clouds;
+  -webkit-animation-timing-function: 2s;
+          animation-timing-function: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.cloud1 {
+  top: 100px;
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+}
+
+.cloud2 {
+  top: -100px;
+  left: 50px;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+}
+
+.cloud3 {
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.cloud4 {
+  top: -200px;
+  left: -20px;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+.cloud5 {
+  top: 50px;
+  left: -200px;
+  -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+}
+
+@-webkit-keyframes clouds {
+  0% {
+    -webkit-transform: translateX(10px) scale(0.9);
+            transform: translateX(10px) scale(0.9);
+  }
+  50% {
+    -webkit-transform: translateX(-10px) scale(1.1);
+            transform: translateX(-10px) scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+@keyframes clouds {
+  0% {
+    -webkit-transform: translateX(10px) scale(0.9);
+            transform: translateX(10px) scale(0.9);
+  }
+  50% {
+    -webkit-transform: translateX(-10px) scale(1.1);
+            transform: translateX(-10px) scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+}
+
+.rain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+}
+
+.raindrop-1 {
+  width: 10px;
+  height: 70px;
+  position: inherit;
+  left: 50px;
+  top: -100px;
+  background-color: cyan;
+  border-radius: 25px;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  -webkit-animation: rain 3.5s ease-in infinite;
+          animation: rain 3.5s ease-in infinite;
+}
+
+.raindrop-2 {
+  width: 10px;
+  height: 70px;
+  position: inherit;
+  left: 150px;
+  top: -100px;
+  background-color: cyan;
+  border-radius: 25px;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  -webkit-animation: rain 2.5s ease-in infinite;
+          animation: rain 2.5s ease-in infinite;
+}
+
+.raindrop-3 {
+  width: 10px;
+  height: 70px;
+  position: inherit;
+  left: 100px;
+  top: -100px;
+  background-color: cyan;
+  border-radius: 25px;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  -webkit-animation: rain 1.5s ease-in infinite;
+          animation: rain 1.5s ease-in infinite;
+}
+
+@-webkit-keyframes rain {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rain {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.lightning {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0;
+  -webkit-animation: light 5s ease-in infinite;
+          animation: light 5s ease-in infinite;
+}
+
+/*
+@keyframes light{
+    0%{
+        opacity: 1;
+    }
+    6%{
+      opacity: 0.9;  
+    }
+    8%{
+        opacity: 0;
+    }
+}
+*/
+/*# sourceMappingURL=style.css.map */
