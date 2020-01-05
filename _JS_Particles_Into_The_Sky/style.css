@@ -1,0 +1,4890 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+#wrapper {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#283E51), to(#0A2342));
+  background-image: linear-gradient(to top, #283E51, #0A2342);
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.dot1 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 504px;
+  top: 510px;
+  background-color: #83e660;
+  border-radius: 100%;
+  -webkit-animation: fade 1772ms ease-in-out infinite, glow 1772ms ease-in-out infinite;
+          animation: fade 1772ms ease-in-out infinite, glow 1772ms ease-in-out infinite;
+}
+
+.dot2 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 947px;
+  top: 917px;
+  background-color: #330a9f;
+  border-radius: 100%;
+  -webkit-animation: fade 3151ms ease-in-out infinite, glow 3151ms ease-in-out infinite;
+          animation: fade 3151ms ease-in-out infinite, glow 3151ms ease-in-out infinite;
+}
+
+.dot3 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1653px;
+  top: 272px;
+  background-color: #49a08c;
+  border-radius: 100%;
+  -webkit-animation: fade 9053ms ease-in-out infinite, glow 9053ms ease-in-out infinite;
+          animation: fade 9053ms ease-in-out infinite, glow 9053ms ease-in-out infinite;
+}
+
+.dot4 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 199px;
+  top: 77px;
+  background-color: #3725ca;
+  border-radius: 100%;
+  -webkit-animation: fade 10461ms ease-in-out infinite, glow 10461ms ease-in-out infinite;
+          animation: fade 10461ms ease-in-out infinite, glow 10461ms ease-in-out infinite;
+}
+
+.dot5 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 1823px;
+  top: 142px;
+  background-color: #4c1366;
+  border-radius: 100%;
+  -webkit-animation: fade 5031ms ease-in-out infinite, glow 5031ms ease-in-out infinite;
+          animation: fade 5031ms ease-in-out infinite, glow 5031ms ease-in-out infinite;
+}
+
+.dot6 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 330px;
+  top: 74px;
+  background-color: #f3a4ee;
+  border-radius: 100%;
+  -webkit-animation: fade 7075ms ease-in-out infinite, glow 7075ms ease-in-out infinite;
+          animation: fade 7075ms ease-in-out infinite, glow 7075ms ease-in-out infinite;
+}
+
+.dot7 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1775px;
+  top: 745px;
+  background-color: #c87a4c;
+  border-radius: 100%;
+  -webkit-animation: fade 2137ms ease-in-out infinite, glow 2137ms ease-in-out infinite;
+          animation: fade 2137ms ease-in-out infinite, glow 2137ms ease-in-out infinite;
+}
+
+.dot8 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 67px;
+  top: 392px;
+  background-color: #197501;
+  border-radius: 100%;
+  -webkit-animation: fade 3312ms ease-in-out infinite, glow 3312ms ease-in-out infinite;
+          animation: fade 3312ms ease-in-out infinite, glow 3312ms ease-in-out infinite;
+}
+
+.dot9 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1878px;
+  top: 876px;
+  background-color: #a24b45;
+  border-radius: 100%;
+  -webkit-animation: fade 6387ms ease-in-out infinite, glow 6387ms ease-in-out infinite;
+          animation: fade 6387ms ease-in-out infinite, glow 6387ms ease-in-out infinite;
+}
+
+.dot10 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 422px;
+  top: 98px;
+  background-color: #b2d5d6;
+  border-radius: 100%;
+  -webkit-animation: fade 10709ms ease-in-out infinite, glow 10709ms ease-in-out infinite;
+          animation: fade 10709ms ease-in-out infinite, glow 10709ms ease-in-out infinite;
+}
+
+.dot11 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 547px;
+  top: 109px;
+  background-color: #cf5042;
+  border-radius: 100%;
+  -webkit-animation: fade 3185ms ease-in-out infinite, glow 3185ms ease-in-out infinite;
+          animation: fade 3185ms ease-in-out infinite, glow 3185ms ease-in-out infinite;
+}
+
+.dot12 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 221px;
+  top: 589px;
+  background-color: #067279;
+  border-radius: 100%;
+  -webkit-animation: fade 5265ms ease-in-out infinite, glow 5265ms ease-in-out infinite;
+          animation: fade 5265ms ease-in-out infinite, glow 5265ms ease-in-out infinite;
+}
+
+.dot13 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 633px;
+  top: 703px;
+  background-color: #563fff;
+  border-radius: 100%;
+  -webkit-animation: fade 2028ms ease-in-out infinite, glow 2028ms ease-in-out infinite;
+          animation: fade 2028ms ease-in-out infinite, glow 2028ms ease-in-out infinite;
+}
+
+.dot14 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 249px;
+  top: 280px;
+  background-color: #b16540;
+  border-radius: 100%;
+  -webkit-animation: fade 11557ms ease-in-out infinite, glow 11557ms ease-in-out infinite;
+          animation: fade 11557ms ease-in-out infinite, glow 11557ms ease-in-out infinite;
+}
+
+.dot15 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 811px;
+  top: 489px;
+  background-color: #5df169;
+  border-radius: 100%;
+  -webkit-animation: fade 10080ms ease-in-out infinite, glow 10080ms ease-in-out infinite;
+          animation: fade 10080ms ease-in-out infinite, glow 10080ms ease-in-out infinite;
+}
+
+.dot16 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1585px;
+  top: 199px;
+  background-color: #7cd2a4;
+  border-radius: 100%;
+  -webkit-animation: fade 3743ms ease-in-out infinite, glow 3743ms ease-in-out infinite;
+          animation: fade 3743ms ease-in-out infinite, glow 3743ms ease-in-out infinite;
+}
+
+.dot17 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 833px;
+  top: 209px;
+  background-color: #895ea8;
+  border-radius: 100%;
+  -webkit-animation: fade 5446ms ease-in-out infinite, glow 5446ms ease-in-out infinite;
+          animation: fade 5446ms ease-in-out infinite, glow 5446ms ease-in-out infinite;
+}
+
+.dot18 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 699px;
+  top: 633px;
+  background-color: #3062ab;
+  border-radius: 100%;
+  -webkit-animation: fade 11951ms ease-in-out infinite, glow 11951ms ease-in-out infinite;
+          animation: fade 11951ms ease-in-out infinite, glow 11951ms ease-in-out infinite;
+}
+
+.dot19 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 830px;
+  top: 53px;
+  background-color: #7545e5;
+  border-radius: 100%;
+  -webkit-animation: fade 7539ms ease-in-out infinite, glow 7539ms ease-in-out infinite;
+          animation: fade 7539ms ease-in-out infinite, glow 7539ms ease-in-out infinite;
+}
+
+.dot20 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1078px;
+  top: 118px;
+  background-color: #a35063;
+  border-radius: 100%;
+  -webkit-animation: fade 7269ms ease-in-out infinite, glow 7269ms ease-in-out infinite;
+          animation: fade 7269ms ease-in-out infinite, glow 7269ms ease-in-out infinite;
+}
+
+.dot21 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 459px;
+  top: 673px;
+  background-color: #1b1982;
+  border-radius: 100%;
+  -webkit-animation: fade 7356ms ease-in-out infinite, glow 7356ms ease-in-out infinite;
+          animation: fade 7356ms ease-in-out infinite, glow 7356ms ease-in-out infinite;
+}
+
+.dot22 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 271px;
+  top: 163px;
+  background-color: #562aad;
+  border-radius: 100%;
+  -webkit-animation: fade 6820ms ease-in-out infinite, glow 6820ms ease-in-out infinite;
+          animation: fade 6820ms ease-in-out infinite, glow 6820ms ease-in-out infinite;
+}
+
+.dot23 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1444px;
+  top: 620px;
+  background-color: #fa7ae1;
+  border-radius: 100%;
+  -webkit-animation: fade 7096ms ease-in-out infinite, glow 7096ms ease-in-out infinite;
+          animation: fade 7096ms ease-in-out infinite, glow 7096ms ease-in-out infinite;
+}
+
+.dot24 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1905px;
+  top: 864px;
+  background-color: #59fbac;
+  border-radius: 100%;
+  -webkit-animation: fade 3976ms ease-in-out infinite, glow 3976ms ease-in-out infinite;
+          animation: fade 3976ms ease-in-out infinite, glow 3976ms ease-in-out infinite;
+}
+
+.dot25 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 817px;
+  top: 13px;
+  background-color: #7d3af8;
+  border-radius: 100%;
+  -webkit-animation: fade 8430ms ease-in-out infinite, glow 8430ms ease-in-out infinite;
+          animation: fade 8430ms ease-in-out infinite, glow 8430ms ease-in-out infinite;
+}
+
+.dot26 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 465px;
+  top: 402px;
+  background-color: #8cb6ed;
+  border-radius: 100%;
+  -webkit-animation: fade 4272ms ease-in-out infinite, glow 4272ms ease-in-out infinite;
+          animation: fade 4272ms ease-in-out infinite, glow 4272ms ease-in-out infinite;
+}
+
+.dot27 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1617px;
+  top: 671px;
+  background-color: #1d199f;
+  border-radius: 100%;
+  -webkit-animation: fade 5227ms ease-in-out infinite, glow 5227ms ease-in-out infinite;
+          animation: fade 5227ms ease-in-out infinite, glow 5227ms ease-in-out infinite;
+}
+
+.dot28 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1710px;
+  top: 416px;
+  background-color: #5ad63c;
+  border-radius: 100%;
+  -webkit-animation: fade 1942ms ease-in-out infinite, glow 1942ms ease-in-out infinite;
+          animation: fade 1942ms ease-in-out infinite, glow 1942ms ease-in-out infinite;
+}
+
+.dot29 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1130px;
+  top: 628px;
+  background-color: #8b6e58;
+  border-radius: 100%;
+  -webkit-animation: fade 2744ms ease-in-out infinite, glow 2744ms ease-in-out infinite;
+          animation: fade 2744ms ease-in-out infinite, glow 2744ms ease-in-out infinite;
+}
+
+.dot30 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1753px;
+  top: 192px;
+  background-color: #e9e149;
+  border-radius: 100%;
+  -webkit-animation: fade 6963ms ease-in-out infinite, glow 6963ms ease-in-out infinite;
+          animation: fade 6963ms ease-in-out infinite, glow 6963ms ease-in-out infinite;
+}
+
+.dot31 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1771px;
+  top: 845px;
+  background-color: #ea5e03;
+  border-radius: 100%;
+  -webkit-animation: fade 6102ms ease-in-out infinite, glow 6102ms ease-in-out infinite;
+          animation: fade 6102ms ease-in-out infinite, glow 6102ms ease-in-out infinite;
+}
+
+.dot32 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1722px;
+  top: 652px;
+  background-color: #e75cf1;
+  border-radius: 100%;
+  -webkit-animation: fade 6216ms ease-in-out infinite, glow 6216ms ease-in-out infinite;
+          animation: fade 6216ms ease-in-out infinite, glow 6216ms ease-in-out infinite;
+}
+
+.dot33 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1280px;
+  top: 305px;
+  background-color: #34124b;
+  border-radius: 100%;
+  -webkit-animation: fade 4017ms ease-in-out infinite, glow 4017ms ease-in-out infinite;
+          animation: fade 4017ms ease-in-out infinite, glow 4017ms ease-in-out infinite;
+}
+
+.dot34 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 826px;
+  top: 719px;
+  background-color: #5b50a7;
+  border-radius: 100%;
+  -webkit-animation: fade 4244ms ease-in-out infinite, glow 4244ms ease-in-out infinite;
+          animation: fade 4244ms ease-in-out infinite, glow 4244ms ease-in-out infinite;
+}
+
+.dot35 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 1231px;
+  top: 581px;
+  background-color: #61fb60;
+  border-radius: 100%;
+  -webkit-animation: fade 8733ms ease-in-out infinite, glow 8733ms ease-in-out infinite;
+          animation: fade 8733ms ease-in-out infinite, glow 8733ms ease-in-out infinite;
+}
+
+.dot36 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1840px;
+  top: 668px;
+  background-color: #d9883a;
+  border-radius: 100%;
+  -webkit-animation: fade 5852ms ease-in-out infinite, glow 5852ms ease-in-out infinite;
+          animation: fade 5852ms ease-in-out infinite, glow 5852ms ease-in-out infinite;
+}
+
+.dot37 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 804px;
+  top: 353px;
+  background-color: #046c86;
+  border-radius: 100%;
+  -webkit-animation: fade 7414ms ease-in-out infinite, glow 7414ms ease-in-out infinite;
+          animation: fade 7414ms ease-in-out infinite, glow 7414ms ease-in-out infinite;
+}
+
+.dot38 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 2px;
+  top: 532px;
+  background-color: #2484f0;
+  border-radius: 100%;
+  -webkit-animation: fade 7142ms ease-in-out infinite, glow 7142ms ease-in-out infinite;
+          animation: fade 7142ms ease-in-out infinite, glow 7142ms ease-in-out infinite;
+}
+
+.dot39 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1255px;
+  top: 207px;
+  background-color: #ce644b;
+  border-radius: 100%;
+  -webkit-animation: fade 10515ms ease-in-out infinite, glow 10515ms ease-in-out infinite;
+          animation: fade 10515ms ease-in-out infinite, glow 10515ms ease-in-out infinite;
+}
+
+.dot40 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 1578px;
+  top: 120px;
+  background-color: #a3a76d;
+  border-radius: 100%;
+  -webkit-animation: fade 11884ms ease-in-out infinite, glow 11884ms ease-in-out infinite;
+          animation: fade 11884ms ease-in-out infinite, glow 11884ms ease-in-out infinite;
+}
+
+.dot41 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1889px;
+  top: 235px;
+  background-color: #5a9bf4;
+  border-radius: 100%;
+  -webkit-animation: fade 5789ms ease-in-out infinite, glow 5789ms ease-in-out infinite;
+          animation: fade 5789ms ease-in-out infinite, glow 5789ms ease-in-out infinite;
+}
+
+.dot42 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 60px;
+  top: 178px;
+  background-color: #692246;
+  border-radius: 100%;
+  -webkit-animation: fade 4503ms ease-in-out infinite, glow 4503ms ease-in-out infinite;
+          animation: fade 4503ms ease-in-out infinite, glow 4503ms ease-in-out infinite;
+}
+
+.dot43 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1138px;
+  top: 138px;
+  background-color: #2c688d;
+  border-radius: 100%;
+  -webkit-animation: fade 449ms ease-in-out infinite, glow 449ms ease-in-out infinite;
+          animation: fade 449ms ease-in-out infinite, glow 449ms ease-in-out infinite;
+}
+
+.dot44 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1476px;
+  top: 687px;
+  background-color: #d019b7;
+  border-radius: 100%;
+  -webkit-animation: fade 1359ms ease-in-out infinite, glow 1359ms ease-in-out infinite;
+          animation: fade 1359ms ease-in-out infinite, glow 1359ms ease-in-out infinite;
+}
+
+.dot45 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1427px;
+  top: 305px;
+  background-color: #e2d14b;
+  border-radius: 100%;
+  -webkit-animation: fade 6933ms ease-in-out infinite, glow 6933ms ease-in-out infinite;
+          animation: fade 6933ms ease-in-out infinite, glow 6933ms ease-in-out infinite;
+}
+
+.dot46 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 922px;
+  top: 38px;
+  background-color: #f4c177;
+  border-radius: 100%;
+  -webkit-animation: fade 8998ms ease-in-out infinite, glow 8998ms ease-in-out infinite;
+          animation: fade 8998ms ease-in-out infinite, glow 8998ms ease-in-out infinite;
+}
+
+.dot47 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1045px;
+  top: 462px;
+  background-color: #ecee2a;
+  border-radius: 100%;
+  -webkit-animation: fade 2630ms ease-in-out infinite, glow 2630ms ease-in-out infinite;
+          animation: fade 2630ms ease-in-out infinite, glow 2630ms ease-in-out infinite;
+}
+
+.dot48 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 1688px;
+  top: 395px;
+  background-color: #ce6ff1;
+  border-radius: 100%;
+  -webkit-animation: fade 4543ms ease-in-out infinite, glow 4543ms ease-in-out infinite;
+          animation: fade 4543ms ease-in-out infinite, glow 4543ms ease-in-out infinite;
+}
+
+.dot49 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 544px;
+  top: 179px;
+  background-color: #6ac1c3;
+  border-radius: 100%;
+  -webkit-animation: fade 5479ms ease-in-out infinite, glow 5479ms ease-in-out infinite;
+          animation: fade 5479ms ease-in-out infinite, glow 5479ms ease-in-out infinite;
+}
+
+.dot50 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1681px;
+  top: 387px;
+  background-color: #fdde9b;
+  border-radius: 100%;
+  -webkit-animation: fade 3503ms ease-in-out infinite, glow 3503ms ease-in-out infinite;
+          animation: fade 3503ms ease-in-out infinite, glow 3503ms ease-in-out infinite;
+}
+
+.dot51 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1004px;
+  top: 188px;
+  background-color: #301463;
+  border-radius: 100%;
+  -webkit-animation: fade 2632ms ease-in-out infinite, glow 2632ms ease-in-out infinite;
+          animation: fade 2632ms ease-in-out infinite, glow 2632ms ease-in-out infinite;
+}
+
+.dot52 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 146px;
+  top: 187px;
+  background-color: #617d61;
+  border-radius: 100%;
+  -webkit-animation: fade 10505ms ease-in-out infinite, glow 10505ms ease-in-out infinite;
+          animation: fade 10505ms ease-in-out infinite, glow 10505ms ease-in-out infinite;
+}
+
+.dot53 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1429px;
+  top: 634px;
+  background-color: #8d3b52;
+  border-radius: 100%;
+  -webkit-animation: fade 5864ms ease-in-out infinite, glow 5864ms ease-in-out infinite;
+          animation: fade 5864ms ease-in-out infinite, glow 5864ms ease-in-out infinite;
+}
+
+.dot54 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1405px;
+  top: 53px;
+  background-color: #a74aa6;
+  border-radius: 100%;
+  -webkit-animation: fade 11130ms ease-in-out infinite, glow 11130ms ease-in-out infinite;
+          animation: fade 11130ms ease-in-out infinite, glow 11130ms ease-in-out infinite;
+}
+
+.dot55 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1832px;
+  top: 705px;
+  background-color: #8a9aa5;
+  border-radius: 100%;
+  -webkit-animation: fade 205ms ease-in-out infinite, glow 205ms ease-in-out infinite;
+          animation: fade 205ms ease-in-out infinite, glow 205ms ease-in-out infinite;
+}
+
+.dot56 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1645px;
+  top: 713px;
+  background-color: #de48aa;
+  border-radius: 100%;
+  -webkit-animation: fade 8818ms ease-in-out infinite, glow 8818ms ease-in-out infinite;
+          animation: fade 8818ms ease-in-out infinite, glow 8818ms ease-in-out infinite;
+}
+
+.dot57 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 67px;
+  top: 46px;
+  background-color: #723303;
+  border-radius: 100%;
+  -webkit-animation: fade 9151ms ease-in-out infinite, glow 9151ms ease-in-out infinite;
+          animation: fade 9151ms ease-in-out infinite, glow 9151ms ease-in-out infinite;
+}
+
+.dot58 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1390px;
+  top: 743px;
+  background-color: #7ce451;
+  border-radius: 100%;
+  -webkit-animation: fade 4682ms ease-in-out infinite, glow 4682ms ease-in-out infinite;
+          animation: fade 4682ms ease-in-out infinite, glow 4682ms ease-in-out infinite;
+}
+
+.dot59 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1479px;
+  top: 9px;
+  background-color: #f146d5;
+  border-radius: 100%;
+  -webkit-animation: fade 10424ms ease-in-out infinite, glow 10424ms ease-in-out infinite;
+          animation: fade 10424ms ease-in-out infinite, glow 10424ms ease-in-out infinite;
+}
+
+.dot60 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 828px;
+  top: 608px;
+  background-color: #99822e;
+  border-radius: 100%;
+  -webkit-animation: fade 7218ms ease-in-out infinite, glow 7218ms ease-in-out infinite;
+          animation: fade 7218ms ease-in-out infinite, glow 7218ms ease-in-out infinite;
+}
+
+.dot61 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 975px;
+  top: 716px;
+  background-color: #1b66ea;
+  border-radius: 100%;
+  -webkit-animation: fade 2803ms ease-in-out infinite, glow 2803ms ease-in-out infinite;
+          animation: fade 2803ms ease-in-out infinite, glow 2803ms ease-in-out infinite;
+}
+
+.dot62 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 233px;
+  top: 427px;
+  background-color: #d4c052;
+  border-radius: 100%;
+  -webkit-animation: fade 9221ms ease-in-out infinite, glow 9221ms ease-in-out infinite;
+          animation: fade 9221ms ease-in-out infinite, glow 9221ms ease-in-out infinite;
+}
+
+.dot63 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 157px;
+  top: 638px;
+  background-color: #968b77;
+  border-radius: 100%;
+  -webkit-animation: fade 11334ms ease-in-out infinite, glow 11334ms ease-in-out infinite;
+          animation: fade 11334ms ease-in-out infinite, glow 11334ms ease-in-out infinite;
+}
+
+.dot64 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1494px;
+  top: 451px;
+  background-color: #f03d16;
+  border-radius: 100%;
+  -webkit-animation: fade 2392ms ease-in-out infinite, glow 2392ms ease-in-out infinite;
+          animation: fade 2392ms ease-in-out infinite, glow 2392ms ease-in-out infinite;
+}
+
+.dot65 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 990px;
+  top: 398px;
+  background-color: #cbad79;
+  border-radius: 100%;
+  -webkit-animation: fade 11652ms ease-in-out infinite, glow 11652ms ease-in-out infinite;
+          animation: fade 11652ms ease-in-out infinite, glow 11652ms ease-in-out infinite;
+}
+
+.dot66 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1283px;
+  top: 480px;
+  background-color: #92528b;
+  border-radius: 100%;
+  -webkit-animation: fade 9257ms ease-in-out infinite, glow 9257ms ease-in-out infinite;
+          animation: fade 9257ms ease-in-out infinite, glow 9257ms ease-in-out infinite;
+}
+
+.dot67 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 1286px;
+  top: 138px;
+  background-color: #197d32;
+  border-radius: 100%;
+  -webkit-animation: fade 1042ms ease-in-out infinite, glow 1042ms ease-in-out infinite;
+          animation: fade 1042ms ease-in-out infinite, glow 1042ms ease-in-out infinite;
+}
+
+.dot68 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 446px;
+  top: 480px;
+  background-color: #c3ad7f;
+  border-radius: 100%;
+  -webkit-animation: fade 9610ms ease-in-out infinite, glow 9610ms ease-in-out infinite;
+          animation: fade 9610ms ease-in-out infinite, glow 9610ms ease-in-out infinite;
+}
+
+.dot69 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1427px;
+  top: 812px;
+  background-color: #a5a7dc;
+  border-radius: 100%;
+  -webkit-animation: fade 9908ms ease-in-out infinite, glow 9908ms ease-in-out infinite;
+          animation: fade 9908ms ease-in-out infinite, glow 9908ms ease-in-out infinite;
+}
+
+.dot70 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1043px;
+  top: 787px;
+  background-color: #595296;
+  border-radius: 100%;
+  -webkit-animation: fade 8819ms ease-in-out infinite, glow 8819ms ease-in-out infinite;
+          animation: fade 8819ms ease-in-out infinite, glow 8819ms ease-in-out infinite;
+}
+
+.dot71 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1553px;
+  top: 801px;
+  background-color: #3e99ec;
+  border-radius: 100%;
+  -webkit-animation: fade 3022ms ease-in-out infinite, glow 3022ms ease-in-out infinite;
+          animation: fade 3022ms ease-in-out infinite, glow 3022ms ease-in-out infinite;
+}
+
+.dot72 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1022px;
+  top: 133px;
+  background-color: #77fef9;
+  border-radius: 100%;
+  -webkit-animation: fade 5662ms ease-in-out infinite, glow 5662ms ease-in-out infinite;
+          animation: fade 5662ms ease-in-out infinite, glow 5662ms ease-in-out infinite;
+}
+
+.dot73 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 112px;
+  top: 489px;
+  background-color: #6e1543;
+  border-radius: 100%;
+  -webkit-animation: fade 2178ms ease-in-out infinite, glow 2178ms ease-in-out infinite;
+          animation: fade 2178ms ease-in-out infinite, glow 2178ms ease-in-out infinite;
+}
+
+.dot74 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 324px;
+  top: 904px;
+  background-color: #9e523c;
+  border-radius: 100%;
+  -webkit-animation: fade 1544ms ease-in-out infinite, glow 1544ms ease-in-out infinite;
+          animation: fade 1544ms ease-in-out infinite, glow 1544ms ease-in-out infinite;
+}
+
+.dot75 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1625px;
+  top: 878px;
+  background-color: #8a84b3;
+  border-radius: 100%;
+  -webkit-animation: fade 2826ms ease-in-out infinite, glow 2826ms ease-in-out infinite;
+          animation: fade 2826ms ease-in-out infinite, glow 2826ms ease-in-out infinite;
+}
+
+.dot76 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1030px;
+  top: 251px;
+  background-color: #ee9cbd;
+  border-radius: 100%;
+  -webkit-animation: fade 5175ms ease-in-out infinite, glow 5175ms ease-in-out infinite;
+          animation: fade 5175ms ease-in-out infinite, glow 5175ms ease-in-out infinite;
+}
+
+.dot77 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 285px;
+  top: 807px;
+  background-color: #83d0ec;
+  border-radius: 100%;
+  -webkit-animation: fade 6899ms ease-in-out infinite, glow 6899ms ease-in-out infinite;
+          animation: fade 6899ms ease-in-out infinite, glow 6899ms ease-in-out infinite;
+}
+
+.dot78 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 979px;
+  top: 878px;
+  background-color: #54fb21;
+  border-radius: 100%;
+  -webkit-animation: fade 11229ms ease-in-out infinite, glow 11229ms ease-in-out infinite;
+          animation: fade 11229ms ease-in-out infinite, glow 11229ms ease-in-out infinite;
+}
+
+.dot79 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 862px;
+  top: 562px;
+  background-color: #2fc5d4;
+  border-radius: 100%;
+  -webkit-animation: fade 6574ms ease-in-out infinite, glow 6574ms ease-in-out infinite;
+          animation: fade 6574ms ease-in-out infinite, glow 6574ms ease-in-out infinite;
+}
+
+.dot80 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1421px;
+  top: 468px;
+  background-color: #c31370;
+  border-radius: 100%;
+  -webkit-animation: fade 7659ms ease-in-out infinite, glow 7659ms ease-in-out infinite;
+          animation: fade 7659ms ease-in-out infinite, glow 7659ms ease-in-out infinite;
+}
+
+.dot81 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1139px;
+  top: 617px;
+  background-color: #e6ac61;
+  border-radius: 100%;
+  -webkit-animation: fade 166ms ease-in-out infinite, glow 166ms ease-in-out infinite;
+          animation: fade 166ms ease-in-out infinite, glow 166ms ease-in-out infinite;
+}
+
+.dot82 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 535px;
+  top: 832px;
+  background-color: #3a8c13;
+  border-radius: 100%;
+  -webkit-animation: fade 4209ms ease-in-out infinite, glow 4209ms ease-in-out infinite;
+          animation: fade 4209ms ease-in-out infinite, glow 4209ms ease-in-out infinite;
+}
+
+.dot83 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1423px;
+  top: 638px;
+  background-color: #0f862c;
+  border-radius: 100%;
+  -webkit-animation: fade 8798ms ease-in-out infinite, glow 8798ms ease-in-out infinite;
+          animation: fade 8798ms ease-in-out infinite, glow 8798ms ease-in-out infinite;
+}
+
+.dot84 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1406px;
+  top: 123px;
+  background-color: #994f55;
+  border-radius: 100%;
+  -webkit-animation: fade 7823ms ease-in-out infinite, glow 7823ms ease-in-out infinite;
+          animation: fade 7823ms ease-in-out infinite, glow 7823ms ease-in-out infinite;
+}
+
+.dot85 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 713px;
+  top: 409px;
+  background-color: #d7e266;
+  border-radius: 100%;
+  -webkit-animation: fade 2842ms ease-in-out infinite, glow 2842ms ease-in-out infinite;
+          animation: fade 2842ms ease-in-out infinite, glow 2842ms ease-in-out infinite;
+}
+
+.dot86 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 97px;
+  top: 749px;
+  background-color: #82145e;
+  border-radius: 100%;
+  -webkit-animation: fade 5651ms ease-in-out infinite, glow 5651ms ease-in-out infinite;
+          animation: fade 5651ms ease-in-out infinite, glow 5651ms ease-in-out infinite;
+}
+
+.dot87 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1522px;
+  top: 638px;
+  background-color: #7afe88;
+  border-radius: 100%;
+  -webkit-animation: fade 3541ms ease-in-out infinite, glow 3541ms ease-in-out infinite;
+          animation: fade 3541ms ease-in-out infinite, glow 3541ms ease-in-out infinite;
+}
+
+.dot88 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 421px;
+  top: 145px;
+  background-color: #6f0a27;
+  border-radius: 100%;
+  -webkit-animation: fade 8060ms ease-in-out infinite, glow 8060ms ease-in-out infinite;
+          animation: fade 8060ms ease-in-out infinite, glow 8060ms ease-in-out infinite;
+}
+
+.dot89 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1174px;
+  top: 765px;
+  background-color: #215f70;
+  border-radius: 100%;
+  -webkit-animation: fade 6606ms ease-in-out infinite, glow 6606ms ease-in-out infinite;
+          animation: fade 6606ms ease-in-out infinite, glow 6606ms ease-in-out infinite;
+}
+
+.dot90 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1189px;
+  top: 464px;
+  background-color: #ce963c;
+  border-radius: 100%;
+  -webkit-animation: fade 9844ms ease-in-out infinite, glow 9844ms ease-in-out infinite;
+          animation: fade 9844ms ease-in-out infinite, glow 9844ms ease-in-out infinite;
+}
+
+.dot91 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 632px;
+  top: 223px;
+  background-color: #f944a4;
+  border-radius: 100%;
+  -webkit-animation: fade 4557ms ease-in-out infinite, glow 4557ms ease-in-out infinite;
+          animation: fade 4557ms ease-in-out infinite, glow 4557ms ease-in-out infinite;
+}
+
+.dot92 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1861px;
+  top: 272px;
+  background-color: #3ed14a;
+  border-radius: 100%;
+  -webkit-animation: fade 3850ms ease-in-out infinite, glow 3850ms ease-in-out infinite;
+          animation: fade 3850ms ease-in-out infinite, glow 3850ms ease-in-out infinite;
+}
+
+.dot93 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1px;
+  top: 255px;
+  background-color: #0c55dd;
+  border-radius: 100%;
+  -webkit-animation: fade 1311ms ease-in-out infinite, glow 1311ms ease-in-out infinite;
+          animation: fade 1311ms ease-in-out infinite, glow 1311ms ease-in-out infinite;
+}
+
+.dot94 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1658px;
+  top: 53px;
+  background-color: #84a9f5;
+  border-radius: 100%;
+  -webkit-animation: fade 9491ms ease-in-out infinite, glow 9491ms ease-in-out infinite;
+          animation: fade 9491ms ease-in-out infinite, glow 9491ms ease-in-out infinite;
+}
+
+.dot95 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1652px;
+  top: 637px;
+  background-color: #65127b;
+  border-radius: 100%;
+  -webkit-animation: fade 4923ms ease-in-out infinite, glow 4923ms ease-in-out infinite;
+          animation: fade 4923ms ease-in-out infinite, glow 4923ms ease-in-out infinite;
+}
+
+.dot96 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1148px;
+  top: 157px;
+  background-color: #5f9270;
+  border-radius: 100%;
+  -webkit-animation: fade 4509ms ease-in-out infinite, glow 4509ms ease-in-out infinite;
+          animation: fade 4509ms ease-in-out infinite, glow 4509ms ease-in-out infinite;
+}
+
+.dot97 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 293px;
+  top: 566px;
+  background-color: #8a5e71;
+  border-radius: 100%;
+  -webkit-animation: fade 10935ms ease-in-out infinite, glow 10935ms ease-in-out infinite;
+          animation: fade 10935ms ease-in-out infinite, glow 10935ms ease-in-out infinite;
+}
+
+.dot98 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1171px;
+  top: 737px;
+  background-color: #0e27e2;
+  border-radius: 100%;
+  -webkit-animation: fade 6727ms ease-in-out infinite, glow 6727ms ease-in-out infinite;
+          animation: fade 6727ms ease-in-out infinite, glow 6727ms ease-in-out infinite;
+}
+
+.dot99 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 832px;
+  top: 293px;
+  background-color: #bdc7ed;
+  border-radius: 100%;
+  -webkit-animation: fade 3970ms ease-in-out infinite, glow 3970ms ease-in-out infinite;
+          animation: fade 3970ms ease-in-out infinite, glow 3970ms ease-in-out infinite;
+}
+
+.dot100 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 182px;
+  top: 304px;
+  background-color: #33dcdb;
+  border-radius: 100%;
+  -webkit-animation: fade 6419ms ease-in-out infinite, glow 6419ms ease-in-out infinite;
+          animation: fade 6419ms ease-in-out infinite, glow 6419ms ease-in-out infinite;
+}
+
+.dot101 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 1557px;
+  top: 725px;
+  background-color: #3fbfe7;
+  border-radius: 100%;
+  -webkit-animation: fade 11861ms ease-in-out infinite, glow 11861ms ease-in-out infinite;
+          animation: fade 11861ms ease-in-out infinite, glow 11861ms ease-in-out infinite;
+}
+
+.dot102 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 183px;
+  top: 771px;
+  background-color: #dda7fb;
+  border-radius: 100%;
+  -webkit-animation: fade 173ms ease-in-out infinite, glow 173ms ease-in-out infinite;
+          animation: fade 173ms ease-in-out infinite, glow 173ms ease-in-out infinite;
+}
+
+.dot103 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 423px;
+  top: 125px;
+  background-color: #e86910;
+  border-radius: 100%;
+  -webkit-animation: fade 6217ms ease-in-out infinite, glow 6217ms ease-in-out infinite;
+          animation: fade 6217ms ease-in-out infinite, glow 6217ms ease-in-out infinite;
+}
+
+.dot104 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 158px;
+  top: 279px;
+  background-color: #bfba57;
+  border-radius: 100%;
+  -webkit-animation: fade 7390ms ease-in-out infinite, glow 7390ms ease-in-out infinite;
+          animation: fade 7390ms ease-in-out infinite, glow 7390ms ease-in-out infinite;
+}
+
+.dot105 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1066px;
+  top: 5px;
+  background-color: #509a90;
+  border-radius: 100%;
+  -webkit-animation: fade 1900ms ease-in-out infinite, glow 1900ms ease-in-out infinite;
+          animation: fade 1900ms ease-in-out infinite, glow 1900ms ease-in-out infinite;
+}
+
+.dot106 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1293px;
+  top: 211px;
+  background-color: #2acd13;
+  border-radius: 100%;
+  -webkit-animation: fade 11151ms ease-in-out infinite, glow 11151ms ease-in-out infinite;
+          animation: fade 11151ms ease-in-out infinite, glow 11151ms ease-in-out infinite;
+}
+
+.dot107 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 401px;
+  top: 684px;
+  background-color: #bf511e;
+  border-radius: 100%;
+  -webkit-animation: fade 11993ms ease-in-out infinite, glow 11993ms ease-in-out infinite;
+          animation: fade 11993ms ease-in-out infinite, glow 11993ms ease-in-out infinite;
+}
+
+.dot108 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 496px;
+  top: 136px;
+  background-color: #cc0142;
+  border-radius: 100%;
+  -webkit-animation: fade 8313ms ease-in-out infinite, glow 8313ms ease-in-out infinite;
+          animation: fade 8313ms ease-in-out infinite, glow 8313ms ease-in-out infinite;
+}
+
+.dot109 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 259px;
+  top: 197px;
+  background-color: #8fafaa;
+  border-radius: 100%;
+  -webkit-animation: fade 4256ms ease-in-out infinite, glow 4256ms ease-in-out infinite;
+          animation: fade 4256ms ease-in-out infinite, glow 4256ms ease-in-out infinite;
+}
+
+.dot110 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1754px;
+  top: 435px;
+  background-color: #c13779;
+  border-radius: 100%;
+  -webkit-animation: fade 1378ms ease-in-out infinite, glow 1378ms ease-in-out infinite;
+          animation: fade 1378ms ease-in-out infinite, glow 1378ms ease-in-out infinite;
+}
+
+.dot111 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 147px;
+  top: 564px;
+  background-color: #2962f8;
+  border-radius: 100%;
+  -webkit-animation: fade 1755ms ease-in-out infinite, glow 1755ms ease-in-out infinite;
+          animation: fade 1755ms ease-in-out infinite, glow 1755ms ease-in-out infinite;
+}
+
+.dot112 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 456px;
+  top: 36px;
+  background-color: #8c84bd;
+  border-radius: 100%;
+  -webkit-animation: fade 9724ms ease-in-out infinite, glow 9724ms ease-in-out infinite;
+          animation: fade 9724ms ease-in-out infinite, glow 9724ms ease-in-out infinite;
+}
+
+.dot113 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 644px;
+  top: 629px;
+  background-color: #e7e4b3;
+  border-radius: 100%;
+  -webkit-animation: fade 1551ms ease-in-out infinite, glow 1551ms ease-in-out infinite;
+          animation: fade 1551ms ease-in-out infinite, glow 1551ms ease-in-out infinite;
+}
+
+.dot114 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1463px;
+  top: 202px;
+  background-color: #d1c53d;
+  border-radius: 100%;
+  -webkit-animation: fade 6823ms ease-in-out infinite, glow 6823ms ease-in-out infinite;
+          animation: fade 6823ms ease-in-out infinite, glow 6823ms ease-in-out infinite;
+}
+
+.dot115 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1456px;
+  top: 702px;
+  background-color: #2e6a3e;
+  border-radius: 100%;
+  -webkit-animation: fade 2115ms ease-in-out infinite, glow 2115ms ease-in-out infinite;
+          animation: fade 2115ms ease-in-out infinite, glow 2115ms ease-in-out infinite;
+}
+
+.dot116 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1151px;
+  top: 52px;
+  background-color: #c0a950;
+  border-radius: 100%;
+  -webkit-animation: fade 1765ms ease-in-out infinite, glow 1765ms ease-in-out infinite;
+          animation: fade 1765ms ease-in-out infinite, glow 1765ms ease-in-out infinite;
+}
+
+.dot117 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 761px;
+  top: 547px;
+  background-color: #7c89b7;
+  border-radius: 100%;
+  -webkit-animation: fade 6881ms ease-in-out infinite, glow 6881ms ease-in-out infinite;
+          animation: fade 6881ms ease-in-out infinite, glow 6881ms ease-in-out infinite;
+}
+
+.dot118 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1871px;
+  top: 570px;
+  background-color: #213730;
+  border-radius: 100%;
+  -webkit-animation: fade 650ms ease-in-out infinite, glow 650ms ease-in-out infinite;
+          animation: fade 650ms ease-in-out infinite, glow 650ms ease-in-out infinite;
+}
+
+.dot119 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1024px;
+  top: 814px;
+  background-color: #f4b06b;
+  border-radius: 100%;
+  -webkit-animation: fade 3717ms ease-in-out infinite, glow 3717ms ease-in-out infinite;
+          animation: fade 3717ms ease-in-out infinite, glow 3717ms ease-in-out infinite;
+}
+
+.dot120 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 485px;
+  top: 156px;
+  background-color: #6c3e71;
+  border-radius: 100%;
+  -webkit-animation: fade 11929ms ease-in-out infinite, glow 11929ms ease-in-out infinite;
+          animation: fade 11929ms ease-in-out infinite, glow 11929ms ease-in-out infinite;
+}
+
+.dot121 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1584px;
+  top: 746px;
+  background-color: #eb8665;
+  border-radius: 100%;
+  -webkit-animation: fade 9595ms ease-in-out infinite, glow 9595ms ease-in-out infinite;
+          animation: fade 9595ms ease-in-out infinite, glow 9595ms ease-in-out infinite;
+}
+
+.dot122 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 894px;
+  top: 5px;
+  background-color: #153643;
+  border-radius: 100%;
+  -webkit-animation: fade 7770ms ease-in-out infinite, glow 7770ms ease-in-out infinite;
+          animation: fade 7770ms ease-in-out infinite, glow 7770ms ease-in-out infinite;
+}
+
+.dot123 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 294px;
+  top: 725px;
+  background-color: #a215d3;
+  border-radius: 100%;
+  -webkit-animation: fade 7570ms ease-in-out infinite, glow 7570ms ease-in-out infinite;
+          animation: fade 7570ms ease-in-out infinite, glow 7570ms ease-in-out infinite;
+}
+
+.dot124 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1860px;
+  top: 465px;
+  background-color: #b6ff07;
+  border-radius: 100%;
+  -webkit-animation: fade 3090ms ease-in-out infinite, glow 3090ms ease-in-out infinite;
+          animation: fade 3090ms ease-in-out infinite, glow 3090ms ease-in-out infinite;
+}
+
+.dot125 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 917px;
+  top: 457px;
+  background-color: #736e0f;
+  border-radius: 100%;
+  -webkit-animation: fade 6062ms ease-in-out infinite, glow 6062ms ease-in-out infinite;
+          animation: fade 6062ms ease-in-out infinite, glow 6062ms ease-in-out infinite;
+}
+
+.dot126 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 530px;
+  top: 661px;
+  background-color: #3c6a20;
+  border-radius: 100%;
+  -webkit-animation: fade 4498ms ease-in-out infinite, glow 4498ms ease-in-out infinite;
+          animation: fade 4498ms ease-in-out infinite, glow 4498ms ease-in-out infinite;
+}
+
+.dot127 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1007px;
+  top: 192px;
+  background-color: #b7f8c3;
+  border-radius: 100%;
+  -webkit-animation: fade 9656ms ease-in-out infinite, glow 9656ms ease-in-out infinite;
+          animation: fade 9656ms ease-in-out infinite, glow 9656ms ease-in-out infinite;
+}
+
+.dot128 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1182px;
+  top: 577px;
+  background-color: #a467ab;
+  border-radius: 100%;
+  -webkit-animation: fade 11055ms ease-in-out infinite, glow 11055ms ease-in-out infinite;
+          animation: fade 11055ms ease-in-out infinite, glow 11055ms ease-in-out infinite;
+}
+
+.dot129 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1123px;
+  top: 712px;
+  background-color: #3db58a;
+  border-radius: 100%;
+  -webkit-animation: fade 5297ms ease-in-out infinite, glow 5297ms ease-in-out infinite;
+          animation: fade 5297ms ease-in-out infinite, glow 5297ms ease-in-out infinite;
+}
+
+.dot130 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 824px;
+  top: 684px;
+  background-color: #1b54d5;
+  border-radius: 100%;
+  -webkit-animation: fade 10159ms ease-in-out infinite, glow 10159ms ease-in-out infinite;
+          animation: fade 10159ms ease-in-out infinite, glow 10159ms ease-in-out infinite;
+}
+
+.dot131 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1727px;
+  top: 543px;
+  background-color: #e1292c;
+  border-radius: 100%;
+  -webkit-animation: fade 9634ms ease-in-out infinite, glow 9634ms ease-in-out infinite;
+          animation: fade 9634ms ease-in-out infinite, glow 9634ms ease-in-out infinite;
+}
+
+.dot132 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1341px;
+  top: 648px;
+  background-color: #24aac7;
+  border-radius: 100%;
+  -webkit-animation: fade 9222ms ease-in-out infinite, glow 9222ms ease-in-out infinite;
+          animation: fade 9222ms ease-in-out infinite, glow 9222ms ease-in-out infinite;
+}
+
+.dot133 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1769px;
+  top: 806px;
+  background-color: #789cc1;
+  border-radius: 100%;
+  -webkit-animation: fade 4703ms ease-in-out infinite, glow 4703ms ease-in-out infinite;
+          animation: fade 4703ms ease-in-out infinite, glow 4703ms ease-in-out infinite;
+}
+
+.dot134 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1548px;
+  top: 843px;
+  background-color: #7d6093;
+  border-radius: 100%;
+  -webkit-animation: fade 4750ms ease-in-out infinite, glow 4750ms ease-in-out infinite;
+          animation: fade 4750ms ease-in-out infinite, glow 4750ms ease-in-out infinite;
+}
+
+.dot135 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 114px;
+  top: 221px;
+  background-color: #c1309a;
+  border-radius: 100%;
+  -webkit-animation: fade 2282ms ease-in-out infinite, glow 2282ms ease-in-out infinite;
+          animation: fade 2282ms ease-in-out infinite, glow 2282ms ease-in-out infinite;
+}
+
+.dot136 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 606px;
+  top: 351px;
+  background-color: #a9db3d;
+  border-radius: 100%;
+  -webkit-animation: fade 11595ms ease-in-out infinite, glow 11595ms ease-in-out infinite;
+          animation: fade 11595ms ease-in-out infinite, glow 11595ms ease-in-out infinite;
+}
+
+.dot137 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 175px;
+  top: 587px;
+  background-color: #9f77cc;
+  border-radius: 100%;
+  -webkit-animation: fade 1977ms ease-in-out infinite, glow 1977ms ease-in-out infinite;
+          animation: fade 1977ms ease-in-out infinite, glow 1977ms ease-in-out infinite;
+}
+
+.dot138 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 607px;
+  top: 117px;
+  background-color: #105d63;
+  border-radius: 100%;
+  -webkit-animation: fade 939ms ease-in-out infinite, glow 939ms ease-in-out infinite;
+          animation: fade 939ms ease-in-out infinite, glow 939ms ease-in-out infinite;
+}
+
+.dot139 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 82px;
+  top: 453px;
+  background-color: #d5dae2;
+  border-radius: 100%;
+  -webkit-animation: fade 1607ms ease-in-out infinite, glow 1607ms ease-in-out infinite;
+          animation: fade 1607ms ease-in-out infinite, glow 1607ms ease-in-out infinite;
+}
+
+.dot140 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 321px;
+  top: 498px;
+  background-color: #07688d;
+  border-radius: 100%;
+  -webkit-animation: fade 11278ms ease-in-out infinite, glow 11278ms ease-in-out infinite;
+          animation: fade 11278ms ease-in-out infinite, glow 11278ms ease-in-out infinite;
+}
+
+.dot141 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 35px;
+  top: 873px;
+  background-color: #462c49;
+  border-radius: 100%;
+  -webkit-animation: fade 3796ms ease-in-out infinite, glow 3796ms ease-in-out infinite;
+          animation: fade 3796ms ease-in-out infinite, glow 3796ms ease-in-out infinite;
+}
+
+.dot142 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 559px;
+  top: 635px;
+  background-color: #ca2e92;
+  border-radius: 100%;
+  -webkit-animation: fade 1406ms ease-in-out infinite, glow 1406ms ease-in-out infinite;
+          animation: fade 1406ms ease-in-out infinite, glow 1406ms ease-in-out infinite;
+}
+
+.dot143 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 66px;
+  top: 59px;
+  background-color: #87024c;
+  border-radius: 100%;
+  -webkit-animation: fade 8184ms ease-in-out infinite, glow 8184ms ease-in-out infinite;
+          animation: fade 8184ms ease-in-out infinite, glow 8184ms ease-in-out infinite;
+}
+
+.dot144 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1542px;
+  top: 899px;
+  background-color: #690648;
+  border-radius: 100%;
+  -webkit-animation: fade 3452ms ease-in-out infinite, glow 3452ms ease-in-out infinite;
+          animation: fade 3452ms ease-in-out infinite, glow 3452ms ease-in-out infinite;
+}
+
+.dot145 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 216px;
+  top: 468px;
+  background-color: #206242;
+  border-radius: 100%;
+  -webkit-animation: fade 9308ms ease-in-out infinite, glow 9308ms ease-in-out infinite;
+          animation: fade 9308ms ease-in-out infinite, glow 9308ms ease-in-out infinite;
+}
+
+.dot146 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 1848px;
+  top: 344px;
+  background-color: #b4c32c;
+  border-radius: 100%;
+  -webkit-animation: fade 4043ms ease-in-out infinite, glow 4043ms ease-in-out infinite;
+          animation: fade 4043ms ease-in-out infinite, glow 4043ms ease-in-out infinite;
+}
+
+.dot147 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 82px;
+  top: 780px;
+  background-color: #a2aa98;
+  border-radius: 100%;
+  -webkit-animation: fade 3478ms ease-in-out infinite, glow 3478ms ease-in-out infinite;
+          animation: fade 3478ms ease-in-out infinite, glow 3478ms ease-in-out infinite;
+}
+
+.dot148 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1629px;
+  top: 716px;
+  background-color: #7c032f;
+  border-radius: 100%;
+  -webkit-animation: fade 2884ms ease-in-out infinite, glow 2884ms ease-in-out infinite;
+          animation: fade 2884ms ease-in-out infinite, glow 2884ms ease-in-out infinite;
+}
+
+.dot149 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1776px;
+  top: 580px;
+  background-color: #82af6a;
+  border-radius: 100%;
+  -webkit-animation: fade 3269ms ease-in-out infinite, glow 3269ms ease-in-out infinite;
+          animation: fade 3269ms ease-in-out infinite, glow 3269ms ease-in-out infinite;
+}
+
+.dot150 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1617px;
+  top: 678px;
+  background-color: #625072;
+  border-radius: 100%;
+  -webkit-animation: fade 10704ms ease-in-out infinite, glow 10704ms ease-in-out infinite;
+          animation: fade 10704ms ease-in-out infinite, glow 10704ms ease-in-out infinite;
+}
+
+.dot151 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1849px;
+  top: 748px;
+  background-color: #7c0d81;
+  border-radius: 100%;
+  -webkit-animation: fade 8318ms ease-in-out infinite, glow 8318ms ease-in-out infinite;
+          animation: fade 8318ms ease-in-out infinite, glow 8318ms ease-in-out infinite;
+}
+
+.dot152 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 154px;
+  top: 472px;
+  background-color: #35d72d;
+  border-radius: 100%;
+  -webkit-animation: fade 10444ms ease-in-out infinite, glow 10444ms ease-in-out infinite;
+          animation: fade 10444ms ease-in-out infinite, glow 10444ms ease-in-out infinite;
+}
+
+.dot153 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 661px;
+  top: 298px;
+  background-color: #d91d6c;
+  border-radius: 100%;
+  -webkit-animation: fade 11468ms ease-in-out infinite, glow 11468ms ease-in-out infinite;
+          animation: fade 11468ms ease-in-out infinite, glow 11468ms ease-in-out infinite;
+}
+
+.dot154 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 103px;
+  top: 589px;
+  background-color: #da8f9b;
+  border-radius: 100%;
+  -webkit-animation: fade 8870ms ease-in-out infinite, glow 8870ms ease-in-out infinite;
+          animation: fade 8870ms ease-in-out infinite, glow 8870ms ease-in-out infinite;
+}
+
+.dot155 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 802px;
+  top: 366px;
+  background-color: #aab214;
+  border-radius: 100%;
+  -webkit-animation: fade 10919ms ease-in-out infinite, glow 10919ms ease-in-out infinite;
+          animation: fade 10919ms ease-in-out infinite, glow 10919ms ease-in-out infinite;
+}
+
+.dot156 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 1815px;
+  top: 205px;
+  background-color: #aeb831;
+  border-radius: 100%;
+  -webkit-animation: fade 11823ms ease-in-out infinite, glow 11823ms ease-in-out infinite;
+          animation: fade 11823ms ease-in-out infinite, glow 11823ms ease-in-out infinite;
+}
+
+.dot157 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1580px;
+  top: 532px;
+  background-color: #f23cf7;
+  border-radius: 100%;
+  -webkit-animation: fade 3428ms ease-in-out infinite, glow 3428ms ease-in-out infinite;
+          animation: fade 3428ms ease-in-out infinite, glow 3428ms ease-in-out infinite;
+}
+
+.dot158 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 363px;
+  top: 386px;
+  background-color: #5471a9;
+  border-radius: 100%;
+  -webkit-animation: fade 4230ms ease-in-out infinite, glow 4230ms ease-in-out infinite;
+          animation: fade 4230ms ease-in-out infinite, glow 4230ms ease-in-out infinite;
+}
+
+.dot159 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 283px;
+  top: 224px;
+  background-color: #626013;
+  border-radius: 100%;
+  -webkit-animation: fade 10715ms ease-in-out infinite, glow 10715ms ease-in-out infinite;
+          animation: fade 10715ms ease-in-out infinite, glow 10715ms ease-in-out infinite;
+}
+
+.dot160 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 1756px;
+  top: 874px;
+  background-color: #6f3694;
+  border-radius: 100%;
+  -webkit-animation: fade 10757ms ease-in-out infinite, glow 10757ms ease-in-out infinite;
+          animation: fade 10757ms ease-in-out infinite, glow 10757ms ease-in-out infinite;
+}
+
+.dot161 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1694px;
+  top: 746px;
+  background-color: #877240;
+  border-radius: 100%;
+  -webkit-animation: fade 3391ms ease-in-out infinite, glow 3391ms ease-in-out infinite;
+          animation: fade 3391ms ease-in-out infinite, glow 3391ms ease-in-out infinite;
+}
+
+.dot162 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1682px;
+  top: 141px;
+  background-color: #d15a4c;
+  border-radius: 100%;
+  -webkit-animation: fade 4751ms ease-in-out infinite, glow 4751ms ease-in-out infinite;
+          animation: fade 4751ms ease-in-out infinite, glow 4751ms ease-in-out infinite;
+}
+
+.dot163 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1438px;
+  top: 497px;
+  background-color: #22aed5;
+  border-radius: 100%;
+  -webkit-animation: fade 1658ms ease-in-out infinite, glow 1658ms ease-in-out infinite;
+          animation: fade 1658ms ease-in-out infinite, glow 1658ms ease-in-out infinite;
+}
+
+.dot164 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1914px;
+  top: 237px;
+  background-color: #e585d0;
+  border-radius: 100%;
+  -webkit-animation: fade 2578ms ease-in-out infinite, glow 2578ms ease-in-out infinite;
+          animation: fade 2578ms ease-in-out infinite, glow 2578ms ease-in-out infinite;
+}
+
+.dot165 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1054px;
+  top: 271px;
+  background-color: #85d028;
+  border-radius: 100%;
+  -webkit-animation: fade 5230ms ease-in-out infinite, glow 5230ms ease-in-out infinite;
+          animation: fade 5230ms ease-in-out infinite, glow 5230ms ease-in-out infinite;
+}
+
+.dot166 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 425px;
+  top: 795px;
+  background-color: #dd91f3;
+  border-radius: 100%;
+  -webkit-animation: fade 3550ms ease-in-out infinite, glow 3550ms ease-in-out infinite;
+          animation: fade 3550ms ease-in-out infinite, glow 3550ms ease-in-out infinite;
+}
+
+.dot167 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 204px;
+  top: 277px;
+  background-color: #11f54e;
+  border-radius: 100%;
+  -webkit-animation: fade 11892ms ease-in-out infinite, glow 11892ms ease-in-out infinite;
+          animation: fade 11892ms ease-in-out infinite, glow 11892ms ease-in-out infinite;
+}
+
+.dot168 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1366px;
+  top: 40px;
+  background-color: #bf763a;
+  border-radius: 100%;
+  -webkit-animation: fade 1299ms ease-in-out infinite, glow 1299ms ease-in-out infinite;
+          animation: fade 1299ms ease-in-out infinite, glow 1299ms ease-in-out infinite;
+}
+
+.dot169 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 419px;
+  top: 740px;
+  background-color: #db92e1;
+  border-radius: 100%;
+  -webkit-animation: fade 4420ms ease-in-out infinite, glow 4420ms ease-in-out infinite;
+          animation: fade 4420ms ease-in-out infinite, glow 4420ms ease-in-out infinite;
+}
+
+.dot170 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 465px;
+  top: 917px;
+  background-color: #3aa443;
+  border-radius: 100%;
+  -webkit-animation: fade 9986ms ease-in-out infinite, glow 9986ms ease-in-out infinite;
+          animation: fade 9986ms ease-in-out infinite, glow 9986ms ease-in-out infinite;
+}
+
+.dot171 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1573px;
+  top: 608px;
+  background-color: #9ba11f;
+  border-radius: 100%;
+  -webkit-animation: fade 4540ms ease-in-out infinite, glow 4540ms ease-in-out infinite;
+          animation: fade 4540ms ease-in-out infinite, glow 4540ms ease-in-out infinite;
+}
+
+.dot172 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1551px;
+  top: 916px;
+  background-color: #56b739;
+  border-radius: 100%;
+  -webkit-animation: fade 3060ms ease-in-out infinite, glow 3060ms ease-in-out infinite;
+          animation: fade 3060ms ease-in-out infinite, glow 3060ms ease-in-out infinite;
+}
+
+.dot173 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 453px;
+  top: 612px;
+  background-color: #33f1cc;
+  border-radius: 100%;
+  -webkit-animation: fade 10439ms ease-in-out infinite, glow 10439ms ease-in-out infinite;
+          animation: fade 10439ms ease-in-out infinite, glow 10439ms ease-in-out infinite;
+}
+
+.dot174 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1399px;
+  top: 51px;
+  background-color: #09edb7;
+  border-radius: 100%;
+  -webkit-animation: fade 8828ms ease-in-out infinite, glow 8828ms ease-in-out infinite;
+          animation: fade 8828ms ease-in-out infinite, glow 8828ms ease-in-out infinite;
+}
+
+.dot175 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 970px;
+  top: 689px;
+  background-color: #3a129a;
+  border-radius: 100%;
+  -webkit-animation: fade 5797ms ease-in-out infinite, glow 5797ms ease-in-out infinite;
+          animation: fade 5797ms ease-in-out infinite, glow 5797ms ease-in-out infinite;
+}
+
+.dot176 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1663px;
+  top: 818px;
+  background-color: #b65ebc;
+  border-radius: 100%;
+  -webkit-animation: fade 9443ms ease-in-out infinite, glow 9443ms ease-in-out infinite;
+          animation: fade 9443ms ease-in-out infinite, glow 9443ms ease-in-out infinite;
+}
+
+.dot177 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1678px;
+  top: 761px;
+  background-color: #9ce944;
+  border-radius: 100%;
+  -webkit-animation: fade 10103ms ease-in-out infinite, glow 10103ms ease-in-out infinite;
+          animation: fade 10103ms ease-in-out infinite, glow 10103ms ease-in-out infinite;
+}
+
+.dot178 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1px;
+  top: 599px;
+  background-color: #118e3e;
+  border-radius: 100%;
+  -webkit-animation: fade 3857ms ease-in-out infinite, glow 3857ms ease-in-out infinite;
+          animation: fade 3857ms ease-in-out infinite, glow 3857ms ease-in-out infinite;
+}
+
+.dot179 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1008px;
+  top: 762px;
+  background-color: #0c40ea;
+  border-radius: 100%;
+  -webkit-animation: fade 5527ms ease-in-out infinite, glow 5527ms ease-in-out infinite;
+          animation: fade 5527ms ease-in-out infinite, glow 5527ms ease-in-out infinite;
+}
+
+.dot180 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 655px;
+  top: 100px;
+  background-color: #1dd942;
+  border-radius: 100%;
+  -webkit-animation: fade 1601ms ease-in-out infinite, glow 1601ms ease-in-out infinite;
+          animation: fade 1601ms ease-in-out infinite, glow 1601ms ease-in-out infinite;
+}
+
+.dot181 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 538px;
+  top: 32px;
+  background-color: #543ef2;
+  border-radius: 100%;
+  -webkit-animation: fade 7738ms ease-in-out infinite, glow 7738ms ease-in-out infinite;
+          animation: fade 7738ms ease-in-out infinite, glow 7738ms ease-in-out infinite;
+}
+
+.dot182 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1444px;
+  top: 547px;
+  background-color: #304335;
+  border-radius: 100%;
+  -webkit-animation: fade 594ms ease-in-out infinite, glow 594ms ease-in-out infinite;
+          animation: fade 594ms ease-in-out infinite, glow 594ms ease-in-out infinite;
+}
+
+.dot183 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 494px;
+  top: 12px;
+  background-color: #41e3ae;
+  border-radius: 100%;
+  -webkit-animation: fade 4542ms ease-in-out infinite, glow 4542ms ease-in-out infinite;
+          animation: fade 4542ms ease-in-out infinite, glow 4542ms ease-in-out infinite;
+}
+
+.dot184 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 559px;
+  top: 255px;
+  background-color: #d5b953;
+  border-radius: 100%;
+  -webkit-animation: fade 9986ms ease-in-out infinite, glow 9986ms ease-in-out infinite;
+          animation: fade 9986ms ease-in-out infinite, glow 9986ms ease-in-out infinite;
+}
+
+.dot185 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 574px;
+  top: 696px;
+  background-color: #b41d83;
+  border-radius: 100%;
+  -webkit-animation: fade 8319ms ease-in-out infinite, glow 8319ms ease-in-out infinite;
+          animation: fade 8319ms ease-in-out infinite, glow 8319ms ease-in-out infinite;
+}
+
+.dot186 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 91px;
+  top: 100px;
+  background-color: #8cd10d;
+  border-radius: 100%;
+  -webkit-animation: fade 8824ms ease-in-out infinite, glow 8824ms ease-in-out infinite;
+          animation: fade 8824ms ease-in-out infinite, glow 8824ms ease-in-out infinite;
+}
+
+.dot187 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1834px;
+  top: 573px;
+  background-color: #26c6af;
+  border-radius: 100%;
+  -webkit-animation: fade 8745ms ease-in-out infinite, glow 8745ms ease-in-out infinite;
+          animation: fade 8745ms ease-in-out infinite, glow 8745ms ease-in-out infinite;
+}
+
+.dot188 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 640px;
+  top: 239px;
+  background-color: #95b7fd;
+  border-radius: 100%;
+  -webkit-animation: fade 269ms ease-in-out infinite, glow 269ms ease-in-out infinite;
+          animation: fade 269ms ease-in-out infinite, glow 269ms ease-in-out infinite;
+}
+
+.dot189 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1380px;
+  top: 388px;
+  background-color: #ae2ae6;
+  border-radius: 100%;
+  -webkit-animation: fade 4448ms ease-in-out infinite, glow 4448ms ease-in-out infinite;
+          animation: fade 4448ms ease-in-out infinite, glow 4448ms ease-in-out infinite;
+}
+
+.dot190 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 837px;
+  top: 448px;
+  background-color: #e352f2;
+  border-radius: 100%;
+  -webkit-animation: fade 9053ms ease-in-out infinite, glow 9053ms ease-in-out infinite;
+          animation: fade 9053ms ease-in-out infinite, glow 9053ms ease-in-out infinite;
+}
+
+.dot191 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 827px;
+  top: 289px;
+  background-color: #4592b7;
+  border-radius: 100%;
+  -webkit-animation: fade 4300ms ease-in-out infinite, glow 4300ms ease-in-out infinite;
+          animation: fade 4300ms ease-in-out infinite, glow 4300ms ease-in-out infinite;
+}
+
+.dot192 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1874px;
+  top: 812px;
+  background-color: #f58f2d;
+  border-radius: 100%;
+  -webkit-animation: fade 6645ms ease-in-out infinite, glow 6645ms ease-in-out infinite;
+          animation: fade 6645ms ease-in-out infinite, glow 6645ms ease-in-out infinite;
+}
+
+.dot193 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 344px;
+  top: 812px;
+  background-color: #62024d;
+  border-radius: 100%;
+  -webkit-animation: fade 4413ms ease-in-out infinite, glow 4413ms ease-in-out infinite;
+          animation: fade 4413ms ease-in-out infinite, glow 4413ms ease-in-out infinite;
+}
+
+.dot194 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 772px;
+  top: 538px;
+  background-color: #ce5aef;
+  border-radius: 100%;
+  -webkit-animation: fade 10800ms ease-in-out infinite, glow 10800ms ease-in-out infinite;
+          animation: fade 10800ms ease-in-out infinite, glow 10800ms ease-in-out infinite;
+}
+
+.dot195 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1013px;
+  top: 30px;
+  background-color: #c21935;
+  border-radius: 100%;
+  -webkit-animation: fade 4097ms ease-in-out infinite, glow 4097ms ease-in-out infinite;
+          animation: fade 4097ms ease-in-out infinite, glow 4097ms ease-in-out infinite;
+}
+
+.dot196 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1064px;
+  top: 820px;
+  background-color: #8440a4;
+  border-radius: 100%;
+  -webkit-animation: fade 1252ms ease-in-out infinite, glow 1252ms ease-in-out infinite;
+          animation: fade 1252ms ease-in-out infinite, glow 1252ms ease-in-out infinite;
+}
+
+.dot197 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 736px;
+  top: 324px;
+  background-color: #e6201c;
+  border-radius: 100%;
+  -webkit-animation: fade 1021ms ease-in-out infinite, glow 1021ms ease-in-out infinite;
+          animation: fade 1021ms ease-in-out infinite, glow 1021ms ease-in-out infinite;
+}
+
+.dot198 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 132px;
+  top: 539px;
+  background-color: #a08f7d;
+  border-radius: 100%;
+  -webkit-animation: fade 4162ms ease-in-out infinite, glow 4162ms ease-in-out infinite;
+          animation: fade 4162ms ease-in-out infinite, glow 4162ms ease-in-out infinite;
+}
+
+.dot199 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1131px;
+  top: 73px;
+  background-color: #5d36b3;
+  border-radius: 100%;
+  -webkit-animation: fade 8517ms ease-in-out infinite, glow 8517ms ease-in-out infinite;
+          animation: fade 8517ms ease-in-out infinite, glow 8517ms ease-in-out infinite;
+}
+
+.dot200 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1078px;
+  top: 297px;
+  background-color: #635576;
+  border-radius: 100%;
+  -webkit-animation: fade 2837ms ease-in-out infinite, glow 2837ms ease-in-out infinite;
+          animation: fade 2837ms ease-in-out infinite, glow 2837ms ease-in-out infinite;
+}
+
+.dot201 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1852px;
+  top: 914px;
+  background-color: #5defd9;
+  border-radius: 100%;
+  -webkit-animation: fade 1386ms ease-in-out infinite, glow 1386ms ease-in-out infinite;
+          animation: fade 1386ms ease-in-out infinite, glow 1386ms ease-in-out infinite;
+}
+
+.dot202 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 448px;
+  top: 777px;
+  background-color: #56b2f3;
+  border-radius: 100%;
+  -webkit-animation: fade 7377ms ease-in-out infinite, glow 7377ms ease-in-out infinite;
+          animation: fade 7377ms ease-in-out infinite, glow 7377ms ease-in-out infinite;
+}
+
+.dot203 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 773px;
+  top: 6px;
+  background-color: #375d48;
+  border-radius: 100%;
+  -webkit-animation: fade 6698ms ease-in-out infinite, glow 6698ms ease-in-out infinite;
+          animation: fade 6698ms ease-in-out infinite, glow 6698ms ease-in-out infinite;
+}
+
+.dot204 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 105px;
+  top: 193px;
+  background-color: #582c1d;
+  border-radius: 100%;
+  -webkit-animation: fade 1191ms ease-in-out infinite, glow 1191ms ease-in-out infinite;
+          animation: fade 1191ms ease-in-out infinite, glow 1191ms ease-in-out infinite;
+}
+
+.dot205 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1112px;
+  top: 204px;
+  background-color: #6bc05a;
+  border-radius: 100%;
+  -webkit-animation: fade 4808ms ease-in-out infinite, glow 4808ms ease-in-out infinite;
+          animation: fade 4808ms ease-in-out infinite, glow 4808ms ease-in-out infinite;
+}
+
+.dot206 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1856px;
+  top: 642px;
+  background-color: #bf773e;
+  border-radius: 100%;
+  -webkit-animation: fade 6734ms ease-in-out infinite, glow 6734ms ease-in-out infinite;
+          animation: fade 6734ms ease-in-out infinite, glow 6734ms ease-in-out infinite;
+}
+
+.dot207 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 945px;
+  top: 264px;
+  background-color: #aefcb1;
+  border-radius: 100%;
+  -webkit-animation: fade 8377ms ease-in-out infinite, glow 8377ms ease-in-out infinite;
+          animation: fade 8377ms ease-in-out infinite, glow 8377ms ease-in-out infinite;
+}
+
+.dot208 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1808px;
+  top: 687px;
+  background-color: #22c892;
+  border-radius: 100%;
+  -webkit-animation: fade 6761ms ease-in-out infinite, glow 6761ms ease-in-out infinite;
+          animation: fade 6761ms ease-in-out infinite, glow 6761ms ease-in-out infinite;
+}
+
+.dot209 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 203px;
+  top: 654px;
+  background-color: #3dceb7;
+  border-radius: 100%;
+  -webkit-animation: fade 4761ms ease-in-out infinite, glow 4761ms ease-in-out infinite;
+          animation: fade 4761ms ease-in-out infinite, glow 4761ms ease-in-out infinite;
+}
+
+.dot210 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1426px;
+  top: 7px;
+  background-color: #457bd8;
+  border-radius: 100%;
+  -webkit-animation: fade 10192ms ease-in-out infinite, glow 10192ms ease-in-out infinite;
+          animation: fade 10192ms ease-in-out infinite, glow 10192ms ease-in-out infinite;
+}
+
+.dot211 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1603px;
+  top: 91px;
+  background-color: #392d3f;
+  border-radius: 100%;
+  -webkit-animation: fade 7572ms ease-in-out infinite, glow 7572ms ease-in-out infinite;
+          animation: fade 7572ms ease-in-out infinite, glow 7572ms ease-in-out infinite;
+}
+
+.dot212 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 526px;
+  top: 811px;
+  background-color: #885ef5;
+  border-radius: 100%;
+  -webkit-animation: fade 3449ms ease-in-out infinite, glow 3449ms ease-in-out infinite;
+          animation: fade 3449ms ease-in-out infinite, glow 3449ms ease-in-out infinite;
+}
+
+.dot213 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 352px;
+  top: 235px;
+  background-color: #a58f55;
+  border-radius: 100%;
+  -webkit-animation: fade 5894ms ease-in-out infinite, glow 5894ms ease-in-out infinite;
+          animation: fade 5894ms ease-in-out infinite, glow 5894ms ease-in-out infinite;
+}
+
+.dot214 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1242px;
+  top: 504px;
+  background-color: #dabc1f;
+  border-radius: 100%;
+  -webkit-animation: fade 9992ms ease-in-out infinite, glow 9992ms ease-in-out infinite;
+          animation: fade 9992ms ease-in-out infinite, glow 9992ms ease-in-out infinite;
+}
+
+.dot215 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 242px;
+  top: 840px;
+  background-color: #8fc2c7;
+  border-radius: 100%;
+  -webkit-animation: fade 10442ms ease-in-out infinite, glow 10442ms ease-in-out infinite;
+          animation: fade 10442ms ease-in-out infinite, glow 10442ms ease-in-out infinite;
+}
+
+.dot216 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 1175px;
+  top: 212px;
+  background-color: #3ccb89;
+  border-radius: 100%;
+  -webkit-animation: fade 740ms ease-in-out infinite, glow 740ms ease-in-out infinite;
+          animation: fade 740ms ease-in-out infinite, glow 740ms ease-in-out infinite;
+}
+
+.dot217 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1071px;
+  top: 557px;
+  background-color: #95d69a;
+  border-radius: 100%;
+  -webkit-animation: fade 1438ms ease-in-out infinite, glow 1438ms ease-in-out infinite;
+          animation: fade 1438ms ease-in-out infinite, glow 1438ms ease-in-out infinite;
+}
+
+.dot218 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 133px;
+  top: 470px;
+  background-color: #019967;
+  border-radius: 100%;
+  -webkit-animation: fade 3530ms ease-in-out infinite, glow 3530ms ease-in-out infinite;
+          animation: fade 3530ms ease-in-out infinite, glow 3530ms ease-in-out infinite;
+}
+
+.dot219 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 269px;
+  top: 813px;
+  background-color: #0490c6;
+  border-radius: 100%;
+  -webkit-animation: fade 9236ms ease-in-out infinite, glow 9236ms ease-in-out infinite;
+          animation: fade 9236ms ease-in-out infinite, glow 9236ms ease-in-out infinite;
+}
+
+.dot220 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 837px;
+  top: 14px;
+  background-color: #743e53;
+  border-radius: 100%;
+  -webkit-animation: fade 4916ms ease-in-out infinite, glow 4916ms ease-in-out infinite;
+          animation: fade 4916ms ease-in-out infinite, glow 4916ms ease-in-out infinite;
+}
+
+.dot221 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 389px;
+  top: 8px;
+  background-color: #c33d83;
+  border-radius: 100%;
+  -webkit-animation: fade 9262ms ease-in-out infinite, glow 9262ms ease-in-out infinite;
+          animation: fade 9262ms ease-in-out infinite, glow 9262ms ease-in-out infinite;
+}
+
+.dot222 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 439px;
+  top: 743px;
+  background-color: #a2528b;
+  border-radius: 100%;
+  -webkit-animation: fade 3254ms ease-in-out infinite, glow 3254ms ease-in-out infinite;
+          animation: fade 3254ms ease-in-out infinite, glow 3254ms ease-in-out infinite;
+}
+
+.dot223 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 31px;
+  top: 651px;
+  background-color: #f75f7e;
+  border-radius: 100%;
+  -webkit-animation: fade 11126ms ease-in-out infinite, glow 11126ms ease-in-out infinite;
+          animation: fade 11126ms ease-in-out infinite, glow 11126ms ease-in-out infinite;
+}
+
+.dot224 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1738px;
+  top: 733px;
+  background-color: #1eca71;
+  border-radius: 100%;
+  -webkit-animation: fade 1014ms ease-in-out infinite, glow 1014ms ease-in-out infinite;
+          animation: fade 1014ms ease-in-out infinite, glow 1014ms ease-in-out infinite;
+}
+
+.dot225 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 522px;
+  top: 747px;
+  background-color: #628d9d;
+  border-radius: 100%;
+  -webkit-animation: fade 11025ms ease-in-out infinite, glow 11025ms ease-in-out infinite;
+          animation: fade 11025ms ease-in-out infinite, glow 11025ms ease-in-out infinite;
+}
+
+.dot226 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 870px;
+  top: 690px;
+  background-color: #20d7b2;
+  border-radius: 100%;
+  -webkit-animation: fade 3094ms ease-in-out infinite, glow 3094ms ease-in-out infinite;
+          animation: fade 3094ms ease-in-out infinite, glow 3094ms ease-in-out infinite;
+}
+
+.dot227 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1378px;
+  top: 720px;
+  background-color: #ca1c6f;
+  border-radius: 100%;
+  -webkit-animation: fade 11703ms ease-in-out infinite, glow 11703ms ease-in-out infinite;
+          animation: fade 11703ms ease-in-out infinite, glow 11703ms ease-in-out infinite;
+}
+
+.dot228 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1447px;
+  top: 621px;
+  background-color: #288aea;
+  border-radius: 100%;
+  -webkit-animation: fade 6449ms ease-in-out infinite, glow 6449ms ease-in-out infinite;
+          animation: fade 6449ms ease-in-out infinite, glow 6449ms ease-in-out infinite;
+}
+
+.dot229 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1211px;
+  top: 427px;
+  background-color: #68aeba;
+  border-radius: 100%;
+  -webkit-animation: fade 10290ms ease-in-out infinite, glow 10290ms ease-in-out infinite;
+          animation: fade 10290ms ease-in-out infinite, glow 10290ms ease-in-out infinite;
+}
+
+.dot230 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1128px;
+  top: 703px;
+  background-color: #63f8b6;
+  border-radius: 100%;
+  -webkit-animation: fade 2886ms ease-in-out infinite, glow 2886ms ease-in-out infinite;
+          animation: fade 2886ms ease-in-out infinite, glow 2886ms ease-in-out infinite;
+}
+
+.dot231 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 472px;
+  top: 454px;
+  background-color: #5f10d0;
+  border-radius: 100%;
+  -webkit-animation: fade 11680ms ease-in-out infinite, glow 11680ms ease-in-out infinite;
+          animation: fade 11680ms ease-in-out infinite, glow 11680ms ease-in-out infinite;
+}
+
+.dot232 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 964px;
+  top: 751px;
+  background-color: #11fa24;
+  border-radius: 100%;
+  -webkit-animation: fade 1835ms ease-in-out infinite, glow 1835ms ease-in-out infinite;
+          animation: fade 1835ms ease-in-out infinite, glow 1835ms ease-in-out infinite;
+}
+
+.dot233 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 596px;
+  top: 217px;
+  background-color: #dc7d5f;
+  border-radius: 100%;
+  -webkit-animation: fade 10883ms ease-in-out infinite, glow 10883ms ease-in-out infinite;
+          animation: fade 10883ms ease-in-out infinite, glow 10883ms ease-in-out infinite;
+}
+
+.dot234 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1277px;
+  top: 333px;
+  background-color: #fc2d20;
+  border-radius: 100%;
+  -webkit-animation: fade 4676ms ease-in-out infinite, glow 4676ms ease-in-out infinite;
+          animation: fade 4676ms ease-in-out infinite, glow 4676ms ease-in-out infinite;
+}
+
+.dot235 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 236px;
+  top: 676px;
+  background-color: #90e080;
+  border-radius: 100%;
+  -webkit-animation: fade 857ms ease-in-out infinite, glow 857ms ease-in-out infinite;
+          animation: fade 857ms ease-in-out infinite, glow 857ms ease-in-out infinite;
+}
+
+.dot236 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1761px;
+  top: 554px;
+  background-color: #727ce2;
+  border-radius: 100%;
+  -webkit-animation: fade 849ms ease-in-out infinite, glow 849ms ease-in-out infinite;
+          animation: fade 849ms ease-in-out infinite, glow 849ms ease-in-out infinite;
+}
+
+.dot237 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1280px;
+  top: 555px;
+  background-color: #912853;
+  border-radius: 100%;
+  -webkit-animation: fade 9616ms ease-in-out infinite, glow 9616ms ease-in-out infinite;
+          animation: fade 9616ms ease-in-out infinite, glow 9616ms ease-in-out infinite;
+}
+
+.dot238 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 307px;
+  top: 560px;
+  background-color: #9a3712;
+  border-radius: 100%;
+  -webkit-animation: fade 8250ms ease-in-out infinite, glow 8250ms ease-in-out infinite;
+          animation: fade 8250ms ease-in-out infinite, glow 8250ms ease-in-out infinite;
+}
+
+.dot239 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 228px;
+  top: 916px;
+  background-color: #1d3d71;
+  border-radius: 100%;
+  -webkit-animation: fade 9799ms ease-in-out infinite, glow 9799ms ease-in-out infinite;
+          animation: fade 9799ms ease-in-out infinite, glow 9799ms ease-in-out infinite;
+}
+
+.dot240 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 2px;
+  top: 899px;
+  background-color: #ea8493;
+  border-radius: 100%;
+  -webkit-animation: fade 10039ms ease-in-out infinite, glow 10039ms ease-in-out infinite;
+          animation: fade 10039ms ease-in-out infinite, glow 10039ms ease-in-out infinite;
+}
+
+.dot241 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1434px;
+  top: 20px;
+  background-color: #478a51;
+  border-radius: 100%;
+  -webkit-animation: fade 200ms ease-in-out infinite, glow 200ms ease-in-out infinite;
+          animation: fade 200ms ease-in-out infinite, glow 200ms ease-in-out infinite;
+}
+
+.dot242 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1761px;
+  top: 854px;
+  background-color: #845b19;
+  border-radius: 100%;
+  -webkit-animation: fade 2854ms ease-in-out infinite, glow 2854ms ease-in-out infinite;
+          animation: fade 2854ms ease-in-out infinite, glow 2854ms ease-in-out infinite;
+}
+
+.dot243 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1228px;
+  top: 11px;
+  background-color: #92a419;
+  border-radius: 100%;
+  -webkit-animation: fade 3257ms ease-in-out infinite, glow 3257ms ease-in-out infinite;
+          animation: fade 3257ms ease-in-out infinite, glow 3257ms ease-in-out infinite;
+}
+
+.dot244 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 448px;
+  top: 831px;
+  background-color: #e195dc;
+  border-radius: 100%;
+  -webkit-animation: fade 5029ms ease-in-out infinite, glow 5029ms ease-in-out infinite;
+          animation: fade 5029ms ease-in-out infinite, glow 5029ms ease-in-out infinite;
+}
+
+.dot245 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 101px;
+  top: 853px;
+  background-color: #dacf94;
+  border-radius: 100%;
+  -webkit-animation: fade 1151ms ease-in-out infinite, glow 1151ms ease-in-out infinite;
+          animation: fade 1151ms ease-in-out infinite, glow 1151ms ease-in-out infinite;
+}
+
+.dot246 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 202px;
+  top: 915px;
+  background-color: #64c2ca;
+  border-radius: 100%;
+  -webkit-animation: fade 10057ms ease-in-out infinite, glow 10057ms ease-in-out infinite;
+          animation: fade 10057ms ease-in-out infinite, glow 10057ms ease-in-out infinite;
+}
+
+.dot247 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 140px;
+  top: 665px;
+  background-color: #7971a2;
+  border-radius: 100%;
+  -webkit-animation: fade 1989ms ease-in-out infinite, glow 1989ms ease-in-out infinite;
+          animation: fade 1989ms ease-in-out infinite, glow 1989ms ease-in-out infinite;
+}
+
+.dot248 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1697px;
+  top: 882px;
+  background-color: #3702f5;
+  border-radius: 100%;
+  -webkit-animation: fade 11417ms ease-in-out infinite, glow 11417ms ease-in-out infinite;
+          animation: fade 11417ms ease-in-out infinite, glow 11417ms ease-in-out infinite;
+}
+
+.dot249 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 936px;
+  top: 471px;
+  background-color: #eeec27;
+  border-radius: 100%;
+  -webkit-animation: fade 8097ms ease-in-out infinite, glow 8097ms ease-in-out infinite;
+          animation: fade 8097ms ease-in-out infinite, glow 8097ms ease-in-out infinite;
+}
+
+.dot250 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 77px;
+  top: 27px;
+  background-color: #09e201;
+  border-radius: 100%;
+  -webkit-animation: fade 1792ms ease-in-out infinite, glow 1792ms ease-in-out infinite;
+          animation: fade 1792ms ease-in-out infinite, glow 1792ms ease-in-out infinite;
+}
+
+.dot251 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1734px;
+  top: 79px;
+  background-color: #509aca;
+  border-radius: 100%;
+  -webkit-animation: fade 1142ms ease-in-out infinite, glow 1142ms ease-in-out infinite;
+          animation: fade 1142ms ease-in-out infinite, glow 1142ms ease-in-out infinite;
+}
+
+.dot252 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 573px;
+  top: 488px;
+  background-color: #f59cfd;
+  border-radius: 100%;
+  -webkit-animation: fade 954ms ease-in-out infinite, glow 954ms ease-in-out infinite;
+          animation: fade 954ms ease-in-out infinite, glow 954ms ease-in-out infinite;
+}
+
+.dot253 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 955px;
+  top: 74px;
+  background-color: #4984b7;
+  border-radius: 100%;
+  -webkit-animation: fade 2938ms ease-in-out infinite, glow 2938ms ease-in-out infinite;
+          animation: fade 2938ms ease-in-out infinite, glow 2938ms ease-in-out infinite;
+}
+
+.dot254 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1541px;
+  top: 195px;
+  background-color: #80bcc2;
+  border-radius: 100%;
+  -webkit-animation: fade 3064ms ease-in-out infinite, glow 3064ms ease-in-out infinite;
+          animation: fade 3064ms ease-in-out infinite, glow 3064ms ease-in-out infinite;
+}
+
+.dot255 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1807px;
+  top: 99px;
+  background-color: #8b30df;
+  border-radius: 100%;
+  -webkit-animation: fade 7701ms ease-in-out infinite, glow 7701ms ease-in-out infinite;
+          animation: fade 7701ms ease-in-out infinite, glow 7701ms ease-in-out infinite;
+}
+
+.dot256 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 145px;
+  top: 376px;
+  background-color: #b3491c;
+  border-radius: 100%;
+  -webkit-animation: fade 1871ms ease-in-out infinite, glow 1871ms ease-in-out infinite;
+          animation: fade 1871ms ease-in-out infinite, glow 1871ms ease-in-out infinite;
+}
+
+.dot257 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1391px;
+  top: 625px;
+  background-color: #8428f1;
+  border-radius: 100%;
+  -webkit-animation: fade 11650ms ease-in-out infinite, glow 11650ms ease-in-out infinite;
+          animation: fade 11650ms ease-in-out infinite, glow 11650ms ease-in-out infinite;
+}
+
+.dot258 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 1236px;
+  top: 496px;
+  background-color: #752b9b;
+  border-radius: 100%;
+  -webkit-animation: fade 7895ms ease-in-out infinite, glow 7895ms ease-in-out infinite;
+          animation: fade 7895ms ease-in-out infinite, glow 7895ms ease-in-out infinite;
+}
+
+.dot259 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1151px;
+  top: 117px;
+  background-color: #ab1c9f;
+  border-radius: 100%;
+  -webkit-animation: fade 8849ms ease-in-out infinite, glow 8849ms ease-in-out infinite;
+          animation: fade 8849ms ease-in-out infinite, glow 8849ms ease-in-out infinite;
+}
+
+.dot260 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1912px;
+  top: 446px;
+  background-color: #542bb9;
+  border-radius: 100%;
+  -webkit-animation: fade 6726ms ease-in-out infinite, glow 6726ms ease-in-out infinite;
+          animation: fade 6726ms ease-in-out infinite, glow 6726ms ease-in-out infinite;
+}
+
+.dot261 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1180px;
+  top: 319px;
+  background-color: #a572af;
+  border-radius: 100%;
+  -webkit-animation: fade 7037ms ease-in-out infinite, glow 7037ms ease-in-out infinite;
+          animation: fade 7037ms ease-in-out infinite, glow 7037ms ease-in-out infinite;
+}
+
+.dot262 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1034px;
+  top: 328px;
+  background-color: #71cd49;
+  border-radius: 100%;
+  -webkit-animation: fade 5759ms ease-in-out infinite, glow 5759ms ease-in-out infinite;
+          animation: fade 5759ms ease-in-out infinite, glow 5759ms ease-in-out infinite;
+}
+
+.dot263 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 425px;
+  top: 131px;
+  background-color: #50d977;
+  border-radius: 100%;
+  -webkit-animation: fade 4497ms ease-in-out infinite, glow 4497ms ease-in-out infinite;
+          animation: fade 4497ms ease-in-out infinite, glow 4497ms ease-in-out infinite;
+}
+
+.dot264 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 969px;
+  top: 333px;
+  background-color: #32dd0d;
+  border-radius: 100%;
+  -webkit-animation: fade 8126ms ease-in-out infinite, glow 8126ms ease-in-out infinite;
+          animation: fade 8126ms ease-in-out infinite, glow 8126ms ease-in-out infinite;
+}
+
+.dot265 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 779px;
+  top: 52px;
+  background-color: #61ac52;
+  border-radius: 100%;
+  -webkit-animation: fade 11505ms ease-in-out infinite, glow 11505ms ease-in-out infinite;
+          animation: fade 11505ms ease-in-out infinite, glow 11505ms ease-in-out infinite;
+}
+
+.dot266 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1908px;
+  top: 600px;
+  background-color: #e3fc77;
+  border-radius: 100%;
+  -webkit-animation: fade 11012ms ease-in-out infinite, glow 11012ms ease-in-out infinite;
+          animation: fade 11012ms ease-in-out infinite, glow 11012ms ease-in-out infinite;
+}
+
+.dot267 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 104px;
+  top: 329px;
+  background-color: #ca297f;
+  border-radius: 100%;
+  -webkit-animation: fade 8838ms ease-in-out infinite, glow 8838ms ease-in-out infinite;
+          animation: fade 8838ms ease-in-out infinite, glow 8838ms ease-in-out infinite;
+}
+
+.dot268 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1903px;
+  top: 422px;
+  background-color: #4fd449;
+  border-radius: 100%;
+  -webkit-animation: fade 7438ms ease-in-out infinite, glow 7438ms ease-in-out infinite;
+          animation: fade 7438ms ease-in-out infinite, glow 7438ms ease-in-out infinite;
+}
+
+.dot269 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1052px;
+  top: 892px;
+  background-color: #a31850;
+  border-radius: 100%;
+  -webkit-animation: fade 165ms ease-in-out infinite, glow 165ms ease-in-out infinite;
+          animation: fade 165ms ease-in-out infinite, glow 165ms ease-in-out infinite;
+}
+
+.dot270 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 788px;
+  top: 721px;
+  background-color: #e8e76e;
+  border-radius: 100%;
+  -webkit-animation: fade 10387ms ease-in-out infinite, glow 10387ms ease-in-out infinite;
+          animation: fade 10387ms ease-in-out infinite, glow 10387ms ease-in-out infinite;
+}
+
+.dot271 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 138px;
+  top: 94px;
+  background-color: #d77e88;
+  border-radius: 100%;
+  -webkit-animation: fade 5204ms ease-in-out infinite, glow 5204ms ease-in-out infinite;
+          animation: fade 5204ms ease-in-out infinite, glow 5204ms ease-in-out infinite;
+}
+
+.dot272 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1533px;
+  top: 305px;
+  background-color: #6a6ed2;
+  border-radius: 100%;
+  -webkit-animation: fade 5972ms ease-in-out infinite, glow 5972ms ease-in-out infinite;
+          animation: fade 5972ms ease-in-out infinite, glow 5972ms ease-in-out infinite;
+}
+
+.dot273 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1877px;
+  top: 165px;
+  background-color: #6da999;
+  border-radius: 100%;
+  -webkit-animation: fade 5229ms ease-in-out infinite, glow 5229ms ease-in-out infinite;
+          animation: fade 5229ms ease-in-out infinite, glow 5229ms ease-in-out infinite;
+}
+
+.dot274 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1384px;
+  top: 258px;
+  background-color: #203a1a;
+  border-radius: 100%;
+  -webkit-animation: fade 5625ms ease-in-out infinite, glow 5625ms ease-in-out infinite;
+          animation: fade 5625ms ease-in-out infinite, glow 5625ms ease-in-out infinite;
+}
+
+.dot275 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1638px;
+  top: 838px;
+  background-color: #bf62ad;
+  border-radius: 100%;
+  -webkit-animation: fade 2756ms ease-in-out infinite, glow 2756ms ease-in-out infinite;
+          animation: fade 2756ms ease-in-out infinite, glow 2756ms ease-in-out infinite;
+}
+
+.dot276 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 15px;
+  top: 206px;
+  background-color: #ee7f1d;
+  border-radius: 100%;
+  -webkit-animation: fade 9882ms ease-in-out infinite, glow 9882ms ease-in-out infinite;
+          animation: fade 9882ms ease-in-out infinite, glow 9882ms ease-in-out infinite;
+}
+
+.dot277 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1801px;
+  top: 60px;
+  background-color: #5dd0ad;
+  border-radius: 100%;
+  -webkit-animation: fade 2645ms ease-in-out infinite, glow 2645ms ease-in-out infinite;
+          animation: fade 2645ms ease-in-out infinite, glow 2645ms ease-in-out infinite;
+}
+
+.dot278 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 160px;
+  top: 467px;
+  background-color: #db98e1;
+  border-radius: 100%;
+  -webkit-animation: fade 9940ms ease-in-out infinite, glow 9940ms ease-in-out infinite;
+          animation: fade 9940ms ease-in-out infinite, glow 9940ms ease-in-out infinite;
+}
+
+.dot279 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 409px;
+  top: 346px;
+  background-color: #f71c65;
+  border-radius: 100%;
+  -webkit-animation: fade 3012ms ease-in-out infinite, glow 3012ms ease-in-out infinite;
+          animation: fade 3012ms ease-in-out infinite, glow 3012ms ease-in-out infinite;
+}
+
+.dot280 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 521px;
+  top: 576px;
+  background-color: #0272c2;
+  border-radius: 100%;
+  -webkit-animation: fade 461ms ease-in-out infinite, glow 461ms ease-in-out infinite;
+          animation: fade 461ms ease-in-out infinite, glow 461ms ease-in-out infinite;
+}
+
+.dot281 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 548px;
+  top: 818px;
+  background-color: #2987e3;
+  border-radius: 100%;
+  -webkit-animation: fade 8695ms ease-in-out infinite, glow 8695ms ease-in-out infinite;
+          animation: fade 8695ms ease-in-out infinite, glow 8695ms ease-in-out infinite;
+}
+
+.dot282 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1431px;
+  top: 444px;
+  background-color: #8d43d5;
+  border-radius: 100%;
+  -webkit-animation: fade 10681ms ease-in-out infinite, glow 10681ms ease-in-out infinite;
+          animation: fade 10681ms ease-in-out infinite, glow 10681ms ease-in-out infinite;
+}
+
+.dot283 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 298px;
+  top: 213px;
+  background-color: #ce3fc1;
+  border-radius: 100%;
+  -webkit-animation: fade 11747ms ease-in-out infinite, glow 11747ms ease-in-out infinite;
+          animation: fade 11747ms ease-in-out infinite, glow 11747ms ease-in-out infinite;
+}
+
+.dot284 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 586px;
+  top: 750px;
+  background-color: #ea73b2;
+  border-radius: 100%;
+  -webkit-animation: fade 562ms ease-in-out infinite, glow 562ms ease-in-out infinite;
+          animation: fade 562ms ease-in-out infinite, glow 562ms ease-in-out infinite;
+}
+
+.dot285 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1234px;
+  top: 794px;
+  background-color: #983b4b;
+  border-radius: 100%;
+  -webkit-animation: fade 4045ms ease-in-out infinite, glow 4045ms ease-in-out infinite;
+          animation: fade 4045ms ease-in-out infinite, glow 4045ms ease-in-out infinite;
+}
+
+.dot286 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 479px;
+  top: 194px;
+  background-color: #b32cc4;
+  border-radius: 100%;
+  -webkit-animation: fade 596ms ease-in-out infinite, glow 596ms ease-in-out infinite;
+          animation: fade 596ms ease-in-out infinite, glow 596ms ease-in-out infinite;
+}
+
+.dot287 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 230px;
+  top: 32px;
+  background-color: #2efef3;
+  border-radius: 100%;
+  -webkit-animation: fade 3313ms ease-in-out infinite, glow 3313ms ease-in-out infinite;
+          animation: fade 3313ms ease-in-out infinite, glow 3313ms ease-in-out infinite;
+}
+
+.dot288 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 494px;
+  top: 555px;
+  background-color: #2aaf2f;
+  border-radius: 100%;
+  -webkit-animation: fade 2449ms ease-in-out infinite, glow 2449ms ease-in-out infinite;
+          animation: fade 2449ms ease-in-out infinite, glow 2449ms ease-in-out infinite;
+}
+
+.dot289 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 169px;
+  top: 116px;
+  background-color: #c13f0e;
+  border-radius: 100%;
+  -webkit-animation: fade 5217ms ease-in-out infinite, glow 5217ms ease-in-out infinite;
+          animation: fade 5217ms ease-in-out infinite, glow 5217ms ease-in-out infinite;
+}
+
+.dot290 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 152px;
+  top: 109px;
+  background-color: #e6e360;
+  border-radius: 100%;
+  -webkit-animation: fade 4458ms ease-in-out infinite, glow 4458ms ease-in-out infinite;
+          animation: fade 4458ms ease-in-out infinite, glow 4458ms ease-in-out infinite;
+}
+
+.dot291 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 881px;
+  top: 45px;
+  background-color: #1ebad1;
+  border-radius: 100%;
+  -webkit-animation: fade 6627ms ease-in-out infinite, glow 6627ms ease-in-out infinite;
+          animation: fade 6627ms ease-in-out infinite, glow 6627ms ease-in-out infinite;
+}
+
+.dot292 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 205px;
+  top: 522px;
+  background-color: #513cec;
+  border-radius: 100%;
+  -webkit-animation: fade 5909ms ease-in-out infinite, glow 5909ms ease-in-out infinite;
+          animation: fade 5909ms ease-in-out infinite, glow 5909ms ease-in-out infinite;
+}
+
+.dot293 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 84px;
+  top: 437px;
+  background-color: #9c633b;
+  border-radius: 100%;
+  -webkit-animation: fade 7406ms ease-in-out infinite, glow 7406ms ease-in-out infinite;
+          animation: fade 7406ms ease-in-out infinite, glow 7406ms ease-in-out infinite;
+}
+
+.dot294 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1842px;
+  top: 608px;
+  background-color: #ecc88c;
+  border-radius: 100%;
+  -webkit-animation: fade 4670ms ease-in-out infinite, glow 4670ms ease-in-out infinite;
+          animation: fade 4670ms ease-in-out infinite, glow 4670ms ease-in-out infinite;
+}
+
+.dot295 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1369px;
+  top: 231px;
+  background-color: #62132c;
+  border-radius: 100%;
+  -webkit-animation: fade 3349ms ease-in-out infinite, glow 3349ms ease-in-out infinite;
+          animation: fade 3349ms ease-in-out infinite, glow 3349ms ease-in-out infinite;
+}
+
+.dot296 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1085px;
+  top: 416px;
+  background-color: #445373;
+  border-radius: 100%;
+  -webkit-animation: fade 5698ms ease-in-out infinite, glow 5698ms ease-in-out infinite;
+          animation: fade 5698ms ease-in-out infinite, glow 5698ms ease-in-out infinite;
+}
+
+.dot297 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 1407px;
+  top: 717px;
+  background-color: #e13524;
+  border-radius: 100%;
+  -webkit-animation: fade 9513ms ease-in-out infinite, glow 9513ms ease-in-out infinite;
+          animation: fade 9513ms ease-in-out infinite, glow 9513ms ease-in-out infinite;
+}
+
+.dot298 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1782px;
+  top: 556px;
+  background-color: #27cb28;
+  border-radius: 100%;
+  -webkit-animation: fade 8853ms ease-in-out infinite, glow 8853ms ease-in-out infinite;
+          animation: fade 8853ms ease-in-out infinite, glow 8853ms ease-in-out infinite;
+}
+
+.dot299 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1467px;
+  top: 645px;
+  background-color: #084b17;
+  border-radius: 100%;
+  -webkit-animation: fade 11345ms ease-in-out infinite, glow 11345ms ease-in-out infinite;
+          animation: fade 11345ms ease-in-out infinite, glow 11345ms ease-in-out infinite;
+}
+
+.dot300 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 171px;
+  top: 481px;
+  background-color: #2173da;
+  border-radius: 100%;
+  -webkit-animation: fade 9331ms ease-in-out infinite, glow 9331ms ease-in-out infinite;
+          animation: fade 9331ms ease-in-out infinite, glow 9331ms ease-in-out infinite;
+}
+
+.dot301 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 624px;
+  top: 562px;
+  background-color: #d206da;
+  border-radius: 100%;
+  -webkit-animation: fade 5271ms ease-in-out infinite, glow 5271ms ease-in-out infinite;
+          animation: fade 5271ms ease-in-out infinite, glow 5271ms ease-in-out infinite;
+}
+
+.dot302 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 585px;
+  top: 473px;
+  background-color: #ecac07;
+  border-radius: 100%;
+  -webkit-animation: fade 8686ms ease-in-out infinite, glow 8686ms ease-in-out infinite;
+          animation: fade 8686ms ease-in-out infinite, glow 8686ms ease-in-out infinite;
+}
+
+.dot303 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 685px;
+  top: 596px;
+  background-color: #a79c81;
+  border-radius: 100%;
+  -webkit-animation: fade 5632ms ease-in-out infinite, glow 5632ms ease-in-out infinite;
+          animation: fade 5632ms ease-in-out infinite, glow 5632ms ease-in-out infinite;
+}
+
+.dot304 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1329px;
+  top: 808px;
+  background-color: #9c68ba;
+  border-radius: 100%;
+  -webkit-animation: fade 9075ms ease-in-out infinite, glow 9075ms ease-in-out infinite;
+          animation: fade 9075ms ease-in-out infinite, glow 9075ms ease-in-out infinite;
+}
+
+.dot305 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1262px;
+  top: 532px;
+  background-color: #a5b3f7;
+  border-radius: 100%;
+  -webkit-animation: fade 3631ms ease-in-out infinite, glow 3631ms ease-in-out infinite;
+          animation: fade 3631ms ease-in-out infinite, glow 3631ms ease-in-out infinite;
+}
+
+.dot306 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 104px;
+  top: 703px;
+  background-color: #70791c;
+  border-radius: 100%;
+  -webkit-animation: fade 8054ms ease-in-out infinite, glow 8054ms ease-in-out infinite;
+          animation: fade 8054ms ease-in-out infinite, glow 8054ms ease-in-out infinite;
+}
+
+.dot307 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 946px;
+  top: 917px;
+  background-color: #625d74;
+  border-radius: 100%;
+  -webkit-animation: fade 9685ms ease-in-out infinite, glow 9685ms ease-in-out infinite;
+          animation: fade 9685ms ease-in-out infinite, glow 9685ms ease-in-out infinite;
+}
+
+.dot308 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 29px;
+  top: 508px;
+  background-color: #6077e6;
+  border-radius: 100%;
+  -webkit-animation: fade 11506ms ease-in-out infinite, glow 11506ms ease-in-out infinite;
+          animation: fade 11506ms ease-in-out infinite, glow 11506ms ease-in-out infinite;
+}
+
+.dot309 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1025px;
+  top: 528px;
+  background-color: #643a36;
+  border-radius: 100%;
+  -webkit-animation: fade 7134ms ease-in-out infinite, glow 7134ms ease-in-out infinite;
+          animation: fade 7134ms ease-in-out infinite, glow 7134ms ease-in-out infinite;
+}
+
+.dot310 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 564px;
+  top: 45px;
+  background-color: #7d7bf9;
+  border-radius: 100%;
+  -webkit-animation: fade 1546ms ease-in-out infinite, glow 1546ms ease-in-out infinite;
+          animation: fade 1546ms ease-in-out infinite, glow 1546ms ease-in-out infinite;
+}
+
+.dot311 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 581px;
+  top: 346px;
+  background-color: #f09a67;
+  border-radius: 100%;
+  -webkit-animation: fade 9382ms ease-in-out infinite, glow 9382ms ease-in-out infinite;
+          animation: fade 9382ms ease-in-out infinite, glow 9382ms ease-in-out infinite;
+}
+
+.dot312 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1878px;
+  top: 314px;
+  background-color: #c17cd6;
+  border-radius: 100%;
+  -webkit-animation: fade 2000ms ease-in-out infinite, glow 2000ms ease-in-out infinite;
+          animation: fade 2000ms ease-in-out infinite, glow 2000ms ease-in-out infinite;
+}
+
+.dot313 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 610px;
+  top: 146px;
+  background-color: #bd0339;
+  border-radius: 100%;
+  -webkit-animation: fade 7745ms ease-in-out infinite, glow 7745ms ease-in-out infinite;
+          animation: fade 7745ms ease-in-out infinite, glow 7745ms ease-in-out infinite;
+}
+
+.dot314 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1796px;
+  top: 783px;
+  background-color: #894229;
+  border-radius: 100%;
+  -webkit-animation: fade 7967ms ease-in-out infinite, glow 7967ms ease-in-out infinite;
+          animation: fade 7967ms ease-in-out infinite, glow 7967ms ease-in-out infinite;
+}
+
+.dot315 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 568px;
+  top: 25px;
+  background-color: #406728;
+  border-radius: 100%;
+  -webkit-animation: fade 11947ms ease-in-out infinite, glow 11947ms ease-in-out infinite;
+          animation: fade 11947ms ease-in-out infinite, glow 11947ms ease-in-out infinite;
+}
+
+.dot316 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 577px;
+  top: 308px;
+  background-color: #66e392;
+  border-radius: 100%;
+  -webkit-animation: fade 11375ms ease-in-out infinite, glow 11375ms ease-in-out infinite;
+          animation: fade 11375ms ease-in-out infinite, glow 11375ms ease-in-out infinite;
+}
+
+.dot317 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 330px;
+  top: 833px;
+  background-color: #826a97;
+  border-radius: 100%;
+  -webkit-animation: fade 8916ms ease-in-out infinite, glow 8916ms ease-in-out infinite;
+          animation: fade 8916ms ease-in-out infinite, glow 8916ms ease-in-out infinite;
+}
+
+.dot318 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1840px;
+  top: 743px;
+  background-color: #b048f8;
+  border-radius: 100%;
+  -webkit-animation: fade 4147ms ease-in-out infinite, glow 4147ms ease-in-out infinite;
+          animation: fade 4147ms ease-in-out infinite, glow 4147ms ease-in-out infinite;
+}
+
+.dot319 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1426px;
+  top: 265px;
+  background-color: #88a7d1;
+  border-radius: 100%;
+  -webkit-animation: fade 11157ms ease-in-out infinite, glow 11157ms ease-in-out infinite;
+          animation: fade 11157ms ease-in-out infinite, glow 11157ms ease-in-out infinite;
+}
+
+.dot320 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1680px;
+  top: 32px;
+  background-color: #7fc732;
+  border-radius: 100%;
+  -webkit-animation: fade 9314ms ease-in-out infinite, glow 9314ms ease-in-out infinite;
+          animation: fade 9314ms ease-in-out infinite, glow 9314ms ease-in-out infinite;
+}
+
+.dot321 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 320px;
+  top: 586px;
+  background-color: #9dc31e;
+  border-radius: 100%;
+  -webkit-animation: fade 2751ms ease-in-out infinite, glow 2751ms ease-in-out infinite;
+          animation: fade 2751ms ease-in-out infinite, glow 2751ms ease-in-out infinite;
+}
+
+.dot322 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1804px;
+  top: 688px;
+  background-color: #d219b2;
+  border-radius: 100%;
+  -webkit-animation: fade 4161ms ease-in-out infinite, glow 4161ms ease-in-out infinite;
+          animation: fade 4161ms ease-in-out infinite, glow 4161ms ease-in-out infinite;
+}
+
+.dot323 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 1404px;
+  top: 331px;
+  background-color: #de7160;
+  border-radius: 100%;
+  -webkit-animation: fade 6164ms ease-in-out infinite, glow 6164ms ease-in-out infinite;
+          animation: fade 6164ms ease-in-out infinite, glow 6164ms ease-in-out infinite;
+}
+
+.dot324 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1004px;
+  top: 357px;
+  background-color: #d1a0ec;
+  border-radius: 100%;
+  -webkit-animation: fade 9093ms ease-in-out infinite, glow 9093ms ease-in-out infinite;
+          animation: fade 9093ms ease-in-out infinite, glow 9093ms ease-in-out infinite;
+}
+
+.dot325 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 138px;
+  top: 62px;
+  background-color: #381e60;
+  border-radius: 100%;
+  -webkit-animation: fade 3577ms ease-in-out infinite, glow 3577ms ease-in-out infinite;
+          animation: fade 3577ms ease-in-out infinite, glow 3577ms ease-in-out infinite;
+}
+
+.dot326 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 309px;
+  top: 250px;
+  background-color: #c636cc;
+  border-radius: 100%;
+  -webkit-animation: fade 10761ms ease-in-out infinite, glow 10761ms ease-in-out infinite;
+          animation: fade 10761ms ease-in-out infinite, glow 10761ms ease-in-out infinite;
+}
+
+.dot327 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1172px;
+  top: 638px;
+  background-color: #7151f8;
+  border-radius: 100%;
+  -webkit-animation: fade 8918ms ease-in-out infinite, glow 8918ms ease-in-out infinite;
+          animation: fade 8918ms ease-in-out infinite, glow 8918ms ease-in-out infinite;
+}
+
+.dot328 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 265px;
+  top: 513px;
+  background-color: #d8c3c3;
+  border-radius: 100%;
+  -webkit-animation: fade 8202ms ease-in-out infinite, glow 8202ms ease-in-out infinite;
+          animation: fade 8202ms ease-in-out infinite, glow 8202ms ease-in-out infinite;
+}
+
+.dot329 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 12px;
+  top: 478px;
+  background-color: #756e23;
+  border-radius: 100%;
+  -webkit-animation: fade 10535ms ease-in-out infinite, glow 10535ms ease-in-out infinite;
+          animation: fade 10535ms ease-in-out infinite, glow 10535ms ease-in-out infinite;
+}
+
+.dot330 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 724px;
+  top: 176px;
+  background-color: #996bf5;
+  border-radius: 100%;
+  -webkit-animation: fade 5662ms ease-in-out infinite, glow 5662ms ease-in-out infinite;
+          animation: fade 5662ms ease-in-out infinite, glow 5662ms ease-in-out infinite;
+}
+
+.dot331 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 977px;
+  top: 29px;
+  background-color: #486641;
+  border-radius: 100%;
+  -webkit-animation: fade 940ms ease-in-out infinite, glow 940ms ease-in-out infinite;
+          animation: fade 940ms ease-in-out infinite, glow 940ms ease-in-out infinite;
+}
+
+.dot332 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1174px;
+  top: 742px;
+  background-color: #e2afc5;
+  border-radius: 100%;
+  -webkit-animation: fade 6690ms ease-in-out infinite, glow 6690ms ease-in-out infinite;
+          animation: fade 6690ms ease-in-out infinite, glow 6690ms ease-in-out infinite;
+}
+
+.dot333 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1695px;
+  top: 853px;
+  background-color: #d8f44c;
+  border-radius: 100%;
+  -webkit-animation: fade 5924ms ease-in-out infinite, glow 5924ms ease-in-out infinite;
+          animation: fade 5924ms ease-in-out infinite, glow 5924ms ease-in-out infinite;
+}
+
+.dot334 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1257px;
+  top: 365px;
+  background-color: #ca0eb0;
+  border-radius: 100%;
+  -webkit-animation: fade 10549ms ease-in-out infinite, glow 10549ms ease-in-out infinite;
+          animation: fade 10549ms ease-in-out infinite, glow 10549ms ease-in-out infinite;
+}
+
+.dot335 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1296px;
+  top: 801px;
+  background-color: #7ae90b;
+  border-radius: 100%;
+  -webkit-animation: fade 11441ms ease-in-out infinite, glow 11441ms ease-in-out infinite;
+          animation: fade 11441ms ease-in-out infinite, glow 11441ms ease-in-out infinite;
+}
+
+.dot336 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 427px;
+  top: 749px;
+  background-color: #aaa6f8;
+  border-radius: 100%;
+  -webkit-animation: fade 1580ms ease-in-out infinite, glow 1580ms ease-in-out infinite;
+          animation: fade 1580ms ease-in-out infinite, glow 1580ms ease-in-out infinite;
+}
+
+.dot337 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1115px;
+  top: 17px;
+  background-color: #0c3bdc;
+  border-radius: 100%;
+  -webkit-animation: fade 124ms ease-in-out infinite, glow 124ms ease-in-out infinite;
+          animation: fade 124ms ease-in-out infinite, glow 124ms ease-in-out infinite;
+}
+
+.dot338 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 191px;
+  top: 640px;
+  background-color: #04c985;
+  border-radius: 100%;
+  -webkit-animation: fade 11721ms ease-in-out infinite, glow 11721ms ease-in-out infinite;
+          animation: fade 11721ms ease-in-out infinite, glow 11721ms ease-in-out infinite;
+}
+
+.dot339 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1482px;
+  top: 3px;
+  background-color: #6e272b;
+  border-radius: 100%;
+  -webkit-animation: fade 5094ms ease-in-out infinite, glow 5094ms ease-in-out infinite;
+          animation: fade 5094ms ease-in-out infinite, glow 5094ms ease-in-out infinite;
+}
+
+.dot340 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 1799px;
+  top: 95px;
+  background-color: #cf84d0;
+  border-radius: 100%;
+  -webkit-animation: fade 5217ms ease-in-out infinite, glow 5217ms ease-in-out infinite;
+          animation: fade 5217ms ease-in-out infinite, glow 5217ms ease-in-out infinite;
+}
+
+.dot341 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1707px;
+  top: 255px;
+  background-color: #db1e79;
+  border-radius: 100%;
+  -webkit-animation: fade 4722ms ease-in-out infinite, glow 4722ms ease-in-out infinite;
+          animation: fade 4722ms ease-in-out infinite, glow 4722ms ease-in-out infinite;
+}
+
+.dot342 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 770px;
+  top: 216px;
+  background-color: #a25a8c;
+  border-radius: 100%;
+  -webkit-animation: fade 11823ms ease-in-out infinite, glow 11823ms ease-in-out infinite;
+          animation: fade 11823ms ease-in-out infinite, glow 11823ms ease-in-out infinite;
+}
+
+.dot343 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 553px;
+  top: 292px;
+  background-color: #4c890c;
+  border-radius: 100%;
+  -webkit-animation: fade 8757ms ease-in-out infinite, glow 8757ms ease-in-out infinite;
+          animation: fade 8757ms ease-in-out infinite, glow 8757ms ease-in-out infinite;
+}
+
+.dot344 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 1774px;
+  top: 663px;
+  background-color: #b176d5;
+  border-radius: 100%;
+  -webkit-animation: fade 11690ms ease-in-out infinite, glow 11690ms ease-in-out infinite;
+          animation: fade 11690ms ease-in-out infinite, glow 11690ms ease-in-out infinite;
+}
+
+.dot345 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 82px;
+  top: 659px;
+  background-color: #3aa2eb;
+  border-radius: 100%;
+  -webkit-animation: fade 11180ms ease-in-out infinite, glow 11180ms ease-in-out infinite;
+          animation: fade 11180ms ease-in-out infinite, glow 11180ms ease-in-out infinite;
+}
+
+.dot346 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 872px;
+  top: 760px;
+  background-color: #ae29af;
+  border-radius: 100%;
+  -webkit-animation: fade 2281ms ease-in-out infinite, glow 2281ms ease-in-out infinite;
+          animation: fade 2281ms ease-in-out infinite, glow 2281ms ease-in-out infinite;
+}
+
+.dot347 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 944px;
+  top: 684px;
+  background-color: #ef4597;
+  border-radius: 100%;
+  -webkit-animation: fade 11772ms ease-in-out infinite, glow 11772ms ease-in-out infinite;
+          animation: fade 11772ms ease-in-out infinite, glow 11772ms ease-in-out infinite;
+}
+
+.dot348 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 261px;
+  top: 665px;
+  background-color: #bee265;
+  border-radius: 100%;
+  -webkit-animation: fade 5499ms ease-in-out infinite, glow 5499ms ease-in-out infinite;
+          animation: fade 5499ms ease-in-out infinite, glow 5499ms ease-in-out infinite;
+}
+
+.dot349 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 488px;
+  top: 263px;
+  background-color: #dce17f;
+  border-radius: 100%;
+  -webkit-animation: fade 11434ms ease-in-out infinite, glow 11434ms ease-in-out infinite;
+          animation: fade 11434ms ease-in-out infinite, glow 11434ms ease-in-out infinite;
+}
+
+.dot350 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 162px;
+  top: 709px;
+  background-color: #94b544;
+  border-radius: 100%;
+  -webkit-animation: fade 8861ms ease-in-out infinite, glow 8861ms ease-in-out infinite;
+          animation: fade 8861ms ease-in-out infinite, glow 8861ms ease-in-out infinite;
+}
+
+.dot351 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 100px;
+  top: 372px;
+  background-color: #289640;
+  border-radius: 100%;
+  -webkit-animation: fade 9313ms ease-in-out infinite, glow 9313ms ease-in-out infinite;
+          animation: fade 9313ms ease-in-out infinite, glow 9313ms ease-in-out infinite;
+}
+
+.dot352 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 628px;
+  top: 255px;
+  background-color: #0b1f5f;
+  border-radius: 100%;
+  -webkit-animation: fade 3694ms ease-in-out infinite, glow 3694ms ease-in-out infinite;
+          animation: fade 3694ms ease-in-out infinite, glow 3694ms ease-in-out infinite;
+}
+
+.dot353 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1765px;
+  top: 793px;
+  background-color: #e9d599;
+  border-radius: 100%;
+  -webkit-animation: fade 4326ms ease-in-out infinite, glow 4326ms ease-in-out infinite;
+          animation: fade 4326ms ease-in-out infinite, glow 4326ms ease-in-out infinite;
+}
+
+.dot354 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 639px;
+  top: 97px;
+  background-color: #9a7a4b;
+  border-radius: 100%;
+  -webkit-animation: fade 2630ms ease-in-out infinite, glow 2630ms ease-in-out infinite;
+          animation: fade 2630ms ease-in-out infinite, glow 2630ms ease-in-out infinite;
+}
+
+.dot355 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1172px;
+  top: 377px;
+  background-color: #ef9240;
+  border-radius: 100%;
+  -webkit-animation: fade 910ms ease-in-out infinite, glow 910ms ease-in-out infinite;
+          animation: fade 910ms ease-in-out infinite, glow 910ms ease-in-out infinite;
+}
+
+.dot356 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 1516px;
+  top: 330px;
+  background-color: #f4576c;
+  border-radius: 100%;
+  -webkit-animation: fade 6319ms ease-in-out infinite, glow 6319ms ease-in-out infinite;
+          animation: fade 6319ms ease-in-out infinite, glow 6319ms ease-in-out infinite;
+}
+
+.dot357 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1823px;
+  top: 227px;
+  background-color: #beba92;
+  border-radius: 100%;
+  -webkit-animation: fade 3743ms ease-in-out infinite, glow 3743ms ease-in-out infinite;
+          animation: fade 3743ms ease-in-out infinite, glow 3743ms ease-in-out infinite;
+}
+
+.dot358 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 544px;
+  top: 548px;
+  background-color: #dc5cb3;
+  border-radius: 100%;
+  -webkit-animation: fade 3115ms ease-in-out infinite, glow 3115ms ease-in-out infinite;
+          animation: fade 3115ms ease-in-out infinite, glow 3115ms ease-in-out infinite;
+}
+
+.dot359 {
+  position: absolute;
+  width: 0.25vw;
+  height: 0.25vw;
+  left: 19px;
+  top: 732px;
+  background-color: #33dc88;
+  border-radius: 100%;
+  -webkit-animation: fade 5966ms ease-in-out infinite, glow 5966ms ease-in-out infinite;
+          animation: fade 5966ms ease-in-out infinite, glow 5966ms ease-in-out infinite;
+}
+
+.dot360 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 958px;
+  top: 738px;
+  background-color: #616d9e;
+  border-radius: 100%;
+  -webkit-animation: fade 7111ms ease-in-out infinite, glow 7111ms ease-in-out infinite;
+          animation: fade 7111ms ease-in-out infinite, glow 7111ms ease-in-out infinite;
+}
+
+.dot361 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 99px;
+  top: 373px;
+  background-color: #21b185;
+  border-radius: 100%;
+  -webkit-animation: fade 427ms ease-in-out infinite, glow 427ms ease-in-out infinite;
+          animation: fade 427ms ease-in-out infinite, glow 427ms ease-in-out infinite;
+}
+
+.dot362 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 667px;
+  top: 624px;
+  background-color: #49827a;
+  border-radius: 100%;
+  -webkit-animation: fade 11998ms ease-in-out infinite, glow 11998ms ease-in-out infinite;
+          animation: fade 11998ms ease-in-out infinite, glow 11998ms ease-in-out infinite;
+}
+
+.dot363 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 1125px;
+  top: 423px;
+  background-color: #ae1360;
+  border-radius: 100%;
+  -webkit-animation: fade 3231ms ease-in-out infinite, glow 3231ms ease-in-out infinite;
+          animation: fade 3231ms ease-in-out infinite, glow 3231ms ease-in-out infinite;
+}
+
+.dot364 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1282px;
+  top: 693px;
+  background-color: #122e12;
+  border-radius: 100%;
+  -webkit-animation: fade 1517ms ease-in-out infinite, glow 1517ms ease-in-out infinite;
+          animation: fade 1517ms ease-in-out infinite, glow 1517ms ease-in-out infinite;
+}
+
+.dot365 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 112px;
+  top: 207px;
+  background-color: #457d7d;
+  border-radius: 100%;
+  -webkit-animation: fade 329ms ease-in-out infinite, glow 329ms ease-in-out infinite;
+          animation: fade 329ms ease-in-out infinite, glow 329ms ease-in-out infinite;
+}
+
+.dot366 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1468px;
+  top: 25px;
+  background-color: #10ca54;
+  border-radius: 100%;
+  -webkit-animation: fade 11081ms ease-in-out infinite, glow 11081ms ease-in-out infinite;
+          animation: fade 11081ms ease-in-out infinite, glow 11081ms ease-in-out infinite;
+}
+
+.dot367 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  left: 1454px;
+  top: 36px;
+  background-color: #74f77a;
+  border-radius: 100%;
+  -webkit-animation: fade 9705ms ease-in-out infinite, glow 9705ms ease-in-out infinite;
+          animation: fade 9705ms ease-in-out infinite, glow 9705ms ease-in-out infinite;
+}
+
+.dot368 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1909px;
+  top: 93px;
+  background-color: #eee116;
+  border-radius: 100%;
+  -webkit-animation: fade 5439ms ease-in-out infinite, glow 5439ms ease-in-out infinite;
+          animation: fade 5439ms ease-in-out infinite, glow 5439ms ease-in-out infinite;
+}
+
+.dot369 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 1586px;
+  top: 868px;
+  background-color: #8d0262;
+  border-radius: 100%;
+  -webkit-animation: fade 10283ms ease-in-out infinite, glow 10283ms ease-in-out infinite;
+          animation: fade 10283ms ease-in-out infinite, glow 10283ms ease-in-out infinite;
+}
+
+.dot370 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1093px;
+  top: 88px;
+  background-color: #8da02a;
+  border-radius: 100%;
+  -webkit-animation: fade 4819ms ease-in-out infinite, glow 4819ms ease-in-out infinite;
+          animation: fade 4819ms ease-in-out infinite, glow 4819ms ease-in-out infinite;
+}
+
+.dot371 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 603px;
+  top: 110px;
+  background-color: #3bff56;
+  border-radius: 100%;
+  -webkit-animation: fade 3567ms ease-in-out infinite, glow 3567ms ease-in-out infinite;
+          animation: fade 3567ms ease-in-out infinite, glow 3567ms ease-in-out infinite;
+}
+
+.dot372 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1606px;
+  top: 79px;
+  background-color: #9001ad;
+  border-radius: 100%;
+  -webkit-animation: fade 38ms ease-in-out infinite, glow 38ms ease-in-out infinite;
+          animation: fade 38ms ease-in-out infinite, glow 38ms ease-in-out infinite;
+}
+
+.dot373 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 504px;
+  top: 540px;
+  background-color: #57f165;
+  border-radius: 100%;
+  -webkit-animation: fade 1507ms ease-in-out infinite, glow 1507ms ease-in-out infinite;
+          animation: fade 1507ms ease-in-out infinite, glow 1507ms ease-in-out infinite;
+}
+
+.dot374 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 1450px;
+  top: 812px;
+  background-color: #6c8666;
+  border-radius: 100%;
+  -webkit-animation: fade 4516ms ease-in-out infinite, glow 4516ms ease-in-out infinite;
+          animation: fade 4516ms ease-in-out infinite, glow 4516ms ease-in-out infinite;
+}
+
+.dot375 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 541px;
+  top: 845px;
+  background-color: #11a5b7;
+  border-radius: 100%;
+  -webkit-animation: fade 8219ms ease-in-out infinite, glow 8219ms ease-in-out infinite;
+          animation: fade 8219ms ease-in-out infinite, glow 8219ms ease-in-out infinite;
+}
+
+.dot376 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 920px;
+  top: 431px;
+  background-color: #f60e5b;
+  border-radius: 100%;
+  -webkit-animation: fade 2900ms ease-in-out infinite, glow 2900ms ease-in-out infinite;
+          animation: fade 2900ms ease-in-out infinite, glow 2900ms ease-in-out infinite;
+}
+
+.dot377 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1538px;
+  top: 178px;
+  background-color: #11146a;
+  border-radius: 100%;
+  -webkit-animation: fade 1411ms ease-in-out infinite, glow 1411ms ease-in-out infinite;
+          animation: fade 1411ms ease-in-out infinite, glow 1411ms ease-in-out infinite;
+}
+
+.dot378 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 598px;
+  top: 822px;
+  background-color: #25a43f;
+  border-radius: 100%;
+  -webkit-animation: fade 2491ms ease-in-out infinite, glow 2491ms ease-in-out infinite;
+          animation: fade 2491ms ease-in-out infinite, glow 2491ms ease-in-out infinite;
+}
+
+.dot379 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1727px;
+  top: 366px;
+  background-color: #90c516;
+  border-radius: 100%;
+  -webkit-animation: fade 10481ms ease-in-out infinite, glow 10481ms ease-in-out infinite;
+          animation: fade 10481ms ease-in-out infinite, glow 10481ms ease-in-out infinite;
+}
+
+.dot380 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 267px;
+  top: 128px;
+  background-color: #e39204;
+  border-radius: 100%;
+  -webkit-animation: fade 2543ms ease-in-out infinite, glow 2543ms ease-in-out infinite;
+          animation: fade 2543ms ease-in-out infinite, glow 2543ms ease-in-out infinite;
+}
+
+.dot381 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 700px;
+  top: 672px;
+  background-color: #ded96d;
+  border-radius: 100%;
+  -webkit-animation: fade 1395ms ease-in-out infinite, glow 1395ms ease-in-out infinite;
+          animation: fade 1395ms ease-in-out infinite, glow 1395ms ease-in-out infinite;
+}
+
+.dot382 {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 970px;
+  top: 425px;
+  background-color: #41a408;
+  border-radius: 100%;
+  -webkit-animation: fade 9589ms ease-in-out infinite, glow 9589ms ease-in-out infinite;
+          animation: fade 9589ms ease-in-out infinite, glow 9589ms ease-in-out infinite;
+}
+
+.dot383 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 610px;
+  top: 255px;
+  background-color: #5e7896;
+  border-radius: 100%;
+  -webkit-animation: fade 9647ms ease-in-out infinite, glow 9647ms ease-in-out infinite;
+          animation: fade 9647ms ease-in-out infinite, glow 9647ms ease-in-out infinite;
+}
+
+.dot384 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1295px;
+  top: 747px;
+  background-color: #42d4b9;
+  border-radius: 100%;
+  -webkit-animation: fade 2563ms ease-in-out infinite, glow 2563ms ease-in-out infinite;
+          animation: fade 2563ms ease-in-out infinite, glow 2563ms ease-in-out infinite;
+}
+
+.dot385 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 263px;
+  top: 275px;
+  background-color: #fc47fc;
+  border-radius: 100%;
+  -webkit-animation: fade 2869ms ease-in-out infinite, glow 2869ms ease-in-out infinite;
+          animation: fade 2869ms ease-in-out infinite, glow 2869ms ease-in-out infinite;
+}
+
+.dot386 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1240px;
+  top: 585px;
+  background-color: #621367;
+  border-radius: 100%;
+  -webkit-animation: fade 11796ms ease-in-out infinite, glow 11796ms ease-in-out infinite;
+          animation: fade 11796ms ease-in-out infinite, glow 11796ms ease-in-out infinite;
+}
+
+.dot387 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 1822px;
+  top: 413px;
+  background-color: #5fcb18;
+  border-radius: 100%;
+  -webkit-animation: fade 684ms ease-in-out infinite, glow 684ms ease-in-out infinite;
+          animation: fade 684ms ease-in-out infinite, glow 684ms ease-in-out infinite;
+}
+
+.dot388 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1272px;
+  top: 427px;
+  background-color: #d95528;
+  border-radius: 100%;
+  -webkit-animation: fade 674ms ease-in-out infinite, glow 674ms ease-in-out infinite;
+          animation: fade 674ms ease-in-out infinite, glow 674ms ease-in-out infinite;
+}
+
+.dot389 {
+  position: absolute;
+  width: 1vw;
+  height: 1vw;
+  left: 1912px;
+  top: 782px;
+  background-color: #1ec625;
+  border-radius: 100%;
+  -webkit-animation: fade 3508ms ease-in-out infinite, glow 3508ms ease-in-out infinite;
+          animation: fade 3508ms ease-in-out infinite, glow 3508ms ease-in-out infinite;
+}
+
+.dot390 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1745px;
+  top: 701px;
+  background-color: #c533af;
+  border-radius: 100%;
+  -webkit-animation: fade 2313ms ease-in-out infinite, glow 2313ms ease-in-out infinite;
+          animation: fade 2313ms ease-in-out infinite, glow 2313ms ease-in-out infinite;
+}
+
+.dot391 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 799px;
+  top: 271px;
+  background-color: #b02ec9;
+  border-radius: 100%;
+  -webkit-animation: fade 10202ms ease-in-out infinite, glow 10202ms ease-in-out infinite;
+          animation: fade 10202ms ease-in-out infinite, glow 10202ms ease-in-out infinite;
+}
+
+.dot392 {
+  position: absolute;
+  width: 1.25vw;
+  height: 1.25vw;
+  left: 202px;
+  top: 586px;
+  background-color: #51430d;
+  border-radius: 100%;
+  -webkit-animation: fade 10483ms ease-in-out infinite, glow 10483ms ease-in-out infinite;
+          animation: fade 10483ms ease-in-out infinite, glow 10483ms ease-in-out infinite;
+}
+
+.dot393 {
+  position: absolute;
+  width: 1.75vw;
+  height: 1.75vw;
+  left: 110px;
+  top: 880px;
+  background-color: #d09f78;
+  border-radius: 100%;
+  -webkit-animation: fade 4575ms ease-in-out infinite, glow 4575ms ease-in-out infinite;
+          animation: fade 4575ms ease-in-out infinite, glow 4575ms ease-in-out infinite;
+}
+
+.dot394 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1251px;
+  top: 798px;
+  background-color: #17db87;
+  border-radius: 100%;
+  -webkit-animation: fade 1133ms ease-in-out infinite, glow 1133ms ease-in-out infinite;
+          animation: fade 1133ms ease-in-out infinite, glow 1133ms ease-in-out infinite;
+}
+
+.dot395 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 813px;
+  top: 472px;
+  background-color: #da3a13;
+  border-radius: 100%;
+  -webkit-animation: fade 10228ms ease-in-out infinite, glow 10228ms ease-in-out infinite;
+          animation: fade 10228ms ease-in-out infinite, glow 10228ms ease-in-out infinite;
+}
+
+.dot396 {
+  position: absolute;
+  width: 2.25vw;
+  height: 2.25vw;
+  left: 6px;
+  top: 213px;
+  background-color: #68f999;
+  border-radius: 100%;
+  -webkit-animation: fade 9171ms ease-in-out infinite, glow 9171ms ease-in-out infinite;
+          animation: fade 9171ms ease-in-out infinite, glow 9171ms ease-in-out infinite;
+}
+
+.dot397 {
+  position: absolute;
+  width: 0.5vw;
+  height: 0.5vw;
+  left: 897px;
+  top: 195px;
+  background-color: #709ad0;
+  border-radius: 100%;
+  -webkit-animation: fade 5035ms ease-in-out infinite, glow 5035ms ease-in-out infinite;
+          animation: fade 5035ms ease-in-out infinite, glow 5035ms ease-in-out infinite;
+}
+
+.dot398 {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+  left: 1888px;
+  top: 917px;
+  background-color: #24a1dd;
+  border-radius: 100%;
+  -webkit-animation: fade 8324ms ease-in-out infinite, glow 8324ms ease-in-out infinite;
+          animation: fade 8324ms ease-in-out infinite, glow 8324ms ease-in-out infinite;
+}
+
+.dot399 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1068px;
+  top: 317px;
+  background-color: #f27648;
+  border-radius: 100%;
+  -webkit-animation: fade 3062ms ease-in-out infinite, glow 3062ms ease-in-out infinite;
+          animation: fade 3062ms ease-in-out infinite, glow 3062ms ease-in-out infinite;
+}
+
+.dot400 {
+  position: absolute;
+  width: 0.75vw;
+  height: 0.75vw;
+  left: 1142px;
+  top: 161px;
+  background-color: #6e21fe;
+  border-radius: 100%;
+  -webkit-animation: fade 11157ms ease-in-out infinite, glow 11157ms ease-in-out infinite;
+          animation: fade 11157ms ease-in-out infinite, glow 11157ms ease-in-out infinite;
+}
+
+@-webkit-keyframes fade {
+  0% {
+  }
+  50% {
+    -webkit-transform: scale(1.5) translateX(-300vw) translateY(-300vw);
+            transform: scale(1.5) translateX(-300vw) translateY(-300vw);
+  }
+  75% {
+    left: 15%;
+  }
+  100% {
+    -webkit-transform: scale(1) translateX(300vw) translateY(300vw);
+            transform: scale(1) translateX(300vw) translateY(300vw);
+  }
+}
+
+@keyframes fade {
+  0% {
+  }
+  50% {
+    -webkit-transform: scale(1.5) translateX(-300vw) translateY(-300vw);
+            transform: scale(1.5) translateX(-300vw) translateY(-300vw);
+  }
+  75% {
+    left: 15%;
+  }
+  100% {
+    -webkit-transform: scale(1) translateX(300vw) translateY(300vw);
+            transform: scale(1) translateX(300vw) translateY(300vw);
+  }
+}
+
+.dots:nth-child(4n) {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
+.dots:nth-child(4n) {
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+@-webkit-keyframes glow {
+  0% {
+  }
+  50% {
+    -webkit-box-shadow: 0px 0px 2px 2px #f18714;
+            box-shadow: 0px 0px 2px 2px #f18714;
+  }
+  100% {
+    -webkit-box-shadow: 0px 0px 2px 2px #02ed3c;
+            box-shadow: 0px 0px 2px 2px #02ed3c;
+  }
+}
+
+@keyframes glow {
+  0% {
+  }
+  50% {
+    -webkit-box-shadow: 0px 0px 2px 2px #f18714;
+            box-shadow: 0px 0px 2px 2px #f18714;
+  }
+  100% {
+    -webkit-box-shadow: 0px 0px 2px 2px #02ed3c;
+            box-shadow: 0px 0px 2px 2px #02ed3c;
+  }
+}
+/*# sourceMappingURL=style.css.map */
