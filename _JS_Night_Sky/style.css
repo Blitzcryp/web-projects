@@ -1,0 +1,3652 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+#body1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#283E51), to(#0A2342));
+  background-image: linear-gradient(#283E51, #0A2342);
+  background-size: cover;
+}
+
+#body1 .stars {
+  position: absolute;
+  background-color: white;
+  border-radius: 100%;
+}
+
+#body1 .star1 {
+  width: 4px;
+  height: 4px;
+  left: 38%;
+  top: 7%;
+  -webkit-animation: flicker 11324ms ease-in-out infinite;
+          animation: flicker 11324ms ease-in-out infinite;
+}
+
+#body1 .star2 {
+  width: 1px;
+  height: 1px;
+  left: 18%;
+  top: 19%;
+  -webkit-animation: flicker 7382ms ease-in-out infinite;
+          animation: flicker 7382ms ease-in-out infinite;
+}
+
+#body1 .star3 {
+  width: 3px;
+  height: 3px;
+  left: 49%;
+  top: 21%;
+  -webkit-animation: flicker 11996ms ease-in-out infinite;
+          animation: flicker 11996ms ease-in-out infinite;
+}
+
+#body1 .star4 {
+  width: 2px;
+  height: 2px;
+  left: 47%;
+  top: 40%;
+  -webkit-animation: flicker 6119ms ease-in-out infinite;
+          animation: flicker 6119ms ease-in-out infinite;
+}
+
+#body1 .star5 {
+  width: 4px;
+  height: 4px;
+  left: 37%;
+  top: 4%;
+  -webkit-animation: flicker 10420ms ease-in-out infinite;
+          animation: flicker 10420ms ease-in-out infinite;
+}
+
+#body1 .star6 {
+  width: 5px;
+  height: 5px;
+  left: 5%;
+  top: 51%;
+  -webkit-animation: flicker 10900ms ease-in-out infinite;
+          animation: flicker 10900ms ease-in-out infinite;
+}
+
+#body1 .star7 {
+  width: 2px;
+  height: 2px;
+  left: 64%;
+  top: 30%;
+  -webkit-animation: flicker 7421ms ease-in-out infinite;
+          animation: flicker 7421ms ease-in-out infinite;
+}
+
+#body1 .star8 {
+  width: 5px;
+  height: 5px;
+  left: 49%;
+  top: 27%;
+  -webkit-animation: flicker 9200ms ease-in-out infinite;
+          animation: flicker 9200ms ease-in-out infinite;
+}
+
+#body1 .star9 {
+  width: 4px;
+  height: 4px;
+  left: 3%;
+  top: 13%;
+  -webkit-animation: flicker 11418ms ease-in-out infinite;
+          animation: flicker 11418ms ease-in-out infinite;
+}
+
+#body1 .star10 {
+  width: 1px;
+  height: 1px;
+  left: 47%;
+  top: 37%;
+  -webkit-animation: flicker 7039ms ease-in-out infinite;
+          animation: flicker 7039ms ease-in-out infinite;
+}
+
+#body1 .star11 {
+  width: 1px;
+  height: 1px;
+  left: 58%;
+  top: 43%;
+  -webkit-animation: flicker 8695ms ease-in-out infinite;
+          animation: flicker 8695ms ease-in-out infinite;
+}
+
+#body1 .star12 {
+  width: 1px;
+  height: 1px;
+  left: 63%;
+  top: 10%;
+  -webkit-animation: flicker 11135ms ease-in-out infinite;
+          animation: flicker 11135ms ease-in-out infinite;
+}
+
+#body1 .star13 {
+  width: 3px;
+  height: 3px;
+  left: 33%;
+  top: 23%;
+  -webkit-animation: flicker 10940ms ease-in-out infinite;
+          animation: flicker 10940ms ease-in-out infinite;
+}
+
+#body1 .star14 {
+  width: 4px;
+  height: 4px;
+  left: 19%;
+  top: 14%;
+  -webkit-animation: flicker 6258ms ease-in-out infinite;
+          animation: flicker 6258ms ease-in-out infinite;
+}
+
+#body1 .star15 {
+  width: 2px;
+  height: 2px;
+  left: 50%;
+  top: 27%;
+  -webkit-animation: flicker 8642ms ease-in-out infinite;
+          animation: flicker 8642ms ease-in-out infinite;
+}
+
+#body1 .star16 {
+  width: 4px;
+  height: 4px;
+  left: 17%;
+  top: 14%;
+  -webkit-animation: flicker 11675ms ease-in-out infinite;
+          animation: flicker 11675ms ease-in-out infinite;
+}
+
+#body1 .star17 {
+  width: 3px;
+  height: 3px;
+  left: 89%;
+  top: 26%;
+  -webkit-animation: flicker 8741ms ease-in-out infinite;
+          animation: flicker 8741ms ease-in-out infinite;
+}
+
+#body1 .star18 {
+  width: 4px;
+  height: 4px;
+  left: 47%;
+  top: 8%;
+  -webkit-animation: flicker 7736ms ease-in-out infinite;
+          animation: flicker 7736ms ease-in-out infinite;
+}
+
+#body1 .star19 {
+  width: 3px;
+  height: 3px;
+  left: 96%;
+  top: 13%;
+  -webkit-animation: flicker 9295ms ease-in-out infinite;
+          animation: flicker 9295ms ease-in-out infinite;
+}
+
+#body1 .star20 {
+  width: 1px;
+  height: 1px;
+  left: 12%;
+  top: 23%;
+  -webkit-animation: flicker 10664ms ease-in-out infinite;
+          animation: flicker 10664ms ease-in-out infinite;
+}
+
+#body1 .star21 {
+  width: 1px;
+  height: 1px;
+  left: 63%;
+  top: 14%;
+  -webkit-animation: flicker 10504ms ease-in-out infinite;
+          animation: flicker 10504ms ease-in-out infinite;
+}
+
+#body1 .star22 {
+  width: 3px;
+  height: 3px;
+  left: 27%;
+  top: 13%;
+  -webkit-animation: flicker 6086ms ease-in-out infinite;
+          animation: flicker 6086ms ease-in-out infinite;
+}
+
+#body1 .star23 {
+  width: 5px;
+  height: 5px;
+  left: 15%;
+  top: 29%;
+  -webkit-animation: flicker 6445ms ease-in-out infinite;
+          animation: flicker 6445ms ease-in-out infinite;
+}
+
+#body1 .star24 {
+  width: 1px;
+  height: 1px;
+  left: 71%;
+  top: 31%;
+  -webkit-animation: flicker 11746ms ease-in-out infinite;
+          animation: flicker 11746ms ease-in-out infinite;
+}
+
+#body1 .star25 {
+  width: 3px;
+  height: 3px;
+  left: 39%;
+  top: 37%;
+  -webkit-animation: flicker 9812ms ease-in-out infinite;
+          animation: flicker 9812ms ease-in-out infinite;
+}
+
+#body1 .star26 {
+  width: 1px;
+  height: 1px;
+  left: 15%;
+  top: 40%;
+  -webkit-animation: flicker 10949ms ease-in-out infinite;
+          animation: flicker 10949ms ease-in-out infinite;
+}
+
+#body1 .star27 {
+  width: 2px;
+  height: 2px;
+  left: 9%;
+  top: 39%;
+  -webkit-animation: flicker 8063ms ease-in-out infinite;
+          animation: flicker 8063ms ease-in-out infinite;
+}
+
+#body1 .star28 {
+  width: 4px;
+  height: 4px;
+  left: 65%;
+  top: 45%;
+  -webkit-animation: flicker 9465ms ease-in-out infinite;
+          animation: flicker 9465ms ease-in-out infinite;
+}
+
+#body1 .star29 {
+  width: 4px;
+  height: 4px;
+  left: 59%;
+  top: 41%;
+  -webkit-animation: flicker 10998ms ease-in-out infinite;
+          animation: flicker 10998ms ease-in-out infinite;
+}
+
+#body1 .star30 {
+  width: 4px;
+  height: 4px;
+  left: 52%;
+  top: 54%;
+  -webkit-animation: flicker 7257ms ease-in-out infinite;
+          animation: flicker 7257ms ease-in-out infinite;
+}
+
+#body1 .star31 {
+  width: 4px;
+  height: 4px;
+  left: 96%;
+  top: 41%;
+  -webkit-animation: flicker 10316ms ease-in-out infinite;
+          animation: flicker 10316ms ease-in-out infinite;
+}
+
+#body1 .star32 {
+  width: 5px;
+  height: 5px;
+  left: 68%;
+  top: 47%;
+  -webkit-animation: flicker 6087ms ease-in-out infinite;
+          animation: flicker 6087ms ease-in-out infinite;
+}
+
+#body1 .star33 {
+  width: 5px;
+  height: 5px;
+  left: 13%;
+  top: 52%;
+  -webkit-animation: flicker 7415ms ease-in-out infinite;
+          animation: flicker 7415ms ease-in-out infinite;
+}
+
+#body1 .star34 {
+  width: 3px;
+  height: 3px;
+  left: 13%;
+  top: 44%;
+  -webkit-animation: flicker 10035ms ease-in-out infinite;
+          animation: flicker 10035ms ease-in-out infinite;
+}
+
+#body1 .star35 {
+  width: 1px;
+  height: 1px;
+  left: 51%;
+  top: 30%;
+  -webkit-animation: flicker 10093ms ease-in-out infinite;
+          animation: flicker 10093ms ease-in-out infinite;
+}
+
+#body1 .star36 {
+  width: 3px;
+  height: 3px;
+  left: 35%;
+  top: 59%;
+  -webkit-animation: flicker 6231ms ease-in-out infinite;
+          animation: flicker 6231ms ease-in-out infinite;
+}
+
+#body1 .star37 {
+  width: 3px;
+  height: 3px;
+  left: 70%;
+  top: 34%;
+  -webkit-animation: flicker 9428ms ease-in-out infinite;
+          animation: flicker 9428ms ease-in-out infinite;
+}
+
+#body1 .star38 {
+  width: 1px;
+  height: 1px;
+  left: 43%;
+  top: 35%;
+  -webkit-animation: flicker 11384ms ease-in-out infinite;
+          animation: flicker 11384ms ease-in-out infinite;
+}
+
+#body1 .star39 {
+  width: 5px;
+  height: 5px;
+  left: 11%;
+  top: 4%;
+  -webkit-animation: flicker 6177ms ease-in-out infinite;
+          animation: flicker 6177ms ease-in-out infinite;
+}
+
+#body1 .star40 {
+  width: 3px;
+  height: 3px;
+  left: 97%;
+  top: 40%;
+  -webkit-animation: flicker 11524ms ease-in-out infinite;
+          animation: flicker 11524ms ease-in-out infinite;
+}
+
+#body1 .star41 {
+  width: 4px;
+  height: 4px;
+  left: 79%;
+  top: 44%;
+  -webkit-animation: flicker 9983ms ease-in-out infinite;
+          animation: flicker 9983ms ease-in-out infinite;
+}
+
+#body1 .star42 {
+  width: 5px;
+  height: 5px;
+  left: 76%;
+  top: 51%;
+  -webkit-animation: flicker 6866ms ease-in-out infinite;
+          animation: flicker 6866ms ease-in-out infinite;
+}
+
+#body1 .star43 {
+  width: 1px;
+  height: 1px;
+  left: 80%;
+  top: 18%;
+  -webkit-animation: flicker 7352ms ease-in-out infinite;
+          animation: flicker 7352ms ease-in-out infinite;
+}
+
+#body1 .star44 {
+  width: 4px;
+  height: 4px;
+  left: 89%;
+  top: 60%;
+  -webkit-animation: flicker 8725ms ease-in-out infinite;
+          animation: flicker 8725ms ease-in-out infinite;
+}
+
+#body1 .star45 {
+  width: 5px;
+  height: 5px;
+  left: 41%;
+  top: 32%;
+  -webkit-animation: flicker 7385ms ease-in-out infinite;
+          animation: flicker 7385ms ease-in-out infinite;
+}
+
+#body1 .star46 {
+  width: 4px;
+  height: 4px;
+  left: 50%;
+  top: 36%;
+  -webkit-animation: flicker 9873ms ease-in-out infinite;
+          animation: flicker 9873ms ease-in-out infinite;
+}
+
+#body1 .star47 {
+  width: 2px;
+  height: 2px;
+  left: 76%;
+  top: 46%;
+  -webkit-animation: flicker 10697ms ease-in-out infinite;
+          animation: flicker 10697ms ease-in-out infinite;
+}
+
+#body1 .star48 {
+  width: 2px;
+  height: 2px;
+  left: 61%;
+  top: 47%;
+  -webkit-animation: flicker 11273ms ease-in-out infinite;
+          animation: flicker 11273ms ease-in-out infinite;
+}
+
+#body1 .star49 {
+  width: 3px;
+  height: 3px;
+  left: 70%;
+  top: 29%;
+  -webkit-animation: flicker 10313ms ease-in-out infinite;
+          animation: flicker 10313ms ease-in-out infinite;
+}
+
+#body1 .star50 {
+  width: 1px;
+  height: 1px;
+  left: 50%;
+  top: 17%;
+  -webkit-animation: flicker 11695ms ease-in-out infinite;
+          animation: flicker 11695ms ease-in-out infinite;
+}
+
+#body1 .star51 {
+  width: 3px;
+  height: 3px;
+  left: 30%;
+  top: 7%;
+  -webkit-animation: flicker 9206ms ease-in-out infinite;
+          animation: flicker 9206ms ease-in-out infinite;
+}
+
+#body1 .star52 {
+  width: 2px;
+  height: 2px;
+  left: 14%;
+  top: 5%;
+  -webkit-animation: flicker 9863ms ease-in-out infinite;
+          animation: flicker 9863ms ease-in-out infinite;
+}
+
+#body1 .star53 {
+  width: 2px;
+  height: 2px;
+  left: 66%;
+  top: 33%;
+  -webkit-animation: flicker 10592ms ease-in-out infinite;
+          animation: flicker 10592ms ease-in-out infinite;
+}
+
+#body1 .star54 {
+  width: 3px;
+  height: 3px;
+  left: 5%;
+  top: 40%;
+  -webkit-animation: flicker 8891ms ease-in-out infinite;
+          animation: flicker 8891ms ease-in-out infinite;
+}
+
+#body1 .star55 {
+  width: 4px;
+  height: 4px;
+  left: 54%;
+  top: 54%;
+  -webkit-animation: flicker 7443ms ease-in-out infinite;
+          animation: flicker 7443ms ease-in-out infinite;
+}
+
+#body1 .star56 {
+  width: 3px;
+  height: 3px;
+  left: 57%;
+  top: 15%;
+  -webkit-animation: flicker 9917ms ease-in-out infinite;
+          animation: flicker 9917ms ease-in-out infinite;
+}
+
+#body1 .star57 {
+  width: 5px;
+  height: 5px;
+  left: 37%;
+  top: 14%;
+  -webkit-animation: flicker 9974ms ease-in-out infinite;
+          animation: flicker 9974ms ease-in-out infinite;
+}
+
+#body1 .star58 {
+  width: 5px;
+  height: 5px;
+  left: 100%;
+  top: 29%;
+  -webkit-animation: flicker 6863ms ease-in-out infinite;
+          animation: flicker 6863ms ease-in-out infinite;
+}
+
+#body1 .star59 {
+  width: 5px;
+  height: 5px;
+  left: 61%;
+  top: 35%;
+  -webkit-animation: flicker 6449ms ease-in-out infinite;
+          animation: flicker 6449ms ease-in-out infinite;
+}
+
+#body1 .star60 {
+  width: 4px;
+  height: 4px;
+  left: 5%;
+  top: 14%;
+  -webkit-animation: flicker 6560ms ease-in-out infinite;
+          animation: flicker 6560ms ease-in-out infinite;
+}
+
+#body1 .star61 {
+  width: 1px;
+  height: 1px;
+  left: 38%;
+  top: 28%;
+  -webkit-animation: flicker 6022ms ease-in-out infinite;
+          animation: flicker 6022ms ease-in-out infinite;
+}
+
+#body1 .star62 {
+  width: 4px;
+  height: 4px;
+  left: 94%;
+  top: 13%;
+  -webkit-animation: flicker 8499ms ease-in-out infinite;
+          animation: flicker 8499ms ease-in-out infinite;
+}
+
+#body1 .star63 {
+  width: 5px;
+  height: 5px;
+  left: 8%;
+  top: 31%;
+  -webkit-animation: flicker 8206ms ease-in-out infinite;
+          animation: flicker 8206ms ease-in-out infinite;
+}
+
+#body1 .star64 {
+  width: 4px;
+  height: 4px;
+  left: 91%;
+  top: 56%;
+  -webkit-animation: flicker 8348ms ease-in-out infinite;
+          animation: flicker 8348ms ease-in-out infinite;
+}
+
+#body1 .star65 {
+  width: 4px;
+  height: 4px;
+  left: 41%;
+  top: 46%;
+  -webkit-animation: flicker 9556ms ease-in-out infinite;
+          animation: flicker 9556ms ease-in-out infinite;
+}
+
+#body1 .star66 {
+  width: 1px;
+  height: 1px;
+  left: 36%;
+  top: 44%;
+  -webkit-animation: flicker 6425ms ease-in-out infinite;
+          animation: flicker 6425ms ease-in-out infinite;
+}
+
+#body1 .star67 {
+  width: 5px;
+  height: 5px;
+  left: 22%;
+  top: 54%;
+  -webkit-animation: flicker 8111ms ease-in-out infinite;
+          animation: flicker 8111ms ease-in-out infinite;
+}
+
+#body1 .star68 {
+  width: 1px;
+  height: 1px;
+  left: 12%;
+  top: 9%;
+  -webkit-animation: flicker 8601ms ease-in-out infinite;
+          animation: flicker 8601ms ease-in-out infinite;
+}
+
+#body1 .star69 {
+  width: 2px;
+  height: 2px;
+  left: 82%;
+  top: 39%;
+  -webkit-animation: flicker 9441ms ease-in-out infinite;
+          animation: flicker 9441ms ease-in-out infinite;
+}
+
+#body1 .star70 {
+  width: 1px;
+  height: 1px;
+  left: 14%;
+  top: 60%;
+  -webkit-animation: flicker 8101ms ease-in-out infinite;
+          animation: flicker 8101ms ease-in-out infinite;
+}
+
+#body1 .star71 {
+  width: 3px;
+  height: 3px;
+  left: 70%;
+  top: 52%;
+  -webkit-animation: flicker 11885ms ease-in-out infinite;
+          animation: flicker 11885ms ease-in-out infinite;
+}
+
+#body1 .star72 {
+  width: 3px;
+  height: 3px;
+  left: 65%;
+  top: 26%;
+  -webkit-animation: flicker 7842ms ease-in-out infinite;
+          animation: flicker 7842ms ease-in-out infinite;
+}
+
+#body1 .star73 {
+  width: 2px;
+  height: 2px;
+  left: 9%;
+  top: 5%;
+  -webkit-animation: flicker 8003ms ease-in-out infinite;
+          animation: flicker 8003ms ease-in-out infinite;
+}
+
+#body1 .star74 {
+  width: 1px;
+  height: 1px;
+  left: 32%;
+  top: 2%;
+  -webkit-animation: flicker 7339ms ease-in-out infinite;
+          animation: flicker 7339ms ease-in-out infinite;
+}
+
+#body1 .star75 {
+  width: 3px;
+  height: 3px;
+  left: 1%;
+  top: 15%;
+  -webkit-animation: flicker 6179ms ease-in-out infinite;
+          animation: flicker 6179ms ease-in-out infinite;
+}
+
+#body1 .star76 {
+  width: 4px;
+  height: 4px;
+  left: 27%;
+  top: 10%;
+  -webkit-animation: flicker 8173ms ease-in-out infinite;
+          animation: flicker 8173ms ease-in-out infinite;
+}
+
+#body1 .star77 {
+  width: 3px;
+  height: 3px;
+  left: 44%;
+  top: 33%;
+  -webkit-animation: flicker 7643ms ease-in-out infinite;
+          animation: flicker 7643ms ease-in-out infinite;
+}
+
+#body1 .star78 {
+  width: 3px;
+  height: 3px;
+  left: 6%;
+  top: 35%;
+  -webkit-animation: flicker 11198ms ease-in-out infinite;
+          animation: flicker 11198ms ease-in-out infinite;
+}
+
+#body1 .star79 {
+  width: 3px;
+  height: 3px;
+  left: 29%;
+  top: 26%;
+  -webkit-animation: flicker 10811ms ease-in-out infinite;
+          animation: flicker 10811ms ease-in-out infinite;
+}
+
+#body1 .star80 {
+  width: 5px;
+  height: 5px;
+  left: 14%;
+  top: 27%;
+  -webkit-animation: flicker 8763ms ease-in-out infinite;
+          animation: flicker 8763ms ease-in-out infinite;
+}
+
+#body1 .star81 {
+  width: 2px;
+  height: 2px;
+  left: 81%;
+  top: 44%;
+  -webkit-animation: flicker 11815ms ease-in-out infinite;
+          animation: flicker 11815ms ease-in-out infinite;
+}
+
+#body1 .star82 {
+  width: 2px;
+  height: 2px;
+  left: 24%;
+  top: 47%;
+  -webkit-animation: flicker 9347ms ease-in-out infinite;
+          animation: flicker 9347ms ease-in-out infinite;
+}
+
+#body1 .star83 {
+  width: 1px;
+  height: 1px;
+  left: 31%;
+  top: 54%;
+  -webkit-animation: flicker 8962ms ease-in-out infinite;
+          animation: flicker 8962ms ease-in-out infinite;
+}
+
+#body1 .star84 {
+  width: 2px;
+  height: 2px;
+  left: 64%;
+  top: 12%;
+  -webkit-animation: flicker 9870ms ease-in-out infinite;
+          animation: flicker 9870ms ease-in-out infinite;
+}
+
+#body1 .star85 {
+  width: 4px;
+  height: 4px;
+  left: 54%;
+  top: 35%;
+  -webkit-animation: flicker 11684ms ease-in-out infinite;
+          animation: flicker 11684ms ease-in-out infinite;
+}
+
+#body1 .star86 {
+  width: 5px;
+  height: 5px;
+  left: 33%;
+  top: 43%;
+  -webkit-animation: flicker 8774ms ease-in-out infinite;
+          animation: flicker 8774ms ease-in-out infinite;
+}
+
+#body1 .star87 {
+  width: 4px;
+  height: 4px;
+  left: 90%;
+  top: 5%;
+  -webkit-animation: flicker 10245ms ease-in-out infinite;
+          animation: flicker 10245ms ease-in-out infinite;
+}
+
+#body1 .star88 {
+  width: 1px;
+  height: 1px;
+  left: 38%;
+  top: 22%;
+  -webkit-animation: flicker 10773ms ease-in-out infinite;
+          animation: flicker 10773ms ease-in-out infinite;
+}
+
+#body1 .star89 {
+  width: 1px;
+  height: 1px;
+  left: 6%;
+  top: 31%;
+  -webkit-animation: flicker 11747ms ease-in-out infinite;
+          animation: flicker 11747ms ease-in-out infinite;
+}
+
+#body1 .star90 {
+  width: 1px;
+  height: 1px;
+  left: 61%;
+  top: 43%;
+  -webkit-animation: flicker 8001ms ease-in-out infinite;
+          animation: flicker 8001ms ease-in-out infinite;
+}
+
+#body1 .star91 {
+  width: 3px;
+  height: 3px;
+  left: 54%;
+  top: 58%;
+  -webkit-animation: flicker 7755ms ease-in-out infinite;
+          animation: flicker 7755ms ease-in-out infinite;
+}
+
+#body1 .star92 {
+  width: 3px;
+  height: 3px;
+  left: 3%;
+  top: 7%;
+  -webkit-animation: flicker 6184ms ease-in-out infinite;
+          animation: flicker 6184ms ease-in-out infinite;
+}
+
+#body1 .star93 {
+  width: 5px;
+  height: 5px;
+  left: 40%;
+  top: 45%;
+  -webkit-animation: flicker 6424ms ease-in-out infinite;
+          animation: flicker 6424ms ease-in-out infinite;
+}
+
+#body1 .star94 {
+  width: 1px;
+  height: 1px;
+  left: 56%;
+  top: 44%;
+  -webkit-animation: flicker 10308ms ease-in-out infinite;
+          animation: flicker 10308ms ease-in-out infinite;
+}
+
+#body1 .star95 {
+  width: 1px;
+  height: 1px;
+  left: 33%;
+  top: 10%;
+  -webkit-animation: flicker 8912ms ease-in-out infinite;
+          animation: flicker 8912ms ease-in-out infinite;
+}
+
+#body1 .star96 {
+  width: 1px;
+  height: 1px;
+  left: 83%;
+  top: 25%;
+  -webkit-animation: flicker 9096ms ease-in-out infinite;
+          animation: flicker 9096ms ease-in-out infinite;
+}
+
+#body1 .star97 {
+  width: 4px;
+  height: 4px;
+  left: 50%;
+  top: 51%;
+  -webkit-animation: flicker 10767ms ease-in-out infinite;
+          animation: flicker 10767ms ease-in-out infinite;
+}
+
+#body1 .star98 {
+  width: 2px;
+  height: 2px;
+  left: 75%;
+  top: 53%;
+  -webkit-animation: flicker 10278ms ease-in-out infinite;
+          animation: flicker 10278ms ease-in-out infinite;
+}
+
+#body1 .star99 {
+  width: 1px;
+  height: 1px;
+  left: 55%;
+  top: 8%;
+  -webkit-animation: flicker 11295ms ease-in-out infinite;
+          animation: flicker 11295ms ease-in-out infinite;
+}
+
+#body1 .star100 {
+  width: 5px;
+  height: 5px;
+  left: 100%;
+  top: 43%;
+  -webkit-animation: flicker 9446ms ease-in-out infinite;
+          animation: flicker 9446ms ease-in-out infinite;
+}
+
+#body1 .star101 {
+  width: 3px;
+  height: 3px;
+  left: 23%;
+  top: 14%;
+  -webkit-animation: flicker 8238ms ease-in-out infinite;
+          animation: flicker 8238ms ease-in-out infinite;
+}
+
+#body1 .star102 {
+  width: 3px;
+  height: 3px;
+  left: 37%;
+  top: 16%;
+  -webkit-animation: flicker 9299ms ease-in-out infinite;
+          animation: flicker 9299ms ease-in-out infinite;
+}
+
+#body1 .star103 {
+  width: 4px;
+  height: 4px;
+  left: 74%;
+  top: 9%;
+  -webkit-animation: flicker 8429ms ease-in-out infinite;
+          animation: flicker 8429ms ease-in-out infinite;
+}
+
+#body1 .star104 {
+  width: 1px;
+  height: 1px;
+  left: 80%;
+  top: 14%;
+  -webkit-animation: flicker 8893ms ease-in-out infinite;
+          animation: flicker 8893ms ease-in-out infinite;
+}
+
+#body1 .star105 {
+  width: 2px;
+  height: 2px;
+  left: 90%;
+  top: 12%;
+  -webkit-animation: flicker 8987ms ease-in-out infinite;
+          animation: flicker 8987ms ease-in-out infinite;
+}
+
+#body1 .star106 {
+  width: 1px;
+  height: 1px;
+  left: 90%;
+  top: 42%;
+  -webkit-animation: flicker 11358ms ease-in-out infinite;
+          animation: flicker 11358ms ease-in-out infinite;
+}
+
+#body1 .star107 {
+  width: 4px;
+  height: 4px;
+  left: 11%;
+  top: 39%;
+  -webkit-animation: flicker 10695ms ease-in-out infinite;
+          animation: flicker 10695ms ease-in-out infinite;
+}
+
+#body1 .star108 {
+  width: 4px;
+  height: 4px;
+  left: 13%;
+  top: 29%;
+  -webkit-animation: flicker 9516ms ease-in-out infinite;
+          animation: flicker 9516ms ease-in-out infinite;
+}
+
+#body1 .star109 {
+  width: 2px;
+  height: 2px;
+  left: 51%;
+  top: 56%;
+  -webkit-animation: flicker 8846ms ease-in-out infinite;
+          animation: flicker 8846ms ease-in-out infinite;
+}
+
+#body1 .star110 {
+  width: 1px;
+  height: 1px;
+  left: 87%;
+  top: 4%;
+  -webkit-animation: flicker 9872ms ease-in-out infinite;
+          animation: flicker 9872ms ease-in-out infinite;
+}
+
+#body1 .star111 {
+  width: 2px;
+  height: 2px;
+  left: 10%;
+  top: 58%;
+  -webkit-animation: flicker 11055ms ease-in-out infinite;
+          animation: flicker 11055ms ease-in-out infinite;
+}
+
+#body1 .star112 {
+  width: 5px;
+  height: 5px;
+  left: 28%;
+  top: 46%;
+  -webkit-animation: flicker 8787ms ease-in-out infinite;
+          animation: flicker 8787ms ease-in-out infinite;
+}
+
+#body1 .star113 {
+  width: 3px;
+  height: 3px;
+  left: 14%;
+  top: 50%;
+  -webkit-animation: flicker 10112ms ease-in-out infinite;
+          animation: flicker 10112ms ease-in-out infinite;
+}
+
+#body1 .star114 {
+  width: 4px;
+  height: 4px;
+  left: 100%;
+  top: 18%;
+  -webkit-animation: flicker 9459ms ease-in-out infinite;
+          animation: flicker 9459ms ease-in-out infinite;
+}
+
+#body1 .star115 {
+  width: 4px;
+  height: 4px;
+  left: 23%;
+  top: 7%;
+  -webkit-animation: flicker 11044ms ease-in-out infinite;
+          animation: flicker 11044ms ease-in-out infinite;
+}
+
+#body1 .star116 {
+  width: 5px;
+  height: 5px;
+  left: 54%;
+  top: 39%;
+  -webkit-animation: flicker 8802ms ease-in-out infinite;
+          animation: flicker 8802ms ease-in-out infinite;
+}
+
+#body1 .star117 {
+  width: 5px;
+  height: 5px;
+  left: 7%;
+  top: 20%;
+  -webkit-animation: flicker 11785ms ease-in-out infinite;
+          animation: flicker 11785ms ease-in-out infinite;
+}
+
+#body1 .star118 {
+  width: 2px;
+  height: 2px;
+  left: 60%;
+  top: 21%;
+  -webkit-animation: flicker 10534ms ease-in-out infinite;
+          animation: flicker 10534ms ease-in-out infinite;
+}
+
+#body1 .star119 {
+  width: 5px;
+  height: 5px;
+  left: 13%;
+  top: 27%;
+  -webkit-animation: flicker 6307ms ease-in-out infinite;
+          animation: flicker 6307ms ease-in-out infinite;
+}
+
+#body1 .star120 {
+  width: 1px;
+  height: 1px;
+  left: 74%;
+  top: 54%;
+  -webkit-animation: flicker 9290ms ease-in-out infinite;
+          animation: flicker 9290ms ease-in-out infinite;
+}
+
+#body1 .star121 {
+  width: 5px;
+  height: 5px;
+  left: 93%;
+  top: 53%;
+  -webkit-animation: flicker 6101ms ease-in-out infinite;
+          animation: flicker 6101ms ease-in-out infinite;
+}
+
+#body1 .star122 {
+  width: 1px;
+  height: 1px;
+  left: 34%;
+  top: 39%;
+  -webkit-animation: flicker 8454ms ease-in-out infinite;
+          animation: flicker 8454ms ease-in-out infinite;
+}
+
+#body1 .star123 {
+  width: 2px;
+  height: 2px;
+  left: 81%;
+  top: 35%;
+  -webkit-animation: flicker 7136ms ease-in-out infinite;
+          animation: flicker 7136ms ease-in-out infinite;
+}
+
+#body1 .star124 {
+  width: 5px;
+  height: 5px;
+  left: 62%;
+  top: 26%;
+  -webkit-animation: flicker 7645ms ease-in-out infinite;
+          animation: flicker 7645ms ease-in-out infinite;
+}
+
+#body1 .star125 {
+  width: 4px;
+  height: 4px;
+  left: 76%;
+  top: 24%;
+  -webkit-animation: flicker 11720ms ease-in-out infinite;
+          animation: flicker 11720ms ease-in-out infinite;
+}
+
+#body1 .star126 {
+  width: 1px;
+  height: 1px;
+  left: 65%;
+  top: 50%;
+  -webkit-animation: flicker 9382ms ease-in-out infinite;
+          animation: flicker 9382ms ease-in-out infinite;
+}
+
+#body1 .star127 {
+  width: 1px;
+  height: 1px;
+  left: 90%;
+  top: 12%;
+  -webkit-animation: flicker 7477ms ease-in-out infinite;
+          animation: flicker 7477ms ease-in-out infinite;
+}
+
+#body1 .star128 {
+  width: 5px;
+  height: 5px;
+  left: 31%;
+  top: 58%;
+  -webkit-animation: flicker 10094ms ease-in-out infinite;
+          animation: flicker 10094ms ease-in-out infinite;
+}
+
+#body1 .star129 {
+  width: 5px;
+  height: 5px;
+  left: 26%;
+  top: 36%;
+  -webkit-animation: flicker 7378ms ease-in-out infinite;
+          animation: flicker 7378ms ease-in-out infinite;
+}
+
+#body1 .star130 {
+  width: 3px;
+  height: 3px;
+  left: 83%;
+  top: 38%;
+  -webkit-animation: flicker 8216ms ease-in-out infinite;
+          animation: flicker 8216ms ease-in-out infinite;
+}
+
+#body1 .star131 {
+  width: 3px;
+  height: 3px;
+  left: 95%;
+  top: 55%;
+  -webkit-animation: flicker 10432ms ease-in-out infinite;
+          animation: flicker 10432ms ease-in-out infinite;
+}
+
+#body1 .star132 {
+  width: 4px;
+  height: 4px;
+  left: 3%;
+  top: 12%;
+  -webkit-animation: flicker 11477ms ease-in-out infinite;
+          animation: flicker 11477ms ease-in-out infinite;
+}
+
+#body1 .star133 {
+  width: 5px;
+  height: 5px;
+  left: 69%;
+  top: 13%;
+  -webkit-animation: flicker 6249ms ease-in-out infinite;
+          animation: flicker 6249ms ease-in-out infinite;
+}
+
+#body1 .star134 {
+  width: 3px;
+  height: 3px;
+  left: 80%;
+  top: 18%;
+  -webkit-animation: flicker 6395ms ease-in-out infinite;
+          animation: flicker 6395ms ease-in-out infinite;
+}
+
+#body1 .star135 {
+  width: 2px;
+  height: 2px;
+  left: 83%;
+  top: 1%;
+  -webkit-animation: flicker 10491ms ease-in-out infinite;
+          animation: flicker 10491ms ease-in-out infinite;
+}
+
+#body1 .star136 {
+  width: 3px;
+  height: 3px;
+  left: 63%;
+  top: 53%;
+  -webkit-animation: flicker 8267ms ease-in-out infinite;
+          animation: flicker 8267ms ease-in-out infinite;
+}
+
+#body1 .star137 {
+  width: 3px;
+  height: 3px;
+  left: 48%;
+  top: 34%;
+  -webkit-animation: flicker 11886ms ease-in-out infinite;
+          animation: flicker 11886ms ease-in-out infinite;
+}
+
+#body1 .star138 {
+  width: 2px;
+  height: 2px;
+  left: 100%;
+  top: 36%;
+  -webkit-animation: flicker 10611ms ease-in-out infinite;
+          animation: flicker 10611ms ease-in-out infinite;
+}
+
+#body1 .star139 {
+  width: 3px;
+  height: 3px;
+  left: 1%;
+  top: 13%;
+  -webkit-animation: flicker 6672ms ease-in-out infinite;
+          animation: flicker 6672ms ease-in-out infinite;
+}
+
+#body1 .star140 {
+  width: 4px;
+  height: 4px;
+  left: 58%;
+  top: 11%;
+  -webkit-animation: flicker 10298ms ease-in-out infinite;
+          animation: flicker 10298ms ease-in-out infinite;
+}
+
+#body1 .star141 {
+  width: 1px;
+  height: 1px;
+  left: 39%;
+  top: 22%;
+  -webkit-animation: flicker 6304ms ease-in-out infinite;
+          animation: flicker 6304ms ease-in-out infinite;
+}
+
+#body1 .star142 {
+  width: 3px;
+  height: 3px;
+  left: 11%;
+  top: 43%;
+  -webkit-animation: flicker 11804ms ease-in-out infinite;
+          animation: flicker 11804ms ease-in-out infinite;
+}
+
+#body1 .star143 {
+  width: 2px;
+  height: 2px;
+  left: 21%;
+  top: 27%;
+  -webkit-animation: flicker 8858ms ease-in-out infinite;
+          animation: flicker 8858ms ease-in-out infinite;
+}
+
+#body1 .star144 {
+  width: 4px;
+  height: 4px;
+  left: 49%;
+  top: 19%;
+  -webkit-animation: flicker 11943ms ease-in-out infinite;
+          animation: flicker 11943ms ease-in-out infinite;
+}
+
+#body1 .star145 {
+  width: 5px;
+  height: 5px;
+  left: 12%;
+  top: 35%;
+  -webkit-animation: flicker 7891ms ease-in-out infinite;
+          animation: flicker 7891ms ease-in-out infinite;
+}
+
+#body1 .star146 {
+  width: 1px;
+  height: 1px;
+  left: 24%;
+  top: 23%;
+  -webkit-animation: flicker 11320ms ease-in-out infinite;
+          animation: flicker 11320ms ease-in-out infinite;
+}
+
+#body1 .star147 {
+  width: 1px;
+  height: 1px;
+  left: 47%;
+  top: 47%;
+  -webkit-animation: flicker 9968ms ease-in-out infinite;
+          animation: flicker 9968ms ease-in-out infinite;
+}
+
+#body1 .star148 {
+  width: 1px;
+  height: 1px;
+  left: 63%;
+  top: 17%;
+  -webkit-animation: flicker 10539ms ease-in-out infinite;
+          animation: flicker 10539ms ease-in-out infinite;
+}
+
+#body1 .star149 {
+  width: 4px;
+  height: 4px;
+  left: 27%;
+  top: 13%;
+  -webkit-animation: flicker 9233ms ease-in-out infinite;
+          animation: flicker 9233ms ease-in-out infinite;
+}
+
+#body1 .star150 {
+  width: 3px;
+  height: 3px;
+  left: 20%;
+  top: 17%;
+  -webkit-animation: flicker 7998ms ease-in-out infinite;
+          animation: flicker 7998ms ease-in-out infinite;
+}
+
+#body1 .star151 {
+  width: 4px;
+  height: 4px;
+  left: 43%;
+  top: 31%;
+  -webkit-animation: flicker 10515ms ease-in-out infinite;
+          animation: flicker 10515ms ease-in-out infinite;
+}
+
+#body1 .star152 {
+  width: 3px;
+  height: 3px;
+  left: 47%;
+  top: 2%;
+  -webkit-animation: flicker 11579ms ease-in-out infinite;
+          animation: flicker 11579ms ease-in-out infinite;
+}
+
+#body1 .star153 {
+  width: 4px;
+  height: 4px;
+  left: 12%;
+  top: 52%;
+  -webkit-animation: flicker 8251ms ease-in-out infinite;
+          animation: flicker 8251ms ease-in-out infinite;
+}
+
+#body1 .star154 {
+  width: 3px;
+  height: 3px;
+  left: 79%;
+  top: 8%;
+  -webkit-animation: flicker 9640ms ease-in-out infinite;
+          animation: flicker 9640ms ease-in-out infinite;
+}
+
+#body1 .star155 {
+  width: 2px;
+  height: 2px;
+  left: 97%;
+  top: 36%;
+  -webkit-animation: flicker 6823ms ease-in-out infinite;
+          animation: flicker 6823ms ease-in-out infinite;
+}
+
+#body1 .star156 {
+  width: 3px;
+  height: 3px;
+  left: 64%;
+  top: 35%;
+  -webkit-animation: flicker 7110ms ease-in-out infinite;
+          animation: flicker 7110ms ease-in-out infinite;
+}
+
+#body1 .star157 {
+  width: 2px;
+  height: 2px;
+  left: 78%;
+  top: 7%;
+  -webkit-animation: flicker 8502ms ease-in-out infinite;
+          animation: flicker 8502ms ease-in-out infinite;
+}
+
+#body1 .star158 {
+  width: 4px;
+  height: 4px;
+  left: 79%;
+  top: 17%;
+  -webkit-animation: flicker 7017ms ease-in-out infinite;
+          animation: flicker 7017ms ease-in-out infinite;
+}
+
+#body1 .star159 {
+  width: 1px;
+  height: 1px;
+  left: 94%;
+  top: 4%;
+  -webkit-animation: flicker 9386ms ease-in-out infinite;
+          animation: flicker 9386ms ease-in-out infinite;
+}
+
+#body1 .star160 {
+  width: 4px;
+  height: 4px;
+  left: 15%;
+  top: 19%;
+  -webkit-animation: flicker 11817ms ease-in-out infinite;
+          animation: flicker 11817ms ease-in-out infinite;
+}
+
+#body1 .star161 {
+  width: 1px;
+  height: 1px;
+  left: 63%;
+  top: 15%;
+  -webkit-animation: flicker 7166ms ease-in-out infinite;
+          animation: flicker 7166ms ease-in-out infinite;
+}
+
+#body1 .star162 {
+  width: 2px;
+  height: 2px;
+  left: 80%;
+  top: 42%;
+  -webkit-animation: flicker 11523ms ease-in-out infinite;
+          animation: flicker 11523ms ease-in-out infinite;
+}
+
+#body1 .star163 {
+  width: 2px;
+  height: 2px;
+  left: 53%;
+  top: 27%;
+  -webkit-animation: flicker 7942ms ease-in-out infinite;
+          animation: flicker 7942ms ease-in-out infinite;
+}
+
+#body1 .star164 {
+  width: 3px;
+  height: 3px;
+  left: 64%;
+  top: 29%;
+  -webkit-animation: flicker 7739ms ease-in-out infinite;
+          animation: flicker 7739ms ease-in-out infinite;
+}
+
+#body1 .star165 {
+  width: 3px;
+  height: 3px;
+  left: 7%;
+  top: 23%;
+  -webkit-animation: flicker 9648ms ease-in-out infinite;
+          animation: flicker 9648ms ease-in-out infinite;
+}
+
+#body1 .star166 {
+  width: 2px;
+  height: 2px;
+  left: 74%;
+  top: 49%;
+  -webkit-animation: flicker 7377ms ease-in-out infinite;
+          animation: flicker 7377ms ease-in-out infinite;
+}
+
+#body1 .star167 {
+  width: 2px;
+  height: 2px;
+  left: 97%;
+  top: 32%;
+  -webkit-animation: flicker 9651ms ease-in-out infinite;
+          animation: flicker 9651ms ease-in-out infinite;
+}
+
+#body1 .star168 {
+  width: 5px;
+  height: 5px;
+  left: 56%;
+  top: 60%;
+  -webkit-animation: flicker 9248ms ease-in-out infinite;
+          animation: flicker 9248ms ease-in-out infinite;
+}
+
+#body1 .star169 {
+  width: 4px;
+  height: 4px;
+  left: 93%;
+  top: 1%;
+  -webkit-animation: flicker 10417ms ease-in-out infinite;
+          animation: flicker 10417ms ease-in-out infinite;
+}
+
+#body1 .star170 {
+  width: 5px;
+  height: 5px;
+  left: 22%;
+  top: 54%;
+  -webkit-animation: flicker 6473ms ease-in-out infinite;
+          animation: flicker 6473ms ease-in-out infinite;
+}
+
+#body1 .star171 {
+  width: 2px;
+  height: 2px;
+  left: 54%;
+  top: 27%;
+  -webkit-animation: flicker 11701ms ease-in-out infinite;
+          animation: flicker 11701ms ease-in-out infinite;
+}
+
+#body1 .star172 {
+  width: 4px;
+  height: 4px;
+  left: 33%;
+  top: 52%;
+  -webkit-animation: flicker 7915ms ease-in-out infinite;
+          animation: flicker 7915ms ease-in-out infinite;
+}
+
+#body1 .star173 {
+  width: 5px;
+  height: 5px;
+  left: 81%;
+  top: 60%;
+  -webkit-animation: flicker 10826ms ease-in-out infinite;
+          animation: flicker 10826ms ease-in-out infinite;
+}
+
+#body1 .star174 {
+  width: 3px;
+  height: 3px;
+  left: 66%;
+  top: 44%;
+  -webkit-animation: flicker 7637ms ease-in-out infinite;
+          animation: flicker 7637ms ease-in-out infinite;
+}
+
+#body1 .star175 {
+  width: 3px;
+  height: 3px;
+  left: 9%;
+  top: 18%;
+  -webkit-animation: flicker 9331ms ease-in-out infinite;
+          animation: flicker 9331ms ease-in-out infinite;
+}
+
+#body1 .star176 {
+  width: 5px;
+  height: 5px;
+  left: 82%;
+  top: 20%;
+  -webkit-animation: flicker 11231ms ease-in-out infinite;
+          animation: flicker 11231ms ease-in-out infinite;
+}
+
+#body1 .star177 {
+  width: 2px;
+  height: 2px;
+  left: 45%;
+  top: 29%;
+  -webkit-animation: flicker 7692ms ease-in-out infinite;
+          animation: flicker 7692ms ease-in-out infinite;
+}
+
+#body1 .star178 {
+  width: 5px;
+  height: 5px;
+  left: 50%;
+  top: 54%;
+  -webkit-animation: flicker 11042ms ease-in-out infinite;
+          animation: flicker 11042ms ease-in-out infinite;
+}
+
+#body1 .star179 {
+  width: 1px;
+  height: 1px;
+  left: 17%;
+  top: 19%;
+  -webkit-animation: flicker 7404ms ease-in-out infinite;
+          animation: flicker 7404ms ease-in-out infinite;
+}
+
+#body1 .star180 {
+  width: 1px;
+  height: 1px;
+  left: 27%;
+  top: 37%;
+  -webkit-animation: flicker 7701ms ease-in-out infinite;
+          animation: flicker 7701ms ease-in-out infinite;
+}
+
+#body1 .star181 {
+  width: 3px;
+  height: 3px;
+  left: 58%;
+  top: 4%;
+  -webkit-animation: flicker 9309ms ease-in-out infinite;
+          animation: flicker 9309ms ease-in-out infinite;
+}
+
+#body1 .star182 {
+  width: 1px;
+  height: 1px;
+  left: 60%;
+  top: 25%;
+  -webkit-animation: flicker 10100ms ease-in-out infinite;
+          animation: flicker 10100ms ease-in-out infinite;
+}
+
+#body1 .star183 {
+  width: 3px;
+  height: 3px;
+  left: 8%;
+  top: 18%;
+  -webkit-animation: flicker 7500ms ease-in-out infinite;
+          animation: flicker 7500ms ease-in-out infinite;
+}
+
+#body1 .star184 {
+  width: 5px;
+  height: 5px;
+  left: 76%;
+  top: 58%;
+  -webkit-animation: flicker 11118ms ease-in-out infinite;
+          animation: flicker 11118ms ease-in-out infinite;
+}
+
+#body1 .star185 {
+  width: 1px;
+  height: 1px;
+  left: 37%;
+  top: 46%;
+  -webkit-animation: flicker 7747ms ease-in-out infinite;
+          animation: flicker 7747ms ease-in-out infinite;
+}
+
+#body1 .star186 {
+  width: 2px;
+  height: 2px;
+  left: 3%;
+  top: 10%;
+  -webkit-animation: flicker 11245ms ease-in-out infinite;
+          animation: flicker 11245ms ease-in-out infinite;
+}
+
+#body1 .star187 {
+  width: 3px;
+  height: 3px;
+  left: 22%;
+  top: 22%;
+  -webkit-animation: flicker 10711ms ease-in-out infinite;
+          animation: flicker 10711ms ease-in-out infinite;
+}
+
+#body1 .star188 {
+  width: 4px;
+  height: 4px;
+  left: 17%;
+  top: 55%;
+  -webkit-animation: flicker 9718ms ease-in-out infinite;
+          animation: flicker 9718ms ease-in-out infinite;
+}
+
+#body1 .star189 {
+  width: 3px;
+  height: 3px;
+  left: 11%;
+  top: 35%;
+  -webkit-animation: flicker 10739ms ease-in-out infinite;
+          animation: flicker 10739ms ease-in-out infinite;
+}
+
+#body1 .star190 {
+  width: 1px;
+  height: 1px;
+  left: 18%;
+  top: 36%;
+  -webkit-animation: flicker 9036ms ease-in-out infinite;
+          animation: flicker 9036ms ease-in-out infinite;
+}
+
+#body1 .star191 {
+  width: 4px;
+  height: 4px;
+  left: 81%;
+  top: 29%;
+  -webkit-animation: flicker 6735ms ease-in-out infinite;
+          animation: flicker 6735ms ease-in-out infinite;
+}
+
+#body1 .star192 {
+  width: 3px;
+  height: 3px;
+  left: 21%;
+  top: 25%;
+  -webkit-animation: flicker 11464ms ease-in-out infinite;
+          animation: flicker 11464ms ease-in-out infinite;
+}
+
+#body1 .star193 {
+  width: 1px;
+  height: 1px;
+  left: 43%;
+  top: 30%;
+  -webkit-animation: flicker 7563ms ease-in-out infinite;
+          animation: flicker 7563ms ease-in-out infinite;
+}
+
+#body1 .star194 {
+  width: 2px;
+  height: 2px;
+  left: 25%;
+  top: 58%;
+  -webkit-animation: flicker 11989ms ease-in-out infinite;
+          animation: flicker 11989ms ease-in-out infinite;
+}
+
+#body1 .star195 {
+  width: 2px;
+  height: 2px;
+  left: 30%;
+  top: 4%;
+  -webkit-animation: flicker 9476ms ease-in-out infinite;
+          animation: flicker 9476ms ease-in-out infinite;
+}
+
+#body1 .star196 {
+  width: 1px;
+  height: 1px;
+  left: 54%;
+  top: 60%;
+  -webkit-animation: flicker 11948ms ease-in-out infinite;
+          animation: flicker 11948ms ease-in-out infinite;
+}
+
+#body1 .star197 {
+  width: 3px;
+  height: 3px;
+  left: 91%;
+  top: 57%;
+  -webkit-animation: flicker 10529ms ease-in-out infinite;
+          animation: flicker 10529ms ease-in-out infinite;
+}
+
+#body1 .star198 {
+  width: 1px;
+  height: 1px;
+  left: 61%;
+  top: 47%;
+  -webkit-animation: flicker 9170ms ease-in-out infinite;
+          animation: flicker 9170ms ease-in-out infinite;
+}
+
+#body1 .star199 {
+  width: 3px;
+  height: 3px;
+  left: 7%;
+  top: 3%;
+  -webkit-animation: flicker 8405ms ease-in-out infinite;
+          animation: flicker 8405ms ease-in-out infinite;
+}
+
+#body1 .star200 {
+  width: 2px;
+  height: 2px;
+  left: 3%;
+  top: 41%;
+  -webkit-animation: flicker 11878ms ease-in-out infinite;
+          animation: flicker 11878ms ease-in-out infinite;
+}
+
+#body1 .star201 {
+  width: 1px;
+  height: 1px;
+  left: 2%;
+  top: 33%;
+  -webkit-animation: flicker 9131ms ease-in-out infinite;
+          animation: flicker 9131ms ease-in-out infinite;
+}
+
+#body1 .star202 {
+  width: 1px;
+  height: 1px;
+  left: 18%;
+  top: 59%;
+  -webkit-animation: flicker 7672ms ease-in-out infinite;
+          animation: flicker 7672ms ease-in-out infinite;
+}
+
+#body1 .star203 {
+  width: 5px;
+  height: 5px;
+  left: 89%;
+  top: 38%;
+  -webkit-animation: flicker 11147ms ease-in-out infinite;
+          animation: flicker 11147ms ease-in-out infinite;
+}
+
+#body1 .star204 {
+  width: 3px;
+  height: 3px;
+  left: 38%;
+  top: 38%;
+  -webkit-animation: flicker 6841ms ease-in-out infinite;
+          animation: flicker 6841ms ease-in-out infinite;
+}
+
+#body1 .star205 {
+  width: 5px;
+  height: 5px;
+  left: 60%;
+  top: 44%;
+  -webkit-animation: flicker 9640ms ease-in-out infinite;
+          animation: flicker 9640ms ease-in-out infinite;
+}
+
+#body1 .star206 {
+  width: 4px;
+  height: 4px;
+  left: 34%;
+  top: 19%;
+  -webkit-animation: flicker 11225ms ease-in-out infinite;
+          animation: flicker 11225ms ease-in-out infinite;
+}
+
+#body1 .star207 {
+  width: 5px;
+  height: 5px;
+  left: 78%;
+  top: 6%;
+  -webkit-animation: flicker 7370ms ease-in-out infinite;
+          animation: flicker 7370ms ease-in-out infinite;
+}
+
+#body1 .star208 {
+  width: 1px;
+  height: 1px;
+  left: 61%;
+  top: 20%;
+  -webkit-animation: flicker 8626ms ease-in-out infinite;
+          animation: flicker 8626ms ease-in-out infinite;
+}
+
+#body1 .star209 {
+  width: 4px;
+  height: 4px;
+  left: 1%;
+  top: 39%;
+  -webkit-animation: flicker 7106ms ease-in-out infinite;
+          animation: flicker 7106ms ease-in-out infinite;
+}
+
+#body1 .star210 {
+  width: 5px;
+  height: 5px;
+  left: 55%;
+  top: 41%;
+  -webkit-animation: flicker 6521ms ease-in-out infinite;
+          animation: flicker 6521ms ease-in-out infinite;
+}
+
+#body1 .star211 {
+  width: 2px;
+  height: 2px;
+  left: 51%;
+  top: 34%;
+  -webkit-animation: flicker 10094ms ease-in-out infinite;
+          animation: flicker 10094ms ease-in-out infinite;
+}
+
+#body1 .star212 {
+  width: 5px;
+  height: 5px;
+  left: 99%;
+  top: 8%;
+  -webkit-animation: flicker 7356ms ease-in-out infinite;
+          animation: flicker 7356ms ease-in-out infinite;
+}
+
+#body1 .star213 {
+  width: 2px;
+  height: 2px;
+  left: 53%;
+  top: 2%;
+  -webkit-animation: flicker 8097ms ease-in-out infinite;
+          animation: flicker 8097ms ease-in-out infinite;
+}
+
+#body1 .star214 {
+  width: 1px;
+  height: 1px;
+  left: 15%;
+  top: 28%;
+  -webkit-animation: flicker 6581ms ease-in-out infinite;
+          animation: flicker 6581ms ease-in-out infinite;
+}
+
+#body1 .star215 {
+  width: 2px;
+  height: 2px;
+  left: 31%;
+  top: 27%;
+  -webkit-animation: flicker 7187ms ease-in-out infinite;
+          animation: flicker 7187ms ease-in-out infinite;
+}
+
+#body1 .star216 {
+  width: 5px;
+  height: 5px;
+  left: 32%;
+  top: 28%;
+  -webkit-animation: flicker 8307ms ease-in-out infinite;
+          animation: flicker 8307ms ease-in-out infinite;
+}
+
+#body1 .star217 {
+  width: 2px;
+  height: 2px;
+  left: 16%;
+  top: 48%;
+  -webkit-animation: flicker 8534ms ease-in-out infinite;
+          animation: flicker 8534ms ease-in-out infinite;
+}
+
+#body1 .star218 {
+  width: 5px;
+  height: 5px;
+  left: 29%;
+  top: 47%;
+  -webkit-animation: flicker 8947ms ease-in-out infinite;
+          animation: flicker 8947ms ease-in-out infinite;
+}
+
+#body1 .star219 {
+  width: 5px;
+  height: 5px;
+  left: 20%;
+  top: 53%;
+  -webkit-animation: flicker 7254ms ease-in-out infinite;
+          animation: flicker 7254ms ease-in-out infinite;
+}
+
+#body1 .star220 {
+  width: 5px;
+  height: 5px;
+  left: 55%;
+  top: 15%;
+  -webkit-animation: flicker 11044ms ease-in-out infinite;
+          animation: flicker 11044ms ease-in-out infinite;
+}
+
+#body1 .star221 {
+  width: 1px;
+  height: 1px;
+  left: 92%;
+  top: 23%;
+  -webkit-animation: flicker 7476ms ease-in-out infinite;
+          animation: flicker 7476ms ease-in-out infinite;
+}
+
+#body1 .star222 {
+  width: 5px;
+  height: 5px;
+  left: 35%;
+  top: 57%;
+  -webkit-animation: flicker 11354ms ease-in-out infinite;
+          animation: flicker 11354ms ease-in-out infinite;
+}
+
+#body1 .star223 {
+  width: 5px;
+  height: 5px;
+  left: 16%;
+  top: 29%;
+  -webkit-animation: flicker 11886ms ease-in-out infinite;
+          animation: flicker 11886ms ease-in-out infinite;
+}
+
+#body1 .star224 {
+  width: 3px;
+  height: 3px;
+  left: 36%;
+  top: 13%;
+  -webkit-animation: flicker 9848ms ease-in-out infinite;
+          animation: flicker 9848ms ease-in-out infinite;
+}
+
+#body1 .star225 {
+  width: 2px;
+  height: 2px;
+  left: 56%;
+  top: 55%;
+  -webkit-animation: flicker 7986ms ease-in-out infinite;
+          animation: flicker 7986ms ease-in-out infinite;
+}
+
+#body1 .star226 {
+  width: 4px;
+  height: 4px;
+  left: 48%;
+  top: 3%;
+  -webkit-animation: flicker 11756ms ease-in-out infinite;
+          animation: flicker 11756ms ease-in-out infinite;
+}
+
+#body1 .star227 {
+  width: 1px;
+  height: 1px;
+  left: 24%;
+  top: 53%;
+  -webkit-animation: flicker 6529ms ease-in-out infinite;
+          animation: flicker 6529ms ease-in-out infinite;
+}
+
+#body1 .star228 {
+  width: 1px;
+  height: 1px;
+  left: 37%;
+  top: 20%;
+  -webkit-animation: flicker 7780ms ease-in-out infinite;
+          animation: flicker 7780ms ease-in-out infinite;
+}
+
+#body1 .star229 {
+  width: 4px;
+  height: 4px;
+  left: 86%;
+  top: 46%;
+  -webkit-animation: flicker 7209ms ease-in-out infinite;
+          animation: flicker 7209ms ease-in-out infinite;
+}
+
+#body1 .star230 {
+  width: 3px;
+  height: 3px;
+  left: 78%;
+  top: 23%;
+  -webkit-animation: flicker 11861ms ease-in-out infinite;
+          animation: flicker 11861ms ease-in-out infinite;
+}
+
+#body1 .star231 {
+  width: 5px;
+  height: 5px;
+  left: 45%;
+  top: 17%;
+  -webkit-animation: flicker 8852ms ease-in-out infinite;
+          animation: flicker 8852ms ease-in-out infinite;
+}
+
+#body1 .star232 {
+  width: 3px;
+  height: 3px;
+  left: 12%;
+  top: 35%;
+  -webkit-animation: flicker 9660ms ease-in-out infinite;
+          animation: flicker 9660ms ease-in-out infinite;
+}
+
+#body1 .star233 {
+  width: 2px;
+  height: 2px;
+  left: 8%;
+  top: 25%;
+  -webkit-animation: flicker 8010ms ease-in-out infinite;
+          animation: flicker 8010ms ease-in-out infinite;
+}
+
+#body1 .star234 {
+  width: 4px;
+  height: 4px;
+  left: 72%;
+  top: 54%;
+  -webkit-animation: flicker 6269ms ease-in-out infinite;
+          animation: flicker 6269ms ease-in-out infinite;
+}
+
+#body1 .star235 {
+  width: 3px;
+  height: 3px;
+  left: 9%;
+  top: 11%;
+  -webkit-animation: flicker 7963ms ease-in-out infinite;
+          animation: flicker 7963ms ease-in-out infinite;
+}
+
+#body1 .star236 {
+  width: 1px;
+  height: 1px;
+  left: 8%;
+  top: 42%;
+  -webkit-animation: flicker 11245ms ease-in-out infinite;
+          animation: flicker 11245ms ease-in-out infinite;
+}
+
+#body1 .star237 {
+  width: 5px;
+  height: 5px;
+  left: 99%;
+  top: 37%;
+  -webkit-animation: flicker 6017ms ease-in-out infinite;
+          animation: flicker 6017ms ease-in-out infinite;
+}
+
+#body1 .star238 {
+  width: 2px;
+  height: 2px;
+  left: 81%;
+  top: 59%;
+  -webkit-animation: flicker 6633ms ease-in-out infinite;
+          animation: flicker 6633ms ease-in-out infinite;
+}
+
+#body1 .star239 {
+  width: 2px;
+  height: 2px;
+  left: 63%;
+  top: 22%;
+  -webkit-animation: flicker 8894ms ease-in-out infinite;
+          animation: flicker 8894ms ease-in-out infinite;
+}
+
+#body1 .star240 {
+  width: 5px;
+  height: 5px;
+  left: 44%;
+  top: 39%;
+  -webkit-animation: flicker 7705ms ease-in-out infinite;
+          animation: flicker 7705ms ease-in-out infinite;
+}
+
+#body1 .star241 {
+  width: 5px;
+  height: 5px;
+  left: 40%;
+  top: 19%;
+  -webkit-animation: flicker 6222ms ease-in-out infinite;
+          animation: flicker 6222ms ease-in-out infinite;
+}
+
+#body1 .star242 {
+  width: 1px;
+  height: 1px;
+  left: 28%;
+  top: 16%;
+  -webkit-animation: flicker 7178ms ease-in-out infinite;
+          animation: flicker 7178ms ease-in-out infinite;
+}
+
+#body1 .star243 {
+  width: 2px;
+  height: 2px;
+  left: 55%;
+  top: 8%;
+  -webkit-animation: flicker 10885ms ease-in-out infinite;
+          animation: flicker 10885ms ease-in-out infinite;
+}
+
+#body1 .star244 {
+  width: 2px;
+  height: 2px;
+  left: 78%;
+  top: 35%;
+  -webkit-animation: flicker 6216ms ease-in-out infinite;
+          animation: flicker 6216ms ease-in-out infinite;
+}
+
+#body1 .star245 {
+  width: 1px;
+  height: 1px;
+  left: 99%;
+  top: 60%;
+  -webkit-animation: flicker 7491ms ease-in-out infinite;
+          animation: flicker 7491ms ease-in-out infinite;
+}
+
+#body1 .star246 {
+  width: 5px;
+  height: 5px;
+  left: 51%;
+  top: 12%;
+  -webkit-animation: flicker 9169ms ease-in-out infinite;
+          animation: flicker 9169ms ease-in-out infinite;
+}
+
+#body1 .star247 {
+  width: 4px;
+  height: 4px;
+  left: 79%;
+  top: 20%;
+  -webkit-animation: flicker 11700ms ease-in-out infinite;
+          animation: flicker 11700ms ease-in-out infinite;
+}
+
+#body1 .star248 {
+  width: 4px;
+  height: 4px;
+  left: 13%;
+  top: 1%;
+  -webkit-animation: flicker 6023ms ease-in-out infinite;
+          animation: flicker 6023ms ease-in-out infinite;
+}
+
+#body1 .star249 {
+  width: 1px;
+  height: 1px;
+  left: 61%;
+  top: 51%;
+  -webkit-animation: flicker 9160ms ease-in-out infinite;
+          animation: flicker 9160ms ease-in-out infinite;
+}
+
+#body1 .star250 {
+  width: 5px;
+  height: 5px;
+  left: 40%;
+  top: 28%;
+  -webkit-animation: flicker 6172ms ease-in-out infinite;
+          animation: flicker 6172ms ease-in-out infinite;
+}
+
+#body1 .star251 {
+  width: 3px;
+  height: 3px;
+  left: 48%;
+  top: 43%;
+  -webkit-animation: flicker 7980ms ease-in-out infinite;
+          animation: flicker 7980ms ease-in-out infinite;
+}
+
+#body1 .star252 {
+  width: 2px;
+  height: 2px;
+  left: 73%;
+  top: 47%;
+  -webkit-animation: flicker 10796ms ease-in-out infinite;
+          animation: flicker 10796ms ease-in-out infinite;
+}
+
+#body1 .star253 {
+  width: 4px;
+  height: 4px;
+  left: 98%;
+  top: 43%;
+  -webkit-animation: flicker 7064ms ease-in-out infinite;
+          animation: flicker 7064ms ease-in-out infinite;
+}
+
+#body1 .star254 {
+  width: 5px;
+  height: 5px;
+  left: 56%;
+  top: 11%;
+  -webkit-animation: flicker 6008ms ease-in-out infinite;
+          animation: flicker 6008ms ease-in-out infinite;
+}
+
+#body1 .star255 {
+  width: 2px;
+  height: 2px;
+  left: 46%;
+  top: 44%;
+  -webkit-animation: flicker 9555ms ease-in-out infinite;
+          animation: flicker 9555ms ease-in-out infinite;
+}
+
+#body1 .star256 {
+  width: 2px;
+  height: 2px;
+  left: 33%;
+  top: 13%;
+  -webkit-animation: flicker 11184ms ease-in-out infinite;
+          animation: flicker 11184ms ease-in-out infinite;
+}
+
+#body1 .star257 {
+  width: 4px;
+  height: 4px;
+  left: 91%;
+  top: 18%;
+  -webkit-animation: flicker 9216ms ease-in-out infinite;
+          animation: flicker 9216ms ease-in-out infinite;
+}
+
+#body1 .star258 {
+  width: 5px;
+  height: 5px;
+  left: 8%;
+  top: 4%;
+  -webkit-animation: flicker 11234ms ease-in-out infinite;
+          animation: flicker 11234ms ease-in-out infinite;
+}
+
+#body1 .star259 {
+  width: 5px;
+  height: 5px;
+  left: 17%;
+  top: 31%;
+  -webkit-animation: flicker 8082ms ease-in-out infinite;
+          animation: flicker 8082ms ease-in-out infinite;
+}
+
+#body1 .star260 {
+  width: 4px;
+  height: 4px;
+  left: 32%;
+  top: 1%;
+  -webkit-animation: flicker 8777ms ease-in-out infinite;
+          animation: flicker 8777ms ease-in-out infinite;
+}
+
+#body1 .star261 {
+  width: 4px;
+  height: 4px;
+  left: 7%;
+  top: 59%;
+  -webkit-animation: flicker 7727ms ease-in-out infinite;
+          animation: flicker 7727ms ease-in-out infinite;
+}
+
+#body1 .star262 {
+  width: 2px;
+  height: 2px;
+  left: 86%;
+  top: 59%;
+  -webkit-animation: flicker 8521ms ease-in-out infinite;
+          animation: flicker 8521ms ease-in-out infinite;
+}
+
+#body1 .star263 {
+  width: 3px;
+  height: 3px;
+  left: 28%;
+  top: 37%;
+  -webkit-animation: flicker 6837ms ease-in-out infinite;
+          animation: flicker 6837ms ease-in-out infinite;
+}
+
+#body1 .star264 {
+  width: 4px;
+  height: 4px;
+  left: 52%;
+  top: 40%;
+  -webkit-animation: flicker 9896ms ease-in-out infinite;
+          animation: flicker 9896ms ease-in-out infinite;
+}
+
+#body1 .star265 {
+  width: 2px;
+  height: 2px;
+  left: 77%;
+  top: 43%;
+  -webkit-animation: flicker 6513ms ease-in-out infinite;
+          animation: flicker 6513ms ease-in-out infinite;
+}
+
+#body1 .star266 {
+  width: 3px;
+  height: 3px;
+  left: 96%;
+  top: 41%;
+  -webkit-animation: flicker 7233ms ease-in-out infinite;
+          animation: flicker 7233ms ease-in-out infinite;
+}
+
+#body1 .star267 {
+  width: 1px;
+  height: 1px;
+  left: 91%;
+  top: 13%;
+  -webkit-animation: flicker 10245ms ease-in-out infinite;
+          animation: flicker 10245ms ease-in-out infinite;
+}
+
+#body1 .star268 {
+  width: 3px;
+  height: 3px;
+  left: 25%;
+  top: 39%;
+  -webkit-animation: flicker 8789ms ease-in-out infinite;
+          animation: flicker 8789ms ease-in-out infinite;
+}
+
+#body1 .star269 {
+  width: 4px;
+  height: 4px;
+  left: 4%;
+  top: 6%;
+  -webkit-animation: flicker 11231ms ease-in-out infinite;
+          animation: flicker 11231ms ease-in-out infinite;
+}
+
+#body1 .star270 {
+  width: 4px;
+  height: 4px;
+  left: 24%;
+  top: 49%;
+  -webkit-animation: flicker 10968ms ease-in-out infinite;
+          animation: flicker 10968ms ease-in-out infinite;
+}
+
+#body1 .star271 {
+  width: 5px;
+  height: 5px;
+  left: 37%;
+  top: 12%;
+  -webkit-animation: flicker 9294ms ease-in-out infinite;
+          animation: flicker 9294ms ease-in-out infinite;
+}
+
+#body1 .star272 {
+  width: 5px;
+  height: 5px;
+  left: 12%;
+  top: 43%;
+  -webkit-animation: flicker 7557ms ease-in-out infinite;
+          animation: flicker 7557ms ease-in-out infinite;
+}
+
+#body1 .star273 {
+  width: 1px;
+  height: 1px;
+  left: 13%;
+  top: 54%;
+  -webkit-animation: flicker 11193ms ease-in-out infinite;
+          animation: flicker 11193ms ease-in-out infinite;
+}
+
+#body1 .star274 {
+  width: 5px;
+  height: 5px;
+  left: 40%;
+  top: 15%;
+  -webkit-animation: flicker 11969ms ease-in-out infinite;
+          animation: flicker 11969ms ease-in-out infinite;
+}
+
+#body1 .star275 {
+  width: 4px;
+  height: 4px;
+  left: 91%;
+  top: 11%;
+  -webkit-animation: flicker 10060ms ease-in-out infinite;
+          animation: flicker 10060ms ease-in-out infinite;
+}
+
+#body1 .star276 {
+  width: 2px;
+  height: 2px;
+  left: 84%;
+  top: 10%;
+  -webkit-animation: flicker 6370ms ease-in-out infinite;
+          animation: flicker 6370ms ease-in-out infinite;
+}
+
+#body1 .star277 {
+  width: 3px;
+  height: 3px;
+  left: 29%;
+  top: 6%;
+  -webkit-animation: flicker 9845ms ease-in-out infinite;
+          animation: flicker 9845ms ease-in-out infinite;
+}
+
+#body1 .star278 {
+  width: 5px;
+  height: 5px;
+  left: 80%;
+  top: 11%;
+  -webkit-animation: flicker 11197ms ease-in-out infinite;
+          animation: flicker 11197ms ease-in-out infinite;
+}
+
+#body1 .star279 {
+  width: 5px;
+  height: 5px;
+  left: 30%;
+  top: 36%;
+  -webkit-animation: flicker 6168ms ease-in-out infinite;
+          animation: flicker 6168ms ease-in-out infinite;
+}
+
+#body1 .star280 {
+  width: 5px;
+  height: 5px;
+  left: 9%;
+  top: 49%;
+  -webkit-animation: flicker 6515ms ease-in-out infinite;
+          animation: flicker 6515ms ease-in-out infinite;
+}
+
+#body1 .star281 {
+  width: 2px;
+  height: 2px;
+  left: 85%;
+  top: 9%;
+  -webkit-animation: flicker 6112ms ease-in-out infinite;
+          animation: flicker 6112ms ease-in-out infinite;
+}
+
+#body1 .star282 {
+  width: 3px;
+  height: 3px;
+  left: 42%;
+  top: 17%;
+  -webkit-animation: flicker 7415ms ease-in-out infinite;
+          animation: flicker 7415ms ease-in-out infinite;
+}
+
+#body1 .star283 {
+  width: 2px;
+  height: 2px;
+  left: 25%;
+  top: 26%;
+  -webkit-animation: flicker 7348ms ease-in-out infinite;
+          animation: flicker 7348ms ease-in-out infinite;
+}
+
+#body1 .star284 {
+  width: 5px;
+  height: 5px;
+  left: 20%;
+  top: 60%;
+  -webkit-animation: flicker 8597ms ease-in-out infinite;
+          animation: flicker 8597ms ease-in-out infinite;
+}
+
+#body1 .star285 {
+  width: 5px;
+  height: 5px;
+  left: 2%;
+  top: 59%;
+  -webkit-animation: flicker 10178ms ease-in-out infinite;
+          animation: flicker 10178ms ease-in-out infinite;
+}
+
+#body1 .star286 {
+  width: 1px;
+  height: 1px;
+  left: 56%;
+  top: 51%;
+  -webkit-animation: flicker 9531ms ease-in-out infinite;
+          animation: flicker 9531ms ease-in-out infinite;
+}
+
+#body1 .star287 {
+  width: 5px;
+  height: 5px;
+  left: 43%;
+  top: 31%;
+  -webkit-animation: flicker 9895ms ease-in-out infinite;
+          animation: flicker 9895ms ease-in-out infinite;
+}
+
+#body1 .star288 {
+  width: 4px;
+  height: 4px;
+  left: 14%;
+  top: 19%;
+  -webkit-animation: flicker 6991ms ease-in-out infinite;
+          animation: flicker 6991ms ease-in-out infinite;
+}
+
+#body1 .star289 {
+  width: 2px;
+  height: 2px;
+  left: 56%;
+  top: 57%;
+  -webkit-animation: flicker 11641ms ease-in-out infinite;
+          animation: flicker 11641ms ease-in-out infinite;
+}
+
+#body1 .star290 {
+  width: 1px;
+  height: 1px;
+  left: 60%;
+  top: 1%;
+  -webkit-animation: flicker 11040ms ease-in-out infinite;
+          animation: flicker 11040ms ease-in-out infinite;
+}
+
+#body1 .star291 {
+  width: 1px;
+  height: 1px;
+  left: 49%;
+  top: 47%;
+  -webkit-animation: flicker 6166ms ease-in-out infinite;
+          animation: flicker 6166ms ease-in-out infinite;
+}
+
+#body1 .star292 {
+  width: 2px;
+  height: 2px;
+  left: 2%;
+  top: 2%;
+  -webkit-animation: flicker 6850ms ease-in-out infinite;
+          animation: flicker 6850ms ease-in-out infinite;
+}
+
+#body1 .star293 {
+  width: 4px;
+  height: 4px;
+  left: 59%;
+  top: 45%;
+  -webkit-animation: flicker 10459ms ease-in-out infinite;
+          animation: flicker 10459ms ease-in-out infinite;
+}
+
+#body1 .star294 {
+  width: 4px;
+  height: 4px;
+  left: 43%;
+  top: 33%;
+  -webkit-animation: flicker 10249ms ease-in-out infinite;
+          animation: flicker 10249ms ease-in-out infinite;
+}
+
+#body1 .star295 {
+  width: 1px;
+  height: 1px;
+  left: 65%;
+  top: 8%;
+  -webkit-animation: flicker 8027ms ease-in-out infinite;
+          animation: flicker 8027ms ease-in-out infinite;
+}
+
+#body1 .star296 {
+  width: 1px;
+  height: 1px;
+  left: 50%;
+  top: 48%;
+  -webkit-animation: flicker 11600ms ease-in-out infinite;
+          animation: flicker 11600ms ease-in-out infinite;
+}
+
+#body1 .star297 {
+  width: 3px;
+  height: 3px;
+  left: 25%;
+  top: 24%;
+  -webkit-animation: flicker 6611ms ease-in-out infinite;
+          animation: flicker 6611ms ease-in-out infinite;
+}
+
+#body1 .star298 {
+  width: 1px;
+  height: 1px;
+  left: 78%;
+  top: 14%;
+  -webkit-animation: flicker 8070ms ease-in-out infinite;
+          animation: flicker 8070ms ease-in-out infinite;
+}
+
+#body1 .star299 {
+  width: 3px;
+  height: 3px;
+  left: 44%;
+  top: 44%;
+  -webkit-animation: flicker 9225ms ease-in-out infinite;
+          animation: flicker 9225ms ease-in-out infinite;
+}
+
+#body1 .star300 {
+  width: 1px;
+  height: 1px;
+  left: 91%;
+  top: 38%;
+  -webkit-animation: flicker 10057ms ease-in-out infinite;
+          animation: flicker 10057ms ease-in-out infinite;
+}
+
+#body1 .star301 {
+  width: 3px;
+  height: 3px;
+  left: 53%;
+  top: 47%;
+  -webkit-animation: flicker 10625ms ease-in-out infinite;
+          animation: flicker 10625ms ease-in-out infinite;
+}
+
+#body1 .star302 {
+  width: 5px;
+  height: 5px;
+  left: 7%;
+  top: 42%;
+  -webkit-animation: flicker 6255ms ease-in-out infinite;
+          animation: flicker 6255ms ease-in-out infinite;
+}
+
+#body1 .star303 {
+  width: 5px;
+  height: 5px;
+  left: 23%;
+  top: 59%;
+  -webkit-animation: flicker 9244ms ease-in-out infinite;
+          animation: flicker 9244ms ease-in-out infinite;
+}
+
+#body1 .star304 {
+  width: 5px;
+  height: 5px;
+  left: 7%;
+  top: 48%;
+  -webkit-animation: flicker 11096ms ease-in-out infinite;
+          animation: flicker 11096ms ease-in-out infinite;
+}
+
+#body1 .star305 {
+  width: 1px;
+  height: 1px;
+  left: 85%;
+  top: 32%;
+  -webkit-animation: flicker 8903ms ease-in-out infinite;
+          animation: flicker 8903ms ease-in-out infinite;
+}
+
+#body1 .star306 {
+  width: 2px;
+  height: 2px;
+  left: 82%;
+  top: 30%;
+  -webkit-animation: flicker 10750ms ease-in-out infinite;
+          animation: flicker 10750ms ease-in-out infinite;
+}
+
+#body1 .star307 {
+  width: 1px;
+  height: 1px;
+  left: 55%;
+  top: 26%;
+  -webkit-animation: flicker 9607ms ease-in-out infinite;
+          animation: flicker 9607ms ease-in-out infinite;
+}
+
+#body1 .star308 {
+  width: 1px;
+  height: 1px;
+  left: 46%;
+  top: 50%;
+  -webkit-animation: flicker 10556ms ease-in-out infinite;
+          animation: flicker 10556ms ease-in-out infinite;
+}
+
+#body1 .star309 {
+  width: 2px;
+  height: 2px;
+  left: 69%;
+  top: 29%;
+  -webkit-animation: flicker 10259ms ease-in-out infinite;
+          animation: flicker 10259ms ease-in-out infinite;
+}
+
+#body1 .star310 {
+  width: 1px;
+  height: 1px;
+  left: 16%;
+  top: 58%;
+  -webkit-animation: flicker 7309ms ease-in-out infinite;
+          animation: flicker 7309ms ease-in-out infinite;
+}
+
+#body1 .star311 {
+  width: 2px;
+  height: 2px;
+  left: 14%;
+  top: 43%;
+  -webkit-animation: flicker 6666ms ease-in-out infinite;
+          animation: flicker 6666ms ease-in-out infinite;
+}
+
+#body1 .star312 {
+  width: 5px;
+  height: 5px;
+  left: 7%;
+  top: 7%;
+  -webkit-animation: flicker 9897ms ease-in-out infinite;
+          animation: flicker 9897ms ease-in-out infinite;
+}
+
+#body1 .star313 {
+  width: 4px;
+  height: 4px;
+  left: 38%;
+  top: 27%;
+  -webkit-animation: flicker 10162ms ease-in-out infinite;
+          animation: flicker 10162ms ease-in-out infinite;
+}
+
+#body1 .star314 {
+  width: 1px;
+  height: 1px;
+  left: 25%;
+  top: 57%;
+  -webkit-animation: flicker 7193ms ease-in-out infinite;
+          animation: flicker 7193ms ease-in-out infinite;
+}
+
+#body1 .star315 {
+  width: 1px;
+  height: 1px;
+  left: 46%;
+  top: 26%;
+  -webkit-animation: flicker 9672ms ease-in-out infinite;
+          animation: flicker 9672ms ease-in-out infinite;
+}
+
+#body1 .star316 {
+  width: 2px;
+  height: 2px;
+  left: 3%;
+  top: 2%;
+  -webkit-animation: flicker 8244ms ease-in-out infinite;
+          animation: flicker 8244ms ease-in-out infinite;
+}
+
+#body1 .star317 {
+  width: 5px;
+  height: 5px;
+  left: 94%;
+  top: 60%;
+  -webkit-animation: flicker 6667ms ease-in-out infinite;
+          animation: flicker 6667ms ease-in-out infinite;
+}
+
+#body1 .star318 {
+  width: 4px;
+  height: 4px;
+  left: 76%;
+  top: 7%;
+  -webkit-animation: flicker 7366ms ease-in-out infinite;
+          animation: flicker 7366ms ease-in-out infinite;
+}
+
+#body1 .star319 {
+  width: 3px;
+  height: 3px;
+  left: 61%;
+  top: 26%;
+  -webkit-animation: flicker 8381ms ease-in-out infinite;
+          animation: flicker 8381ms ease-in-out infinite;
+}
+
+#body1 .star320 {
+  width: 1px;
+  height: 1px;
+  left: 73%;
+  top: 49%;
+  -webkit-animation: flicker 9251ms ease-in-out infinite;
+          animation: flicker 9251ms ease-in-out infinite;
+}
+
+#body1 .star321 {
+  width: 5px;
+  height: 5px;
+  left: 62%;
+  top: 33%;
+  -webkit-animation: flicker 6480ms ease-in-out infinite;
+          animation: flicker 6480ms ease-in-out infinite;
+}
+
+#body1 .star322 {
+  width: 4px;
+  height: 4px;
+  left: 49%;
+  top: 60%;
+  -webkit-animation: flicker 6298ms ease-in-out infinite;
+          animation: flicker 6298ms ease-in-out infinite;
+}
+
+#body1 .star323 {
+  width: 2px;
+  height: 2px;
+  left: 18%;
+  top: 16%;
+  -webkit-animation: flicker 7245ms ease-in-out infinite;
+          animation: flicker 7245ms ease-in-out infinite;
+}
+
+#body1 .star324 {
+  width: 1px;
+  height: 1px;
+  left: 25%;
+  top: 46%;
+  -webkit-animation: flicker 6098ms ease-in-out infinite;
+          animation: flicker 6098ms ease-in-out infinite;
+}
+
+#body1 .star325 {
+  width: 4px;
+  height: 4px;
+  left: 91%;
+  top: 9%;
+  -webkit-animation: flicker 11471ms ease-in-out infinite;
+          animation: flicker 11471ms ease-in-out infinite;
+}
+
+#body1 .star326 {
+  width: 3px;
+  height: 3px;
+  left: 42%;
+  top: 59%;
+  -webkit-animation: flicker 7456ms ease-in-out infinite;
+          animation: flicker 7456ms ease-in-out infinite;
+}
+
+#body1 .star327 {
+  width: 5px;
+  height: 5px;
+  left: 41%;
+  top: 21%;
+  -webkit-animation: flicker 9466ms ease-in-out infinite;
+          animation: flicker 9466ms ease-in-out infinite;
+}
+
+#body1 .star328 {
+  width: 1px;
+  height: 1px;
+  left: 77%;
+  top: 14%;
+  -webkit-animation: flicker 8635ms ease-in-out infinite;
+          animation: flicker 8635ms ease-in-out infinite;
+}
+
+#body1 .star329 {
+  width: 4px;
+  height: 4px;
+  left: 84%;
+  top: 30%;
+  -webkit-animation: flicker 9206ms ease-in-out infinite;
+          animation: flicker 9206ms ease-in-out infinite;
+}
+
+#body1 .star330 {
+  width: 1px;
+  height: 1px;
+  left: 15%;
+  top: 6%;
+  -webkit-animation: flicker 8496ms ease-in-out infinite;
+          animation: flicker 8496ms ease-in-out infinite;
+}
+
+#body1 .star331 {
+  width: 2px;
+  height: 2px;
+  left: 64%;
+  top: 48%;
+  -webkit-animation: flicker 11033ms ease-in-out infinite;
+          animation: flicker 11033ms ease-in-out infinite;
+}
+
+#body1 .star332 {
+  width: 2px;
+  height: 2px;
+  left: 15%;
+  top: 34%;
+  -webkit-animation: flicker 8035ms ease-in-out infinite;
+          animation: flicker 8035ms ease-in-out infinite;
+}
+
+#body1 .star333 {
+  width: 3px;
+  height: 3px;
+  left: 9%;
+  top: 46%;
+  -webkit-animation: flicker 11957ms ease-in-out infinite;
+          animation: flicker 11957ms ease-in-out infinite;
+}
+
+#body1 .star334 {
+  width: 4px;
+  height: 4px;
+  left: 98%;
+  top: 10%;
+  -webkit-animation: flicker 11329ms ease-in-out infinite;
+          animation: flicker 11329ms ease-in-out infinite;
+}
+
+#body1 .star335 {
+  width: 2px;
+  height: 2px;
+  left: 89%;
+  top: 12%;
+  -webkit-animation: flicker 8228ms ease-in-out infinite;
+          animation: flicker 8228ms ease-in-out infinite;
+}
+
+#body1 .star336 {
+  width: 4px;
+  height: 4px;
+  left: 64%;
+  top: 25%;
+  -webkit-animation: flicker 6912ms ease-in-out infinite;
+          animation: flicker 6912ms ease-in-out infinite;
+}
+
+#body1 .star337 {
+  width: 2px;
+  height: 2px;
+  left: 73%;
+  top: 8%;
+  -webkit-animation: flicker 8940ms ease-in-out infinite;
+          animation: flicker 8940ms ease-in-out infinite;
+}
+
+#body1 .star338 {
+  width: 1px;
+  height: 1px;
+  left: 22%;
+  top: 21%;
+  -webkit-animation: flicker 9930ms ease-in-out infinite;
+          animation: flicker 9930ms ease-in-out infinite;
+}
+
+#body1 .star339 {
+  width: 4px;
+  height: 4px;
+  left: 100%;
+  top: 3%;
+  -webkit-animation: flicker 8261ms ease-in-out infinite;
+          animation: flicker 8261ms ease-in-out infinite;
+}
+
+#body1 .star340 {
+  width: 5px;
+  height: 5px;
+  left: 35%;
+  top: 21%;
+  -webkit-animation: flicker 6629ms ease-in-out infinite;
+          animation: flicker 6629ms ease-in-out infinite;
+}
+
+#body1 .star341 {
+  width: 4px;
+  height: 4px;
+  left: 16%;
+  top: 12%;
+  -webkit-animation: flicker 9313ms ease-in-out infinite;
+          animation: flicker 9313ms ease-in-out infinite;
+}
+
+#body1 .star342 {
+  width: 1px;
+  height: 1px;
+  left: 11%;
+  top: 2%;
+  -webkit-animation: flicker 11711ms ease-in-out infinite;
+          animation: flicker 11711ms ease-in-out infinite;
+}
+
+#body1 .star343 {
+  width: 5px;
+  height: 5px;
+  left: 61%;
+  top: 52%;
+  -webkit-animation: flicker 9820ms ease-in-out infinite;
+          animation: flicker 9820ms ease-in-out infinite;
+}
+
+#body1 .star344 {
+  width: 1px;
+  height: 1px;
+  left: 46%;
+  top: 3%;
+  -webkit-animation: flicker 8451ms ease-in-out infinite;
+          animation: flicker 8451ms ease-in-out infinite;
+}
+
+#body1 .star345 {
+  width: 4px;
+  height: 4px;
+  left: 24%;
+  top: 25%;
+  -webkit-animation: flicker 8550ms ease-in-out infinite;
+          animation: flicker 8550ms ease-in-out infinite;
+}
+
+#body1 .star346 {
+  width: 5px;
+  height: 5px;
+  left: 96%;
+  top: 45%;
+  -webkit-animation: flicker 6374ms ease-in-out infinite;
+          animation: flicker 6374ms ease-in-out infinite;
+}
+
+#body1 .star347 {
+  width: 3px;
+  height: 3px;
+  left: 86%;
+  top: 36%;
+  -webkit-animation: flicker 10973ms ease-in-out infinite;
+          animation: flicker 10973ms ease-in-out infinite;
+}
+
+#body1 .star348 {
+  width: 2px;
+  height: 2px;
+  left: 90%;
+  top: 58%;
+  -webkit-animation: flicker 11721ms ease-in-out infinite;
+          animation: flicker 11721ms ease-in-out infinite;
+}
+
+#body1 .star349 {
+  width: 3px;
+  height: 3px;
+  left: 75%;
+  top: 44%;
+  -webkit-animation: flicker 8392ms ease-in-out infinite;
+          animation: flicker 8392ms ease-in-out infinite;
+}
+
+#body1 .star350 {
+  width: 1px;
+  height: 1px;
+  left: 20%;
+  top: 35%;
+  -webkit-animation: flicker 10393ms ease-in-out infinite;
+          animation: flicker 10393ms ease-in-out infinite;
+}
+
+#body1 .star351 {
+  width: 2px;
+  height: 2px;
+  left: 6%;
+  top: 26%;
+  -webkit-animation: flicker 8115ms ease-in-out infinite;
+          animation: flicker 8115ms ease-in-out infinite;
+}
+
+#body1 .star352 {
+  width: 2px;
+  height: 2px;
+  left: 98%;
+  top: 47%;
+  -webkit-animation: flicker 8816ms ease-in-out infinite;
+          animation: flicker 8816ms ease-in-out infinite;
+}
+
+#body1 .star353 {
+  width: 5px;
+  height: 5px;
+  left: 74%;
+  top: 34%;
+  -webkit-animation: flicker 7536ms ease-in-out infinite;
+          animation: flicker 7536ms ease-in-out infinite;
+}
+
+#body1 .star354 {
+  width: 3px;
+  height: 3px;
+  left: 47%;
+  top: 60%;
+  -webkit-animation: flicker 7378ms ease-in-out infinite;
+          animation: flicker 7378ms ease-in-out infinite;
+}
+
+#body1 .star355 {
+  width: 5px;
+  height: 5px;
+  left: 22%;
+  top: 11%;
+  -webkit-animation: flicker 10969ms ease-in-out infinite;
+          animation: flicker 10969ms ease-in-out infinite;
+}
+
+#body1 .star356 {
+  width: 1px;
+  height: 1px;
+  left: 18%;
+  top: 59%;
+  -webkit-animation: flicker 11320ms ease-in-out infinite;
+          animation: flicker 11320ms ease-in-out infinite;
+}
+
+#body1 .star357 {
+  width: 4px;
+  height: 4px;
+  left: 6%;
+  top: 31%;
+  -webkit-animation: flicker 6832ms ease-in-out infinite;
+          animation: flicker 6832ms ease-in-out infinite;
+}
+
+#body1 .star358 {
+  width: 3px;
+  height: 3px;
+  left: 72%;
+  top: 56%;
+  -webkit-animation: flicker 9451ms ease-in-out infinite;
+          animation: flicker 9451ms ease-in-out infinite;
+}
+
+#body1 .star359 {
+  width: 2px;
+  height: 2px;
+  left: 19%;
+  top: 17%;
+  -webkit-animation: flicker 10139ms ease-in-out infinite;
+          animation: flicker 10139ms ease-in-out infinite;
+}
+
+#body1 .star360 {
+  width: 2px;
+  height: 2px;
+  left: 65%;
+  top: 18%;
+  -webkit-animation: flicker 6186ms ease-in-out infinite;
+          animation: flicker 6186ms ease-in-out infinite;
+}
+
+#body1 .star361 {
+  width: 4px;
+  height: 4px;
+  left: 53%;
+  top: 47%;
+  -webkit-animation: flicker 8598ms ease-in-out infinite;
+          animation: flicker 8598ms ease-in-out infinite;
+}
+
+#body1 .star362 {
+  width: 2px;
+  height: 2px;
+  left: 39%;
+  top: 47%;
+  -webkit-animation: flicker 7992ms ease-in-out infinite;
+          animation: flicker 7992ms ease-in-out infinite;
+}
+
+#body1 .star363 {
+  width: 2px;
+  height: 2px;
+  left: 16%;
+  top: 13%;
+  -webkit-animation: flicker 9981ms ease-in-out infinite;
+          animation: flicker 9981ms ease-in-out infinite;
+}
+
+#body1 .star364 {
+  width: 4px;
+  height: 4px;
+  left: 30%;
+  top: 9%;
+  -webkit-animation: flicker 6337ms ease-in-out infinite;
+          animation: flicker 6337ms ease-in-out infinite;
+}
+
+#body1 .star365 {
+  width: 5px;
+  height: 5px;
+  left: 73%;
+  top: 33%;
+  -webkit-animation: flicker 8733ms ease-in-out infinite;
+          animation: flicker 8733ms ease-in-out infinite;
+}
+
+#body1 .star366 {
+  width: 3px;
+  height: 3px;
+  left: 56%;
+  top: 17%;
+  -webkit-animation: flicker 9047ms ease-in-out infinite;
+          animation: flicker 9047ms ease-in-out infinite;
+}
+
+#body1 .star367 {
+  width: 4px;
+  height: 4px;
+  left: 90%;
+  top: 16%;
+  -webkit-animation: flicker 7952ms ease-in-out infinite;
+          animation: flicker 7952ms ease-in-out infinite;
+}
+
+#body1 .star368 {
+  width: 3px;
+  height: 3px;
+  left: 46%;
+  top: 34%;
+  -webkit-animation: flicker 7713ms ease-in-out infinite;
+          animation: flicker 7713ms ease-in-out infinite;
+}
+
+#body1 .star369 {
+  width: 4px;
+  height: 4px;
+  left: 4%;
+  top: 44%;
+  -webkit-animation: flicker 8195ms ease-in-out infinite;
+          animation: flicker 8195ms ease-in-out infinite;
+}
+
+#body1 .star370 {
+  width: 5px;
+  height: 5px;
+  left: 73%;
+  top: 40%;
+  -webkit-animation: flicker 6108ms ease-in-out infinite;
+          animation: flicker 6108ms ease-in-out infinite;
+}
+
+#body1 .star371 {
+  width: 4px;
+  height: 4px;
+  left: 72%;
+  top: 4%;
+  -webkit-animation: flicker 8908ms ease-in-out infinite;
+          animation: flicker 8908ms ease-in-out infinite;
+}
+
+#body1 .star372 {
+  width: 3px;
+  height: 3px;
+  left: 68%;
+  top: 12%;
+  -webkit-animation: flicker 6371ms ease-in-out infinite;
+          animation: flicker 6371ms ease-in-out infinite;
+}
+
+#body1 .star373 {
+  width: 4px;
+  height: 4px;
+  left: 85%;
+  top: 20%;
+  -webkit-animation: flicker 10826ms ease-in-out infinite;
+          animation: flicker 10826ms ease-in-out infinite;
+}
+
+#body1 .star374 {
+  width: 5px;
+  height: 5px;
+  left: 62%;
+  top: 16%;
+  -webkit-animation: flicker 10702ms ease-in-out infinite;
+          animation: flicker 10702ms ease-in-out infinite;
+}
+
+#body1 .star375 {
+  width: 4px;
+  height: 4px;
+  left: 25%;
+  top: 23%;
+  -webkit-animation: flicker 7957ms ease-in-out infinite;
+          animation: flicker 7957ms ease-in-out infinite;
+}
+
+#body1 .star376 {
+  width: 1px;
+  height: 1px;
+  left: 2%;
+  top: 27%;
+  -webkit-animation: flicker 7425ms ease-in-out infinite;
+          animation: flicker 7425ms ease-in-out infinite;
+}
+
+#body1 .star377 {
+  width: 4px;
+  height: 4px;
+  left: 68%;
+  top: 16%;
+  -webkit-animation: flicker 10502ms ease-in-out infinite;
+          animation: flicker 10502ms ease-in-out infinite;
+}
+
+#body1 .star378 {
+  width: 4px;
+  height: 4px;
+  left: 86%;
+  top: 24%;
+  -webkit-animation: flicker 8801ms ease-in-out infinite;
+          animation: flicker 8801ms ease-in-out infinite;
+}
+
+#body1 .star379 {
+  width: 4px;
+  height: 4px;
+  left: 96%;
+  top: 39%;
+  -webkit-animation: flicker 11304ms ease-in-out infinite;
+          animation: flicker 11304ms ease-in-out infinite;
+}
+
+#body1 .star380 {
+  width: 1px;
+  height: 1px;
+  left: 48%;
+  top: 32%;
+  -webkit-animation: flicker 11786ms ease-in-out infinite;
+          animation: flicker 11786ms ease-in-out infinite;
+}
+
+#body1 .star381 {
+  width: 3px;
+  height: 3px;
+  left: 17%;
+  top: 60%;
+  -webkit-animation: flicker 7601ms ease-in-out infinite;
+          animation: flicker 7601ms ease-in-out infinite;
+}
+
+#body1 .star382 {
+  width: 3px;
+  height: 3px;
+  left: 67%;
+  top: 27%;
+  -webkit-animation: flicker 11057ms ease-in-out infinite;
+          animation: flicker 11057ms ease-in-out infinite;
+}
+
+#body1 .star383 {
+  width: 3px;
+  height: 3px;
+  left: 66%;
+  top: 56%;
+  -webkit-animation: flicker 9537ms ease-in-out infinite;
+          animation: flicker 9537ms ease-in-out infinite;
+}
+
+#body1 .star384 {
+  width: 5px;
+  height: 5px;
+  left: 85%;
+  top: 34%;
+  -webkit-animation: flicker 9317ms ease-in-out infinite;
+          animation: flicker 9317ms ease-in-out infinite;
+}
+
+#body1 .star385 {
+  width: 3px;
+  height: 3px;
+  left: 90%;
+  top: 49%;
+  -webkit-animation: flicker 10624ms ease-in-out infinite;
+          animation: flicker 10624ms ease-in-out infinite;
+}
+
+#body1 .star386 {
+  width: 4px;
+  height: 4px;
+  left: 49%;
+  top: 54%;
+  -webkit-animation: flicker 6527ms ease-in-out infinite;
+          animation: flicker 6527ms ease-in-out infinite;
+}
+
+#body1 .star387 {
+  width: 1px;
+  height: 1px;
+  left: 56%;
+  top: 5%;
+  -webkit-animation: flicker 8960ms ease-in-out infinite;
+          animation: flicker 8960ms ease-in-out infinite;
+}
+
+#body1 .star388 {
+  width: 4px;
+  height: 4px;
+  left: 13%;
+  top: 11%;
+  -webkit-animation: flicker 6735ms ease-in-out infinite;
+          animation: flicker 6735ms ease-in-out infinite;
+}
+
+#body1 .star389 {
+  width: 5px;
+  height: 5px;
+  left: 6%;
+  top: 6%;
+  -webkit-animation: flicker 9817ms ease-in-out infinite;
+          animation: flicker 9817ms ease-in-out infinite;
+}
+
+#body1 .star390 {
+  width: 2px;
+  height: 2px;
+  left: 51%;
+  top: 51%;
+  -webkit-animation: flicker 6484ms ease-in-out infinite;
+          animation: flicker 6484ms ease-in-out infinite;
+}
+
+#body1 .star391 {
+  width: 3px;
+  height: 3px;
+  left: 38%;
+  top: 47%;
+  -webkit-animation: flicker 7643ms ease-in-out infinite;
+          animation: flicker 7643ms ease-in-out infinite;
+}
+
+#body1 .star392 {
+  width: 4px;
+  height: 4px;
+  left: 50%;
+  top: 32%;
+  -webkit-animation: flicker 9745ms ease-in-out infinite;
+          animation: flicker 9745ms ease-in-out infinite;
+}
+
+#body1 .star393 {
+  width: 5px;
+  height: 5px;
+  left: 62%;
+  top: 1%;
+  -webkit-animation: flicker 9284ms ease-in-out infinite;
+          animation: flicker 9284ms ease-in-out infinite;
+}
+
+#body1 .star394 {
+  width: 4px;
+  height: 4px;
+  left: 96%;
+  top: 52%;
+  -webkit-animation: flicker 11902ms ease-in-out infinite;
+          animation: flicker 11902ms ease-in-out infinite;
+}
+
+#body1 .star395 {
+  width: 2px;
+  height: 2px;
+  left: 29%;
+  top: 45%;
+  -webkit-animation: flicker 9818ms ease-in-out infinite;
+          animation: flicker 9818ms ease-in-out infinite;
+}
+
+#body1 .star396 {
+  width: 5px;
+  height: 5px;
+  left: 64%;
+  top: 9%;
+  -webkit-animation: flicker 11595ms ease-in-out infinite;
+          animation: flicker 11595ms ease-in-out infinite;
+}
+
+#body1 .star397 {
+  width: 5px;
+  height: 5px;
+  left: 18%;
+  top: 30%;
+  -webkit-animation: flicker 10784ms ease-in-out infinite;
+          animation: flicker 10784ms ease-in-out infinite;
+}
+
+#body1 .star398 {
+  width: 4px;
+  height: 4px;
+  left: 18%;
+  top: 11%;
+  -webkit-animation: flicker 10708ms ease-in-out infinite;
+          animation: flicker 10708ms ease-in-out infinite;
+}
+
+#body1 .star399 {
+  width: 3px;
+  height: 3px;
+  left: 88%;
+  top: 30%;
+  -webkit-animation: flicker 8547ms ease-in-out infinite;
+          animation: flicker 8547ms ease-in-out infinite;
+}
+
+#body1 .star400 {
+  width: 3px;
+  height: 3px;
+  left: 32%;
+  top: 39%;
+  -webkit-animation: flicker 7288ms ease-in-out infinite;
+          animation: flicker 7288ms ease-in-out infinite;
+}
+
+@-webkit-keyframes flicker {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+  50% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+  100% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+}
+
+@keyframes flicker {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+  50% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+  100% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+}
+/*# sourceMappingURL=style.css.map */
