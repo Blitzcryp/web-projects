@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas{
+    width: 75vh;
+    height: 75vh;
+
+    border: 2px solid black;
+
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+
+    .pixels{
+        width: auto;
+        height: auto;
+
+        border: 1px solid black;
+
+        border-radius: 10%;
+    }
+
+    @for $i from 1 through 400{
+        .pixel#{$i}{
+            background-color: rgb(random(255), random(275), random(190));
+            animation: change#{$i} 0.8s ease-in-out infinite;
+        }
+    }
+   animation: loop 36s linear infinite;/**/
+}
+
+
+@keyframes loop{
+    0%{
+        transform: rotateY(0deg) translateX(0px);
+    }
+        
+    50%{
+        transform: rotateY(360deg) translateX(200px);
+    }
+    100%{
+        transform: rotateY(0deg) translateX(0px)
+    }
+}
+
+@for $i from 1 through 400{
+
+    @keyframes change#{$i}{
+            #{$i*0.25%}{
+                background-color: white;
+            }
+        }
+    }

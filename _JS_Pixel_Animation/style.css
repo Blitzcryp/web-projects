@@ -1,0 +1,7274 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#canvas {
+  width: 75vh;
+  height: 75vh;
+  border: 2px solid black;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[20];
+      grid-template-columns: repeat(20, 1fr);
+  -ms-grid-rows: (1fr)[20];
+      grid-template-rows: repeat(20, 1fr);
+  -webkit-animation: loop 36s linear infinite;
+          animation: loop 36s linear infinite;
+  /**/
+}
+
+#canvas .pixels {
+  width: auto;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+#canvas .pixel1 {
+  background-color: #2e3d6c;
+  -webkit-animation: change1 0.8s ease-in-out infinite;
+          animation: change1 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel2 {
+  background-color: #644aab;
+  -webkit-animation: change2 0.8s ease-in-out infinite;
+          animation: change2 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel3 {
+  background-color: #fe0773;
+  -webkit-animation: change3 0.8s ease-in-out infinite;
+          animation: change3 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel4 {
+  background-color: #22ef66;
+  -webkit-animation: change4 0.8s ease-in-out infinite;
+          animation: change4 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel5 {
+  background-color: #4f471d;
+  -webkit-animation: change5 0.8s ease-in-out infinite;
+          animation: change5 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel6 {
+  background-color: #7bff96;
+  -webkit-animation: change6 0.8s ease-in-out infinite;
+          animation: change6 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel7 {
+  background-color: #24ff14;
+  -webkit-animation: change7 0.8s ease-in-out infinite;
+          animation: change7 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel8 {
+  background-color: #397111;
+  -webkit-animation: change8 0.8s ease-in-out infinite;
+          animation: change8 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel9 {
+  background-color: #4f8e70;
+  -webkit-animation: change9 0.8s ease-in-out infinite;
+          animation: change9 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel10 {
+  background-color: #713ebd;
+  -webkit-animation: change10 0.8s ease-in-out infinite;
+          animation: change10 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel11 {
+  background-color: #906388;
+  -webkit-animation: change11 0.8s ease-in-out infinite;
+          animation: change11 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel12 {
+  background-color: #31b529;
+  -webkit-animation: change12 0.8s ease-in-out infinite;
+          animation: change12 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel13 {
+  background-color: #a7ea44;
+  -webkit-animation: change13 0.8s ease-in-out infinite;
+          animation: change13 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel14 {
+  background-color: #5dfc49;
+  -webkit-animation: change14 0.8s ease-in-out infinite;
+          animation: change14 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel15 {
+  background-color: #0cb017;
+  -webkit-animation: change15 0.8s ease-in-out infinite;
+          animation: change15 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel16 {
+  background-color: #7baa91;
+  -webkit-animation: change16 0.8s ease-in-out infinite;
+          animation: change16 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel17 {
+  background-color: #963959;
+  -webkit-animation: change17 0.8s ease-in-out infinite;
+          animation: change17 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel18 {
+  background-color: #434f5e;
+  -webkit-animation: change18 0.8s ease-in-out infinite;
+          animation: change18 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel19 {
+  background-color: #c747ae;
+  -webkit-animation: change19 0.8s ease-in-out infinite;
+          animation: change19 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel20 {
+  background-color: #34fe6a;
+  -webkit-animation: change20 0.8s ease-in-out infinite;
+          animation: change20 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel21 {
+  background-color: #42110e;
+  -webkit-animation: change21 0.8s ease-in-out infinite;
+          animation: change21 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel22 {
+  background-color: #3c7766;
+  -webkit-animation: change22 0.8s ease-in-out infinite;
+          animation: change22 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel23 {
+  background-color: #d555bc;
+  -webkit-animation: change23 0.8s ease-in-out infinite;
+          animation: change23 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel24 {
+  background-color: #72ee64;
+  -webkit-animation: change24 0.8s ease-in-out infinite;
+          animation: change24 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel25 {
+  background-color: #35f967;
+  -webkit-animation: change25 0.8s ease-in-out infinite;
+          animation: change25 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel26 {
+  background-color: #92f365;
+  -webkit-animation: change26 0.8s ease-in-out infinite;
+          animation: change26 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel27 {
+  background-color: #76328d;
+  -webkit-animation: change27 0.8s ease-in-out infinite;
+          animation: change27 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel28 {
+  background-color: #343765;
+  -webkit-animation: change28 0.8s ease-in-out infinite;
+          animation: change28 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel29 {
+  background-color: #226969;
+  -webkit-animation: change29 0.8s ease-in-out infinite;
+          animation: change29 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel30 {
+  background-color: #e8cc8c;
+  -webkit-animation: change30 0.8s ease-in-out infinite;
+          animation: change30 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel31 {
+  background-color: #f9fd91;
+  -webkit-animation: change31 0.8s ease-in-out infinite;
+          animation: change31 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel32 {
+  background-color: #0ccd48;
+  -webkit-animation: change32 0.8s ease-in-out infinite;
+          animation: change32 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel33 {
+  background-color: #ac90a8;
+  -webkit-animation: change33 0.8s ease-in-out infinite;
+          animation: change33 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel34 {
+  background-color: #c6f54a;
+  -webkit-animation: change34 0.8s ease-in-out infinite;
+          animation: change34 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel35 {
+  background-color: #5eff97;
+  -webkit-animation: change35 0.8s ease-in-out infinite;
+          animation: change35 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel36 {
+  background-color: #cc31a1;
+  -webkit-animation: change36 0.8s ease-in-out infinite;
+          animation: change36 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel37 {
+  background-color: #1fdd5b;
+  -webkit-animation: change37 0.8s ease-in-out infinite;
+          animation: change37 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel38 {
+  background-color: #eea084;
+  -webkit-animation: change38 0.8s ease-in-out infinite;
+          animation: change38 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel39 {
+  background-color: #9d1110;
+  -webkit-animation: change39 0.8s ease-in-out infinite;
+          animation: change39 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel40 {
+  background-color: #090a63;
+  -webkit-animation: change40 0.8s ease-in-out infinite;
+          animation: change40 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel41 {
+  background-color: #19a51c;
+  -webkit-animation: change41 0.8s ease-in-out infinite;
+          animation: change41 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel42 {
+  background-color: #e21160;
+  -webkit-animation: change42 0.8s ease-in-out infinite;
+          animation: change42 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel43 {
+  background-color: #bc7f5f;
+  -webkit-animation: change43 0.8s ease-in-out infinite;
+          animation: change43 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel44 {
+  background-color: #87b30d;
+  -webkit-animation: change44 0.8s ease-in-out infinite;
+          animation: change44 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel45 {
+  background-color: #7c1f44;
+  -webkit-animation: change45 0.8s ease-in-out infinite;
+          animation: change45 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel46 {
+  background-color: #d4e327;
+  -webkit-animation: change46 0.8s ease-in-out infinite;
+          animation: change46 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel47 {
+  background-color: #ab4580;
+  -webkit-animation: change47 0.8s ease-in-out infinite;
+          animation: change47 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel48 {
+  background-color: #18d97c;
+  -webkit-animation: change48 0.8s ease-in-out infinite;
+          animation: change48 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel49 {
+  background-color: #e0d94a;
+  -webkit-animation: change49 0.8s ease-in-out infinite;
+          animation: change49 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel50 {
+  background-color: #570432;
+  -webkit-animation: change50 0.8s ease-in-out infinite;
+          animation: change50 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel51 {
+  background-color: #029615;
+  -webkit-animation: change51 0.8s ease-in-out infinite;
+          animation: change51 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel52 {
+  background-color: #755092;
+  -webkit-animation: change52 0.8s ease-in-out infinite;
+          animation: change52 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel53 {
+  background-color: #d97a72;
+  -webkit-animation: change53 0.8s ease-in-out infinite;
+          animation: change53 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel54 {
+  background-color: #7db12b;
+  -webkit-animation: change54 0.8s ease-in-out infinite;
+          animation: change54 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel55 {
+  background-color: #634591;
+  -webkit-animation: change55 0.8s ease-in-out infinite;
+          animation: change55 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel56 {
+  background-color: #dd6baa;
+  -webkit-animation: change56 0.8s ease-in-out infinite;
+          animation: change56 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel57 {
+  background-color: #8e065a;
+  -webkit-animation: change57 0.8s ease-in-out infinite;
+          animation: change57 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel58 {
+  background-color: #dee463;
+  -webkit-animation: change58 0.8s ease-in-out infinite;
+          animation: change58 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel59 {
+  background-color: #3bff1d;
+  -webkit-animation: change59 0.8s ease-in-out infinite;
+          animation: change59 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel60 {
+  background-color: #e50c2b;
+  -webkit-animation: change60 0.8s ease-in-out infinite;
+          animation: change60 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel61 {
+  background-color: #b142bd;
+  -webkit-animation: change61 0.8s ease-in-out infinite;
+          animation: change61 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel62 {
+  background-color: #f17572;
+  -webkit-animation: change62 0.8s ease-in-out infinite;
+          animation: change62 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel63 {
+  background-color: #54bf0c;
+  -webkit-animation: change63 0.8s ease-in-out infinite;
+          animation: change63 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel64 {
+  background-color: #eee692;
+  -webkit-animation: change64 0.8s ease-in-out infinite;
+          animation: change64 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel65 {
+  background-color: #8aa0a2;
+  -webkit-animation: change65 0.8s ease-in-out infinite;
+          animation: change65 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel66 {
+  background-color: #2cc288;
+  -webkit-animation: change66 0.8s ease-in-out infinite;
+          animation: change66 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel67 {
+  background-color: #20053f;
+  -webkit-animation: change67 0.8s ease-in-out infinite;
+          animation: change67 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel68 {
+  background-color: #d135a3;
+  -webkit-animation: change68 0.8s ease-in-out infinite;
+          animation: change68 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel69 {
+  background-color: #b53455;
+  -webkit-animation: change69 0.8s ease-in-out infinite;
+          animation: change69 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel70 {
+  background-color: #a36a84;
+  -webkit-animation: change70 0.8s ease-in-out infinite;
+          animation: change70 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel71 {
+  background-color: #77ff3c;
+  -webkit-animation: change71 0.8s ease-in-out infinite;
+          animation: change71 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel72 {
+  background-color: #69c450;
+  -webkit-animation: change72 0.8s ease-in-out infinite;
+          animation: change72 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel73 {
+  background-color: #41475e;
+  -webkit-animation: change73 0.8s ease-in-out infinite;
+          animation: change73 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel74 {
+  background-color: #a6d455;
+  -webkit-animation: change74 0.8s ease-in-out infinite;
+          animation: change74 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel75 {
+  background-color: #e361b6;
+  -webkit-animation: change75 0.8s ease-in-out infinite;
+          animation: change75 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel76 {
+  background-color: #995a83;
+  -webkit-animation: change76 0.8s ease-in-out infinite;
+          animation: change76 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel77 {
+  background-color: #d8db39;
+  -webkit-animation: change77 0.8s ease-in-out infinite;
+          animation: change77 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel78 {
+  background-color: #686540;
+  -webkit-animation: change78 0.8s ease-in-out infinite;
+          animation: change78 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel79 {
+  background-color: #ec4977;
+  -webkit-animation: change79 0.8s ease-in-out infinite;
+          animation: change79 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel80 {
+  background-color: #45ffaf;
+  -webkit-animation: change80 0.8s ease-in-out infinite;
+          animation: change80 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel81 {
+  background-color: #44df17;
+  -webkit-animation: change81 0.8s ease-in-out infinite;
+          animation: change81 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel82 {
+  background-color: #b4b528;
+  -webkit-animation: change82 0.8s ease-in-out infinite;
+          animation: change82 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel83 {
+  background-color: #65e350;
+  -webkit-animation: change83 0.8s ease-in-out infinite;
+          animation: change83 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel84 {
+  background-color: #8d2a84;
+  -webkit-animation: change84 0.8s ease-in-out infinite;
+          animation: change84 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel85 {
+  background-color: #01fab2;
+  -webkit-animation: change85 0.8s ease-in-out infinite;
+          animation: change85 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel86 {
+  background-color: #f32c01;
+  -webkit-animation: change86 0.8s ease-in-out infinite;
+          animation: change86 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel87 {
+  background-color: #48cd90;
+  -webkit-animation: change87 0.8s ease-in-out infinite;
+          animation: change87 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel88 {
+  background-color: #363d60;
+  -webkit-animation: change88 0.8s ease-in-out infinite;
+          animation: change88 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel89 {
+  background-color: #2ade39;
+  -webkit-animation: change89 0.8s ease-in-out infinite;
+          animation: change89 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel90 {
+  background-color: #9d0848;
+  -webkit-animation: change90 0.8s ease-in-out infinite;
+          animation: change90 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel91 {
+  background-color: #4aff21;
+  -webkit-animation: change91 0.8s ease-in-out infinite;
+          animation: change91 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel92 {
+  background-color: #d42926;
+  -webkit-animation: change92 0.8s ease-in-out infinite;
+          animation: change92 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel93 {
+  background-color: #059432;
+  -webkit-animation: change93 0.8s ease-in-out infinite;
+          animation: change93 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel94 {
+  background-color: #8b91b2;
+  -webkit-animation: change94 0.8s ease-in-out infinite;
+          animation: change94 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel95 {
+  background-color: #54ff10;
+  -webkit-animation: change95 0.8s ease-in-out infinite;
+          animation: change95 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel96 {
+  background-color: #23967e;
+  -webkit-animation: change96 0.8s ease-in-out infinite;
+          animation: change96 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel97 {
+  background-color: #d72946;
+  -webkit-animation: change97 0.8s ease-in-out infinite;
+          animation: change97 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel98 {
+  background-color: #9e7082;
+  -webkit-animation: change98 0.8s ease-in-out infinite;
+          animation: change98 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel99 {
+  background-color: #f7927e;
+  -webkit-animation: change99 0.8s ease-in-out infinite;
+          animation: change99 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel100 {
+  background-color: #720c80;
+  -webkit-animation: change100 0.8s ease-in-out infinite;
+          animation: change100 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel101 {
+  background-color: #8bd832;
+  -webkit-animation: change101 0.8s ease-in-out infinite;
+          animation: change101 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel102 {
+  background-color: #6a122c;
+  -webkit-animation: change102 0.8s ease-in-out infinite;
+          animation: change102 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel103 {
+  background-color: #183fa7;
+  -webkit-animation: change103 0.8s ease-in-out infinite;
+          animation: change103 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel104 {
+  background-color: #3ab8ae;
+  -webkit-animation: change104 0.8s ease-in-out infinite;
+          animation: change104 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel105 {
+  background-color: #2a304e;
+  -webkit-animation: change105 0.8s ease-in-out infinite;
+          animation: change105 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel106 {
+  background-color: #05b527;
+  -webkit-animation: change106 0.8s ease-in-out infinite;
+          animation: change106 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel107 {
+  background-color: #555f28;
+  -webkit-animation: change107 0.8s ease-in-out infinite;
+          animation: change107 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel108 {
+  background-color: #c37d75;
+  -webkit-animation: change108 0.8s ease-in-out infinite;
+          animation: change108 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel109 {
+  background-color: #a13528;
+  -webkit-animation: change109 0.8s ease-in-out infinite;
+          animation: change109 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel110 {
+  background-color: #99f835;
+  -webkit-animation: change110 0.8s ease-in-out infinite;
+          animation: change110 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel111 {
+  background-color: #1af0bb;
+  -webkit-animation: change111 0.8s ease-in-out infinite;
+          animation: change111 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel112 {
+  background-color: #b094a2;
+  -webkit-animation: change112 0.8s ease-in-out infinite;
+          animation: change112 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel113 {
+  background-color: #1a1848;
+  -webkit-animation: change113 0.8s ease-in-out infinite;
+          animation: change113 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel114 {
+  background-color: #ee657a;
+  -webkit-animation: change114 0.8s ease-in-out infinite;
+          animation: change114 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel115 {
+  background-color: #34d216;
+  -webkit-animation: change115 0.8s ease-in-out infinite;
+          animation: change115 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel116 {
+  background-color: #a57748;
+  -webkit-animation: change116 0.8s ease-in-out infinite;
+          animation: change116 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel117 {
+  background-color: #6c3a85;
+  -webkit-animation: change117 0.8s ease-in-out infinite;
+          animation: change117 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel118 {
+  background-color: #850359;
+  -webkit-animation: change118 0.8s ease-in-out infinite;
+          animation: change118 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel119 {
+  background-color: #2e56a2;
+  -webkit-animation: change119 0.8s ease-in-out infinite;
+          animation: change119 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel120 {
+  background-color: #c00aa8;
+  -webkit-animation: change120 0.8s ease-in-out infinite;
+          animation: change120 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel121 {
+  background-color: #2d8a80;
+  -webkit-animation: change121 0.8s ease-in-out infinite;
+          animation: change121 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel122 {
+  background-color: #c4b4ac;
+  -webkit-animation: change122 0.8s ease-in-out infinite;
+          animation: change122 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel123 {
+  background-color: #a9ff43;
+  -webkit-animation: change123 0.8s ease-in-out infinite;
+          animation: change123 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel124 {
+  background-color: #2f9878;
+  -webkit-animation: change124 0.8s ease-in-out infinite;
+          animation: change124 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel125 {
+  background-color: #842871;
+  -webkit-animation: change125 0.8s ease-in-out infinite;
+          animation: change125 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel126 {
+  background-color: #45dd93;
+  -webkit-animation: change126 0.8s ease-in-out infinite;
+          animation: change126 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel127 {
+  background-color: #1cda6b;
+  -webkit-animation: change127 0.8s ease-in-out infinite;
+          animation: change127 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel128 {
+  background-color: #fa8f20;
+  -webkit-animation: change128 0.8s ease-in-out infinite;
+          animation: change128 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel129 {
+  background-color: #a83b26;
+  -webkit-animation: change129 0.8s ease-in-out infinite;
+          animation: change129 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel130 {
+  background-color: #f41cb2;
+  -webkit-animation: change130 0.8s ease-in-out infinite;
+          animation: change130 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel131 {
+  background-color: #99ff1e;
+  -webkit-animation: change131 0.8s ease-in-out infinite;
+          animation: change131 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel132 {
+  background-color: #ffee49;
+  -webkit-animation: change132 0.8s ease-in-out infinite;
+          animation: change132 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel133 {
+  background-color: #a47626;
+  -webkit-animation: change133 0.8s ease-in-out infinite;
+          animation: change133 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel134 {
+  background-color: #f7ff55;
+  -webkit-animation: change134 0.8s ease-in-out infinite;
+          animation: change134 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel135 {
+  background-color: #1cb430;
+  -webkit-animation: change135 0.8s ease-in-out infinite;
+          animation: change135 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel136 {
+  background-color: #ffca60;
+  -webkit-animation: change136 0.8s ease-in-out infinite;
+          animation: change136 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel137 {
+  background-color: #aa564c;
+  -webkit-animation: change137 0.8s ease-in-out infinite;
+          animation: change137 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel138 {
+  background-color: #a1e74a;
+  -webkit-animation: change138 0.8s ease-in-out infinite;
+          animation: change138 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel139 {
+  background-color: #05616c;
+  -webkit-animation: change139 0.8s ease-in-out infinite;
+          animation: change139 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel140 {
+  background-color: #48f69d;
+  -webkit-animation: change140 0.8s ease-in-out infinite;
+          animation: change140 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel141 {
+  background-color: #fe0244;
+  -webkit-animation: change141 0.8s ease-in-out infinite;
+          animation: change141 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel142 {
+  background-color: #b47f3d;
+  -webkit-animation: change142 0.8s ease-in-out infinite;
+          animation: change142 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel143 {
+  background-color: #ed581b;
+  -webkit-animation: change143 0.8s ease-in-out infinite;
+          animation: change143 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel144 {
+  background-color: #f3ff2a;
+  -webkit-animation: change144 0.8s ease-in-out infinite;
+          animation: change144 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel145 {
+  background-color: #593872;
+  -webkit-animation: change145 0.8s ease-in-out infinite;
+          animation: change145 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel146 {
+  background-color: #f7e77c;
+  -webkit-animation: change146 0.8s ease-in-out infinite;
+          animation: change146 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel147 {
+  background-color: #ec3d60;
+  -webkit-animation: change147 0.8s ease-in-out infinite;
+          animation: change147 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel148 {
+  background-color: #9fad64;
+  -webkit-animation: change148 0.8s ease-in-out infinite;
+          animation: change148 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel149 {
+  background-color: #f2675d;
+  -webkit-animation: change149 0.8s ease-in-out infinite;
+          animation: change149 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel150 {
+  background-color: #870fa1;
+  -webkit-animation: change150 0.8s ease-in-out infinite;
+          animation: change150 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel151 {
+  background-color: #1773ac;
+  -webkit-animation: change151 0.8s ease-in-out infinite;
+          animation: change151 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel152 {
+  background-color: #0e6339;
+  -webkit-animation: change152 0.8s ease-in-out infinite;
+          animation: change152 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel153 {
+  background-color: #ef3d13;
+  -webkit-animation: change153 0.8s ease-in-out infinite;
+          animation: change153 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel154 {
+  background-color: #cf6d8e;
+  -webkit-animation: change154 0.8s ease-in-out infinite;
+          animation: change154 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel155 {
+  background-color: #c93b46;
+  -webkit-animation: change155 0.8s ease-in-out infinite;
+          animation: change155 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel156 {
+  background-color: #33619c;
+  -webkit-animation: change156 0.8s ease-in-out infinite;
+          animation: change156 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel157 {
+  background-color: #bcca79;
+  -webkit-animation: change157 0.8s ease-in-out infinite;
+          animation: change157 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel158 {
+  background-color: #10f793;
+  -webkit-animation: change158 0.8s ease-in-out infinite;
+          animation: change158 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel159 {
+  background-color: #c11161;
+  -webkit-animation: change159 0.8s ease-in-out infinite;
+          animation: change159 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel160 {
+  background-color: #9f43a4;
+  -webkit-animation: change160 0.8s ease-in-out infinite;
+          animation: change160 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel161 {
+  background-color: #26983c;
+  -webkit-animation: change161 0.8s ease-in-out infinite;
+          animation: change161 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel162 {
+  background-color: #fe3aaa;
+  -webkit-animation: change162 0.8s ease-in-out infinite;
+          animation: change162 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel163 {
+  background-color: #628a09;
+  -webkit-animation: change163 0.8s ease-in-out infinite;
+          animation: change163 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel164 {
+  background-color: #bd0192;
+  -webkit-animation: change164 0.8s ease-in-out infinite;
+          animation: change164 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel165 {
+  background-color: #f52b10;
+  -webkit-animation: change165 0.8s ease-in-out infinite;
+          animation: change165 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel166 {
+  background-color: #2e6d19;
+  -webkit-animation: change166 0.8s ease-in-out infinite;
+          animation: change166 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel167 {
+  background-color: #74a978;
+  -webkit-animation: change167 0.8s ease-in-out infinite;
+          animation: change167 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel168 {
+  background-color: #538c89;
+  -webkit-animation: change168 0.8s ease-in-out infinite;
+          animation: change168 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel169 {
+  background-color: #d49722;
+  -webkit-animation: change169 0.8s ease-in-out infinite;
+          animation: change169 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel170 {
+  background-color: #c51ba8;
+  -webkit-animation: change170 0.8s ease-in-out infinite;
+          animation: change170 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel171 {
+  background-color: #8562be;
+  -webkit-animation: change171 0.8s ease-in-out infinite;
+          animation: change171 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel172 {
+  background-color: #6fb8b5;
+  -webkit-animation: change172 0.8s ease-in-out infinite;
+          animation: change172 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel173 {
+  background-color: #f5aca8;
+  -webkit-animation: change173 0.8s ease-in-out infinite;
+          animation: change173 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel174 {
+  background-color: #aaff95;
+  -webkit-animation: change174 0.8s ease-in-out infinite;
+          animation: change174 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel175 {
+  background-color: #e63742;
+  -webkit-animation: change175 0.8s ease-in-out infinite;
+          animation: change175 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel176 {
+  background-color: #0e247c;
+  -webkit-animation: change176 0.8s ease-in-out infinite;
+          animation: change176 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel177 {
+  background-color: #ff3c92;
+  -webkit-animation: change177 0.8s ease-in-out infinite;
+          animation: change177 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel178 {
+  background-color: #715145;
+  -webkit-animation: change178 0.8s ease-in-out infinite;
+          animation: change178 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel179 {
+  background-color: #a2a727;
+  -webkit-animation: change179 0.8s ease-in-out infinite;
+          animation: change179 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel180 {
+  background-color: #99ff41;
+  -webkit-animation: change180 0.8s ease-in-out infinite;
+          animation: change180 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel181 {
+  background-color: #27ff22;
+  -webkit-animation: change181 0.8s ease-in-out infinite;
+          animation: change181 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel182 {
+  background-color: #ee3489;
+  -webkit-animation: change182 0.8s ease-in-out infinite;
+          animation: change182 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel183 {
+  background-color: #989b27;
+  -webkit-animation: change183 0.8s ease-in-out infinite;
+          animation: change183 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel184 {
+  background-color: #d0ef9b;
+  -webkit-animation: change184 0.8s ease-in-out infinite;
+          animation: change184 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel185 {
+  background-color: #872c40;
+  -webkit-animation: change185 0.8s ease-in-out infinite;
+          animation: change185 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel186 {
+  background-color: #5ad0ac;
+  -webkit-animation: change186 0.8s ease-in-out infinite;
+          animation: change186 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel187 {
+  background-color: #a5f743;
+  -webkit-animation: change187 0.8s ease-in-out infinite;
+          animation: change187 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel188 {
+  background-color: #44ff74;
+  -webkit-animation: change188 0.8s ease-in-out infinite;
+          animation: change188 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel189 {
+  background-color: #d3227d;
+  -webkit-animation: change189 0.8s ease-in-out infinite;
+          animation: change189 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel190 {
+  background-color: #56a398;
+  -webkit-animation: change190 0.8s ease-in-out infinite;
+          animation: change190 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel191 {
+  background-color: #fcafb8;
+  -webkit-animation: change191 0.8s ease-in-out infinite;
+          animation: change191 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel192 {
+  background-color: #bf88a6;
+  -webkit-animation: change192 0.8s ease-in-out infinite;
+          animation: change192 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel193 {
+  background-color: #0bd3a7;
+  -webkit-animation: change193 0.8s ease-in-out infinite;
+          animation: change193 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel194 {
+  background-color: #b9ff8a;
+  -webkit-animation: change194 0.8s ease-in-out infinite;
+          animation: change194 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel195 {
+  background-color: #c0edb4;
+  -webkit-animation: change195 0.8s ease-in-out infinite;
+          animation: change195 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel196 {
+  background-color: #787a9b;
+  -webkit-animation: change196 0.8s ease-in-out infinite;
+          animation: change196 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel197 {
+  background-color: #c346ab;
+  -webkit-animation: change197 0.8s ease-in-out infinite;
+          animation: change197 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel198 {
+  background-color: #79d111;
+  -webkit-animation: change198 0.8s ease-in-out infinite;
+          animation: change198 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel199 {
+  background-color: #8b641c;
+  -webkit-animation: change199 0.8s ease-in-out infinite;
+          animation: change199 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel200 {
+  background-color: #97a918;
+  -webkit-animation: change200 0.8s ease-in-out infinite;
+          animation: change200 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel201 {
+  background-color: #738987;
+  -webkit-animation: change201 0.8s ease-in-out infinite;
+          animation: change201 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel202 {
+  background-color: #78ed8e;
+  -webkit-animation: change202 0.8s ease-in-out infinite;
+          animation: change202 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel203 {
+  background-color: #0adf3c;
+  -webkit-animation: change203 0.8s ease-in-out infinite;
+          animation: change203 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel204 {
+  background-color: #8f4a15;
+  -webkit-animation: change204 0.8s ease-in-out infinite;
+          animation: change204 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel205 {
+  background-color: #c1046a;
+  -webkit-animation: change205 0.8s ease-in-out infinite;
+          animation: change205 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel206 {
+  background-color: #df68af;
+  -webkit-animation: change206 0.8s ease-in-out infinite;
+          animation: change206 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel207 {
+  background-color: #76fc14;
+  -webkit-animation: change207 0.8s ease-in-out infinite;
+          animation: change207 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel208 {
+  background-color: #f9c5b8;
+  -webkit-animation: change208 0.8s ease-in-out infinite;
+          animation: change208 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel209 {
+  background-color: #59dd0b;
+  -webkit-animation: change209 0.8s ease-in-out infinite;
+          animation: change209 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel210 {
+  background-color: #4b91ab;
+  -webkit-animation: change210 0.8s ease-in-out infinite;
+          animation: change210 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel211 {
+  background-color: #5a9750;
+  -webkit-animation: change211 0.8s ease-in-out infinite;
+          animation: change211 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel212 {
+  background-color: #8eff93;
+  -webkit-animation: change212 0.8s ease-in-out infinite;
+          animation: change212 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel213 {
+  background-color: #e9559a;
+  -webkit-animation: change213 0.8s ease-in-out infinite;
+          animation: change213 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel214 {
+  background-color: #249807;
+  -webkit-animation: change214 0.8s ease-in-out infinite;
+          animation: change214 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel215 {
+  background-color: #2eff73;
+  -webkit-animation: change215 0.8s ease-in-out infinite;
+          animation: change215 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel216 {
+  background-color: #57e909;
+  -webkit-animation: change216 0.8s ease-in-out infinite;
+          animation: change216 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel217 {
+  background-color: #93c548;
+  -webkit-animation: change217 0.8s ease-in-out infinite;
+          animation: change217 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel218 {
+  background-color: #9ce02b;
+  -webkit-animation: change218 0.8s ease-in-out infinite;
+          animation: change218 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel219 {
+  background-color: #794790;
+  -webkit-animation: change219 0.8s ease-in-out infinite;
+          animation: change219 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel220 {
+  background-color: #d0ff38;
+  -webkit-animation: change220 0.8s ease-in-out infinite;
+          animation: change220 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel221 {
+  background-color: #76f62c;
+  -webkit-animation: change221 0.8s ease-in-out infinite;
+          animation: change221 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel222 {
+  background-color: #b4fe83;
+  -webkit-animation: change222 0.8s ease-in-out infinite;
+          animation: change222 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel223 {
+  background-color: #b4ff8b;
+  -webkit-animation: change223 0.8s ease-in-out infinite;
+          animation: change223 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel224 {
+  background-color: #89bb6b;
+  -webkit-animation: change224 0.8s ease-in-out infinite;
+          animation: change224 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel225 {
+  background-color: #d97358;
+  -webkit-animation: change225 0.8s ease-in-out infinite;
+          animation: change225 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel226 {
+  background-color: #642f04;
+  -webkit-animation: change226 0.8s ease-in-out infinite;
+          animation: change226 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel227 {
+  background-color: #781772;
+  -webkit-animation: change227 0.8s ease-in-out infinite;
+          animation: change227 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel228 {
+  background-color: #c77da2;
+  -webkit-animation: change228 0.8s ease-in-out infinite;
+          animation: change228 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel229 {
+  background-color: #daff5b;
+  -webkit-animation: change229 0.8s ease-in-out infinite;
+          animation: change229 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel230 {
+  background-color: #af463d;
+  -webkit-animation: change230 0.8s ease-in-out infinite;
+          animation: change230 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel231 {
+  background-color: #df2044;
+  -webkit-animation: change231 0.8s ease-in-out infinite;
+          animation: change231 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel232 {
+  background-color: #b36e8d;
+  -webkit-animation: change232 0.8s ease-in-out infinite;
+          animation: change232 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel233 {
+  background-color: #72ec4f;
+  -webkit-animation: change233 0.8s ease-in-out infinite;
+          animation: change233 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel234 {
+  background-color: #ecffa0;
+  -webkit-animation: change234 0.8s ease-in-out infinite;
+          animation: change234 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel235 {
+  background-color: #f39918;
+  -webkit-animation: change235 0.8s ease-in-out infinite;
+          animation: change235 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel236 {
+  background-color: #eafe5a;
+  -webkit-animation: change236 0.8s ease-in-out infinite;
+          animation: change236 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel237 {
+  background-color: #35920e;
+  -webkit-animation: change237 0.8s ease-in-out infinite;
+          animation: change237 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel238 {
+  background-color: #23ff11;
+  -webkit-animation: change238 0.8s ease-in-out infinite;
+          animation: change238 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel239 {
+  background-color: #bfe85c;
+  -webkit-animation: change239 0.8s ease-in-out infinite;
+          animation: change239 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel240 {
+  background-color: #7b8ca4;
+  -webkit-animation: change240 0.8s ease-in-out infinite;
+          animation: change240 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel241 {
+  background-color: #cc4c1d;
+  -webkit-animation: change241 0.8s ease-in-out infinite;
+          animation: change241 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel242 {
+  background-color: #239507;
+  -webkit-animation: change242 0.8s ease-in-out infinite;
+          animation: change242 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel243 {
+  background-color: #a91727;
+  -webkit-animation: change243 0.8s ease-in-out infinite;
+          animation: change243 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel244 {
+  background-color: #de8a98;
+  -webkit-animation: change244 0.8s ease-in-out infinite;
+          animation: change244 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel245 {
+  background-color: #e90da8;
+  -webkit-animation: change245 0.8s ease-in-out infinite;
+          animation: change245 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel246 {
+  background-color: #161a36;
+  -webkit-animation: change246 0.8s ease-in-out infinite;
+          animation: change246 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel247 {
+  background-color: #3dc851;
+  -webkit-animation: change247 0.8s ease-in-out infinite;
+          animation: change247 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel248 {
+  background-color: #650665;
+  -webkit-animation: change248 0.8s ease-in-out infinite;
+          animation: change248 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel249 {
+  background-color: #e5eda6;
+  -webkit-animation: change249 0.8s ease-in-out infinite;
+          animation: change249 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel250 {
+  background-color: #ee1149;
+  -webkit-animation: change250 0.8s ease-in-out infinite;
+          animation: change250 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel251 {
+  background-color: #5adb9e;
+  -webkit-animation: change251 0.8s ease-in-out infinite;
+          animation: change251 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel252 {
+  background-color: #3943b5;
+  -webkit-animation: change252 0.8s ease-in-out infinite;
+          animation: change252 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel253 {
+  background-color: #2c2cb2;
+  -webkit-animation: change253 0.8s ease-in-out infinite;
+          animation: change253 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel254 {
+  background-color: #1eb0b1;
+  -webkit-animation: change254 0.8s ease-in-out infinite;
+          animation: change254 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel255 {
+  background-color: #0f79be;
+  -webkit-animation: change255 0.8s ease-in-out infinite;
+          animation: change255 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel256 {
+  background-color: #f8617a;
+  -webkit-animation: change256 0.8s ease-in-out infinite;
+          animation: change256 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel257 {
+  background-color: #da5d65;
+  -webkit-animation: change257 0.8s ease-in-out infinite;
+          animation: change257 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel258 {
+  background-color: #f91142;
+  -webkit-animation: change258 0.8s ease-in-out infinite;
+          animation: change258 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel259 {
+  background-color: #589267;
+  -webkit-animation: change259 0.8s ease-in-out infinite;
+          animation: change259 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel260 {
+  background-color: #c872bd;
+  -webkit-animation: change260 0.8s ease-in-out infinite;
+          animation: change260 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel261 {
+  background-color: #6976b6;
+  -webkit-animation: change261 0.8s ease-in-out infinite;
+          animation: change261 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel262 {
+  background-color: #4daf57;
+  -webkit-animation: change262 0.8s ease-in-out infinite;
+          animation: change262 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel263 {
+  background-color: #a5040d;
+  -webkit-animation: change263 0.8s ease-in-out infinite;
+          animation: change263 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel264 {
+  background-color: #92211e;
+  -webkit-animation: change264 0.8s ease-in-out infinite;
+          animation: change264 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel265 {
+  background-color: #1aee9d;
+  -webkit-animation: change265 0.8s ease-in-out infinite;
+          animation: change265 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel266 {
+  background-color: #9e632a;
+  -webkit-animation: change266 0.8s ease-in-out infinite;
+          animation: change266 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel267 {
+  background-color: #461e3a;
+  -webkit-animation: change267 0.8s ease-in-out infinite;
+          animation: change267 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel268 {
+  background-color: #436156;
+  -webkit-animation: change268 0.8s ease-in-out infinite;
+          animation: change268 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel269 {
+  background-color: #5419af;
+  -webkit-animation: change269 0.8s ease-in-out infinite;
+          animation: change269 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel270 {
+  background-color: #b1812f;
+  -webkit-animation: change270 0.8s ease-in-out infinite;
+          animation: change270 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel271 {
+  background-color: #c4d062;
+  -webkit-animation: change271 0.8s ease-in-out infinite;
+          animation: change271 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel272 {
+  background-color: #fde616;
+  -webkit-animation: change272 0.8s ease-in-out infinite;
+          animation: change272 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel273 {
+  background-color: #28565b;
+  -webkit-animation: change273 0.8s ease-in-out infinite;
+          animation: change273 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel274 {
+  background-color: #efd35a;
+  -webkit-animation: change274 0.8s ease-in-out infinite;
+          animation: change274 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel275 {
+  background-color: #d7360b;
+  -webkit-animation: change275 0.8s ease-in-out infinite;
+          animation: change275 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel276 {
+  background-color: #fb6051;
+  -webkit-animation: change276 0.8s ease-in-out infinite;
+          animation: change276 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel277 {
+  background-color: #912140;
+  -webkit-animation: change277 0.8s ease-in-out infinite;
+          animation: change277 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel278 {
+  background-color: #debf3a;
+  -webkit-animation: change278 0.8s ease-in-out infinite;
+          animation: change278 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel279 {
+  background-color: #366a23;
+  -webkit-animation: change279 0.8s ease-in-out infinite;
+          animation: change279 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel280 {
+  background-color: #e25a5d;
+  -webkit-animation: change280 0.8s ease-in-out infinite;
+          animation: change280 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel281 {
+  background-color: #3f7664;
+  -webkit-animation: change281 0.8s ease-in-out infinite;
+          animation: change281 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel282 {
+  background-color: #68c899;
+  -webkit-animation: change282 0.8s ease-in-out infinite;
+          animation: change282 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel283 {
+  background-color: #15ffa8;
+  -webkit-animation: change283 0.8s ease-in-out infinite;
+          animation: change283 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel284 {
+  background-color: #2fff33;
+  -webkit-animation: change284 0.8s ease-in-out infinite;
+          animation: change284 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel285 {
+  background-color: #cace6b;
+  -webkit-animation: change285 0.8s ease-in-out infinite;
+          animation: change285 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel286 {
+  background-color: #20fb8d;
+  -webkit-animation: change286 0.8s ease-in-out infinite;
+          animation: change286 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel287 {
+  background-color: #972d87;
+  -webkit-animation: change287 0.8s ease-in-out infinite;
+          animation: change287 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel288 {
+  background-color: #55d103;
+  -webkit-animation: change288 0.8s ease-in-out infinite;
+          animation: change288 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel289 {
+  background-color: #ecf19d;
+  -webkit-animation: change289 0.8s ease-in-out infinite;
+          animation: change289 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel290 {
+  background-color: #ffffbc;
+  -webkit-animation: change290 0.8s ease-in-out infinite;
+          animation: change290 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel291 {
+  background-color: #e60305;
+  -webkit-animation: change291 0.8s ease-in-out infinite;
+          animation: change291 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel292 {
+  background-color: #99b716;
+  -webkit-animation: change292 0.8s ease-in-out infinite;
+          animation: change292 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel293 {
+  background-color: #11fdb5;
+  -webkit-animation: change293 0.8s ease-in-out infinite;
+          animation: change293 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel294 {
+  background-color: #72bb24;
+  -webkit-animation: change294 0.8s ease-in-out infinite;
+          animation: change294 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel295 {
+  background-color: #f90505;
+  -webkit-animation: change295 0.8s ease-in-out infinite;
+          animation: change295 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel296 {
+  background-color: #568999;
+  -webkit-animation: change296 0.8s ease-in-out infinite;
+          animation: change296 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel297 {
+  background-color: #6ca479;
+  -webkit-animation: change297 0.8s ease-in-out infinite;
+          animation: change297 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel298 {
+  background-color: #f5f037;
+  -webkit-animation: change298 0.8s ease-in-out infinite;
+          animation: change298 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel299 {
+  background-color: #3e2b5e;
+  -webkit-animation: change299 0.8s ease-in-out infinite;
+          animation: change299 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel300 {
+  background-color: #fdff68;
+  -webkit-animation: change300 0.8s ease-in-out infinite;
+          animation: change300 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel301 {
+  background-color: #fa3b64;
+  -webkit-animation: change301 0.8s ease-in-out infinite;
+          animation: change301 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel302 {
+  background-color: #d16a0b;
+  -webkit-animation: change302 0.8s ease-in-out infinite;
+          animation: change302 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel303 {
+  background-color: #170470;
+  -webkit-animation: change303 0.8s ease-in-out infinite;
+          animation: change303 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel304 {
+  background-color: #912ebb;
+  -webkit-animation: change304 0.8s ease-in-out infinite;
+          animation: change304 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel305 {
+  background-color: #35adb8;
+  -webkit-animation: change305 0.8s ease-in-out infinite;
+          animation: change305 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel306 {
+  background-color: #635431;
+  -webkit-animation: change306 0.8s ease-in-out infinite;
+          animation: change306 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel307 {
+  background-color: #a7741b;
+  -webkit-animation: change307 0.8s ease-in-out infinite;
+          animation: change307 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel308 {
+  background-color: #fd37ab;
+  -webkit-animation: change308 0.8s ease-in-out infinite;
+          animation: change308 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel309 {
+  background-color: #dc3272;
+  -webkit-animation: change309 0.8s ease-in-out infinite;
+          animation: change309 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel310 {
+  background-color: #501e72;
+  -webkit-animation: change310 0.8s ease-in-out infinite;
+          animation: change310 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel311 {
+  background-color: #5fd7b9;
+  -webkit-animation: change311 0.8s ease-in-out infinite;
+          animation: change311 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel312 {
+  background-color: #edff83;
+  -webkit-animation: change312 0.8s ease-in-out infinite;
+          animation: change312 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel313 {
+  background-color: #511f4d;
+  -webkit-animation: change313 0.8s ease-in-out infinite;
+          animation: change313 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel314 {
+  background-color: #ba6d74;
+  -webkit-animation: change314 0.8s ease-in-out infinite;
+          animation: change314 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel315 {
+  background-color: #15435a;
+  -webkit-animation: change315 0.8s ease-in-out infinite;
+          animation: change315 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel316 {
+  background-color: #18e508;
+  -webkit-animation: change316 0.8s ease-in-out infinite;
+          animation: change316 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel317 {
+  background-color: #963422;
+  -webkit-animation: change317 0.8s ease-in-out infinite;
+          animation: change317 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel318 {
+  background-color: #9ea1b6;
+  -webkit-animation: change318 0.8s ease-in-out infinite;
+          animation: change318 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel319 {
+  background-color: #e5c6b5;
+  -webkit-animation: change319 0.8s ease-in-out infinite;
+          animation: change319 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel320 {
+  background-color: #e0110b;
+  -webkit-animation: change320 0.8s ease-in-out infinite;
+          animation: change320 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel321 {
+  background-color: #7d064c;
+  -webkit-animation: change321 0.8s ease-in-out infinite;
+          animation: change321 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel322 {
+  background-color: #d93e7a;
+  -webkit-animation: change322 0.8s ease-in-out infinite;
+          animation: change322 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel323 {
+  background-color: #d3f76e;
+  -webkit-animation: change323 0.8s ease-in-out infinite;
+          animation: change323 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel324 {
+  background-color: #b356b3;
+  -webkit-animation: change324 0.8s ease-in-out infinite;
+          animation: change324 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel325 {
+  background-color: #5047b9;
+  -webkit-animation: change325 0.8s ease-in-out infinite;
+          animation: change325 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel326 {
+  background-color: #27f999;
+  -webkit-animation: change326 0.8s ease-in-out infinite;
+          animation: change326 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel327 {
+  background-color: #e80c73;
+  -webkit-animation: change327 0.8s ease-in-out infinite;
+          animation: change327 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel328 {
+  background-color: #c7d968;
+  -webkit-animation: change328 0.8s ease-in-out infinite;
+          animation: change328 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel329 {
+  background-color: #8ec30b;
+  -webkit-animation: change329 0.8s ease-in-out infinite;
+          animation: change329 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel330 {
+  background-color: #c82b65;
+  -webkit-animation: change330 0.8s ease-in-out infinite;
+          animation: change330 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel331 {
+  background-color: #f7baa0;
+  -webkit-animation: change331 0.8s ease-in-out infinite;
+          animation: change331 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel332 {
+  background-color: #9d8330;
+  -webkit-animation: change332 0.8s ease-in-out infinite;
+          animation: change332 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel333 {
+  background-color: #303849;
+  -webkit-animation: change333 0.8s ease-in-out infinite;
+          animation: change333 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel334 {
+  background-color: #835a6f;
+  -webkit-animation: change334 0.8s ease-in-out infinite;
+          animation: change334 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel335 {
+  background-color: #45ff5f;
+  -webkit-animation: change335 0.8s ease-in-out infinite;
+          animation: change335 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel336 {
+  background-color: #7f488f;
+  -webkit-animation: change336 0.8s ease-in-out infinite;
+          animation: change336 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel337 {
+  background-color: #082776;
+  -webkit-animation: change337 0.8s ease-in-out infinite;
+          animation: change337 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel338 {
+  background-color: #992328;
+  -webkit-animation: change338 0.8s ease-in-out infinite;
+          animation: change338 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel339 {
+  background-color: #f41179;
+  -webkit-animation: change339 0.8s ease-in-out infinite;
+          animation: change339 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel340 {
+  background-color: #f2ff2d;
+  -webkit-animation: change340 0.8s ease-in-out infinite;
+          animation: change340 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel341 {
+  background-color: #53115c;
+  -webkit-animation: change341 0.8s ease-in-out infinite;
+          animation: change341 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel342 {
+  background-color: #bb1151;
+  -webkit-animation: change342 0.8s ease-in-out infinite;
+          animation: change342 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel343 {
+  background-color: #0a7999;
+  -webkit-animation: change343 0.8s ease-in-out infinite;
+          animation: change343 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel344 {
+  background-color: #0d979c;
+  -webkit-animation: change344 0.8s ease-in-out infinite;
+          animation: change344 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel345 {
+  background-color: #f75f64;
+  -webkit-animation: change345 0.8s ease-in-out infinite;
+          animation: change345 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel346 {
+  background-color: #83ecaa;
+  -webkit-animation: change346 0.8s ease-in-out infinite;
+          animation: change346 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel347 {
+  background-color: #c4698f;
+  -webkit-animation: change347 0.8s ease-in-out infinite;
+          animation: change347 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel348 {
+  background-color: #80f086;
+  -webkit-animation: change348 0.8s ease-in-out infinite;
+          animation: change348 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel349 {
+  background-color: #9a0510;
+  -webkit-animation: change349 0.8s ease-in-out infinite;
+          animation: change349 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel350 {
+  background-color: #31af08;
+  -webkit-animation: change350 0.8s ease-in-out infinite;
+          animation: change350 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel351 {
+  background-color: #c0ee1b;
+  -webkit-animation: change351 0.8s ease-in-out infinite;
+          animation: change351 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel352 {
+  background-color: #5a72be;
+  -webkit-animation: change352 0.8s ease-in-out infinite;
+          animation: change352 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel353 {
+  background-color: #4b59b9;
+  -webkit-animation: change353 0.8s ease-in-out infinite;
+          animation: change353 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel354 {
+  background-color: #f47545;
+  -webkit-animation: change354 0.8s ease-in-out infinite;
+          animation: change354 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel355 {
+  background-color: #3b25b1;
+  -webkit-animation: change355 0.8s ease-in-out infinite;
+          animation: change355 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel356 {
+  background-color: #78640b;
+  -webkit-animation: change356 0.8s ease-in-out infinite;
+          animation: change356 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel357 {
+  background-color: #9438b9;
+  -webkit-animation: change357 0.8s ease-in-out infinite;
+          animation: change357 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel358 {
+  background-color: #58a904;
+  -webkit-animation: change358 0.8s ease-in-out infinite;
+          animation: change358 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel359 {
+  background-color: #31c1b4;
+  -webkit-animation: change359 0.8s ease-in-out infinite;
+          animation: change359 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel360 {
+  background-color: #8b941a;
+  -webkit-animation: change360 0.8s ease-in-out infinite;
+          animation: change360 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel361 {
+  background-color: #83a019;
+  -webkit-animation: change361 0.8s ease-in-out infinite;
+          animation: change361 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel362 {
+  background-color: #4ab98d;
+  -webkit-animation: change362 0.8s ease-in-out infinite;
+          animation: change362 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel363 {
+  background-color: #4a4727;
+  -webkit-animation: change363 0.8s ease-in-out infinite;
+          animation: change363 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel364 {
+  background-color: #26e69c;
+  -webkit-animation: change364 0.8s ease-in-out infinite;
+          animation: change364 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel365 {
+  background-color: #3a9b6a;
+  -webkit-animation: change365 0.8s ease-in-out infinite;
+          animation: change365 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel366 {
+  background-color: #68ff9d;
+  -webkit-animation: change366 0.8s ease-in-out infinite;
+          animation: change366 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel367 {
+  background-color: #6dc48f;
+  -webkit-animation: change367 0.8s ease-in-out infinite;
+          animation: change367 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel368 {
+  background-color: #e0ff35;
+  -webkit-animation: change368 0.8s ease-in-out infinite;
+          animation: change368 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel369 {
+  background-color: #1bc27d;
+  -webkit-animation: change369 0.8s ease-in-out infinite;
+          animation: change369 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel370 {
+  background-color: #0c1da8;
+  -webkit-animation: change370 0.8s ease-in-out infinite;
+          animation: change370 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel371 {
+  background-color: #e8ce6e;
+  -webkit-animation: change371 0.8s ease-in-out infinite;
+          animation: change371 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel372 {
+  background-color: #567662;
+  -webkit-animation: change372 0.8s ease-in-out infinite;
+          animation: change372 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel373 {
+  background-color: #5a5410;
+  -webkit-animation: change373 0.8s ease-in-out infinite;
+          animation: change373 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel374 {
+  background-color: #1a7fba;
+  -webkit-animation: change374 0.8s ease-in-out infinite;
+          animation: change374 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel375 {
+  background-color: #b02197;
+  -webkit-animation: change375 0.8s ease-in-out infinite;
+          animation: change375 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel376 {
+  background-color: #e5fe9c;
+  -webkit-animation: change376 0.8s ease-in-out infinite;
+          animation: change376 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel377 {
+  background-color: #b735ad;
+  -webkit-animation: change377 0.8s ease-in-out infinite;
+          animation: change377 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel378 {
+  background-color: #eeff24;
+  -webkit-animation: change378 0.8s ease-in-out infinite;
+          animation: change378 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel379 {
+  background-color: #30af5b;
+  -webkit-animation: change379 0.8s ease-in-out infinite;
+          animation: change379 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel380 {
+  background-color: #3a0186;
+  -webkit-animation: change380 0.8s ease-in-out infinite;
+          animation: change380 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel381 {
+  background-color: #48f47e;
+  -webkit-animation: change381 0.8s ease-in-out infinite;
+          animation: change381 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel382 {
+  background-color: #20fe48;
+  -webkit-animation: change382 0.8s ease-in-out infinite;
+          animation: change382 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel383 {
+  background-color: #5f2117;
+  -webkit-animation: change383 0.8s ease-in-out infinite;
+          animation: change383 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel384 {
+  background-color: #0aed66;
+  -webkit-animation: change384 0.8s ease-in-out infinite;
+          animation: change384 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel385 {
+  background-color: #16ba30;
+  -webkit-animation: change385 0.8s ease-in-out infinite;
+          animation: change385 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel386 {
+  background-color: #580c39;
+  -webkit-animation: change386 0.8s ease-in-out infinite;
+          animation: change386 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel387 {
+  background-color: #8b3091;
+  -webkit-animation: change387 0.8s ease-in-out infinite;
+          animation: change387 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel388 {
+  background-color: #68e26e;
+  -webkit-animation: change388 0.8s ease-in-out infinite;
+          animation: change388 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel389 {
+  background-color: #43d40e;
+  -webkit-animation: change389 0.8s ease-in-out infinite;
+          animation: change389 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel390 {
+  background-color: #74ff2b;
+  -webkit-animation: change390 0.8s ease-in-out infinite;
+          animation: change390 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel391 {
+  background-color: #f46a66;
+  -webkit-animation: change391 0.8s ease-in-out infinite;
+          animation: change391 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel392 {
+  background-color: #d1ffa5;
+  -webkit-animation: change392 0.8s ease-in-out infinite;
+          animation: change392 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel393 {
+  background-color: #134a9e;
+  -webkit-animation: change393 0.8s ease-in-out infinite;
+          animation: change393 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel394 {
+  background-color: #d2aabc;
+  -webkit-animation: change394 0.8s ease-in-out infinite;
+          animation: change394 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel395 {
+  background-color: #57f959;
+  -webkit-animation: change395 0.8s ease-in-out infinite;
+          animation: change395 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel396 {
+  background-color: #8bac4b;
+  -webkit-animation: change396 0.8s ease-in-out infinite;
+          animation: change396 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel397 {
+  background-color: #0fc6a9;
+  -webkit-animation: change397 0.8s ease-in-out infinite;
+          animation: change397 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel398 {
+  background-color: #ab4526;
+  -webkit-animation: change398 0.8s ease-in-out infinite;
+          animation: change398 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel399 {
+  background-color: #1a11a3;
+  -webkit-animation: change399 0.8s ease-in-out infinite;
+          animation: change399 0.8s ease-in-out infinite;
+}
+
+#canvas .pixel400 {
+  background-color: #ab5964;
+  -webkit-animation: change400 0.8s ease-in-out infinite;
+          animation: change400 0.8s ease-in-out infinite;
+}
+
+@-webkit-keyframes loop {
+  0% {
+    -webkit-transform: rotateY(0deg) translateX(0px);
+            transform: rotateY(0deg) translateX(0px);
+  }
+  50% {
+    -webkit-transform: rotateY(360deg) translateX(200px);
+            transform: rotateY(360deg) translateX(200px);
+  }
+  100% {
+    -webkit-transform: rotateY(0deg) translateX(0px);
+            transform: rotateY(0deg) translateX(0px);
+  }
+}
+
+@keyframes loop {
+  0% {
+    -webkit-transform: rotateY(0deg) translateX(0px);
+            transform: rotateY(0deg) translateX(0px);
+  }
+  50% {
+    -webkit-transform: rotateY(360deg) translateX(200px);
+            transform: rotateY(360deg) translateX(200px);
+  }
+  100% {
+    -webkit-transform: rotateY(0deg) translateX(0px);
+            transform: rotateY(0deg) translateX(0px);
+  }
+}
+
+@-webkit-keyframes change1 {
+  0.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change1 {
+  0.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change2 {
+  0.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change2 {
+  0.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change3 {
+  0.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change3 {
+  0.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change4 {
+  1% {
+    background-color: white;
+  }
+}
+
+@keyframes change4 {
+  1% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change5 {
+  1.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change5 {
+  1.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change6 {
+  1.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change6 {
+  1.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change7 {
+  1.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change7 {
+  1.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change8 {
+  2% {
+    background-color: white;
+  }
+}
+
+@keyframes change8 {
+  2% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change9 {
+  2.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change9 {
+  2.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change10 {
+  2.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change10 {
+  2.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change11 {
+  2.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change11 {
+  2.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change12 {
+  3% {
+    background-color: white;
+  }
+}
+
+@keyframes change12 {
+  3% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change13 {
+  3.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change13 {
+  3.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change14 {
+  3.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change14 {
+  3.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change15 {
+  3.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change15 {
+  3.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change16 {
+  4% {
+    background-color: white;
+  }
+}
+
+@keyframes change16 {
+  4% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change17 {
+  4.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change17 {
+  4.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change18 {
+  4.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change18 {
+  4.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change19 {
+  4.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change19 {
+  4.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change20 {
+  5% {
+    background-color: white;
+  }
+}
+
+@keyframes change20 {
+  5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change21 {
+  5.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change21 {
+  5.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change22 {
+  5.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change22 {
+  5.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change23 {
+  5.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change23 {
+  5.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change24 {
+  6% {
+    background-color: white;
+  }
+}
+
+@keyframes change24 {
+  6% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change25 {
+  6.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change25 {
+  6.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change26 {
+  6.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change26 {
+  6.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change27 {
+  6.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change27 {
+  6.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change28 {
+  7% {
+    background-color: white;
+  }
+}
+
+@keyframes change28 {
+  7% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change29 {
+  7.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change29 {
+  7.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change30 {
+  7.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change30 {
+  7.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change31 {
+  7.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change31 {
+  7.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change32 {
+  8% {
+    background-color: white;
+  }
+}
+
+@keyframes change32 {
+  8% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change33 {
+  8.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change33 {
+  8.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change34 {
+  8.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change34 {
+  8.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change35 {
+  8.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change35 {
+  8.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change36 {
+  9% {
+    background-color: white;
+  }
+}
+
+@keyframes change36 {
+  9% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change37 {
+  9.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change37 {
+  9.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change38 {
+  9.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change38 {
+  9.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change39 {
+  9.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change39 {
+  9.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change40 {
+  10% {
+    background-color: white;
+  }
+}
+
+@keyframes change40 {
+  10% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change41 {
+  10.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change41 {
+  10.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change42 {
+  10.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change42 {
+  10.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change43 {
+  10.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change43 {
+  10.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change44 {
+  11% {
+    background-color: white;
+  }
+}
+
+@keyframes change44 {
+  11% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change45 {
+  11.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change45 {
+  11.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change46 {
+  11.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change46 {
+  11.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change47 {
+  11.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change47 {
+  11.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change48 {
+  12% {
+    background-color: white;
+  }
+}
+
+@keyframes change48 {
+  12% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change49 {
+  12.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change49 {
+  12.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change50 {
+  12.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change50 {
+  12.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change51 {
+  12.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change51 {
+  12.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change52 {
+  13% {
+    background-color: white;
+  }
+}
+
+@keyframes change52 {
+  13% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change53 {
+  13.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change53 {
+  13.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change54 {
+  13.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change54 {
+  13.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change55 {
+  13.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change55 {
+  13.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change56 {
+  14% {
+    background-color: white;
+  }
+}
+
+@keyframes change56 {
+  14% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change57 {
+  14.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change57 {
+  14.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change58 {
+  14.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change58 {
+  14.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change59 {
+  14.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change59 {
+  14.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change60 {
+  15% {
+    background-color: white;
+  }
+}
+
+@keyframes change60 {
+  15% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change61 {
+  15.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change61 {
+  15.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change62 {
+  15.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change62 {
+  15.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change63 {
+  15.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change63 {
+  15.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change64 {
+  16% {
+    background-color: white;
+  }
+}
+
+@keyframes change64 {
+  16% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change65 {
+  16.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change65 {
+  16.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change66 {
+  16.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change66 {
+  16.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change67 {
+  16.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change67 {
+  16.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change68 {
+  17% {
+    background-color: white;
+  }
+}
+
+@keyframes change68 {
+  17% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change69 {
+  17.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change69 {
+  17.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change70 {
+  17.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change70 {
+  17.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change71 {
+  17.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change71 {
+  17.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change72 {
+  18% {
+    background-color: white;
+  }
+}
+
+@keyframes change72 {
+  18% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change73 {
+  18.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change73 {
+  18.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change74 {
+  18.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change74 {
+  18.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change75 {
+  18.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change75 {
+  18.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change76 {
+  19% {
+    background-color: white;
+  }
+}
+
+@keyframes change76 {
+  19% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change77 {
+  19.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change77 {
+  19.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change78 {
+  19.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change78 {
+  19.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change79 {
+  19.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change79 {
+  19.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change80 {
+  20% {
+    background-color: white;
+  }
+}
+
+@keyframes change80 {
+  20% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change81 {
+  20.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change81 {
+  20.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change82 {
+  20.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change82 {
+  20.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change83 {
+  20.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change83 {
+  20.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change84 {
+  21% {
+    background-color: white;
+  }
+}
+
+@keyframes change84 {
+  21% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change85 {
+  21.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change85 {
+  21.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change86 {
+  21.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change86 {
+  21.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change87 {
+  21.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change87 {
+  21.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change88 {
+  22% {
+    background-color: white;
+  }
+}
+
+@keyframes change88 {
+  22% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change89 {
+  22.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change89 {
+  22.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change90 {
+  22.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change90 {
+  22.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change91 {
+  22.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change91 {
+  22.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change92 {
+  23% {
+    background-color: white;
+  }
+}
+
+@keyframes change92 {
+  23% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change93 {
+  23.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change93 {
+  23.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change94 {
+  23.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change94 {
+  23.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change95 {
+  23.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change95 {
+  23.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change96 {
+  24% {
+    background-color: white;
+  }
+}
+
+@keyframes change96 {
+  24% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change97 {
+  24.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change97 {
+  24.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change98 {
+  24.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change98 {
+  24.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change99 {
+  24.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change99 {
+  24.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change100 {
+  25% {
+    background-color: white;
+  }
+}
+
+@keyframes change100 {
+  25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change101 {
+  25.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change101 {
+  25.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change102 {
+  25.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change102 {
+  25.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change103 {
+  25.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change103 {
+  25.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change104 {
+  26% {
+    background-color: white;
+  }
+}
+
+@keyframes change104 {
+  26% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change105 {
+  26.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change105 {
+  26.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change106 {
+  26.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change106 {
+  26.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change107 {
+  26.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change107 {
+  26.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change108 {
+  27% {
+    background-color: white;
+  }
+}
+
+@keyframes change108 {
+  27% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change109 {
+  27.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change109 {
+  27.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change110 {
+  27.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change110 {
+  27.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change111 {
+  27.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change111 {
+  27.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change112 {
+  28% {
+    background-color: white;
+  }
+}
+
+@keyframes change112 {
+  28% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change113 {
+  28.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change113 {
+  28.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change114 {
+  28.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change114 {
+  28.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change115 {
+  28.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change115 {
+  28.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change116 {
+  29% {
+    background-color: white;
+  }
+}
+
+@keyframes change116 {
+  29% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change117 {
+  29.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change117 {
+  29.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change118 {
+  29.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change118 {
+  29.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change119 {
+  29.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change119 {
+  29.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change120 {
+  30% {
+    background-color: white;
+  }
+}
+
+@keyframes change120 {
+  30% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change121 {
+  30.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change121 {
+  30.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change122 {
+  30.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change122 {
+  30.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change123 {
+  30.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change123 {
+  30.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change124 {
+  31% {
+    background-color: white;
+  }
+}
+
+@keyframes change124 {
+  31% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change125 {
+  31.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change125 {
+  31.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change126 {
+  31.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change126 {
+  31.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change127 {
+  31.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change127 {
+  31.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change128 {
+  32% {
+    background-color: white;
+  }
+}
+
+@keyframes change128 {
+  32% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change129 {
+  32.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change129 {
+  32.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change130 {
+  32.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change130 {
+  32.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change131 {
+  32.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change131 {
+  32.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change132 {
+  33% {
+    background-color: white;
+  }
+}
+
+@keyframes change132 {
+  33% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change133 {
+  33.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change133 {
+  33.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change134 {
+  33.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change134 {
+  33.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change135 {
+  33.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change135 {
+  33.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change136 {
+  34% {
+    background-color: white;
+  }
+}
+
+@keyframes change136 {
+  34% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change137 {
+  34.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change137 {
+  34.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change138 {
+  34.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change138 {
+  34.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change139 {
+  34.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change139 {
+  34.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change140 {
+  35% {
+    background-color: white;
+  }
+}
+
+@keyframes change140 {
+  35% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change141 {
+  35.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change141 {
+  35.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change142 {
+  35.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change142 {
+  35.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change143 {
+  35.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change143 {
+  35.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change144 {
+  36% {
+    background-color: white;
+  }
+}
+
+@keyframes change144 {
+  36% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change145 {
+  36.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change145 {
+  36.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change146 {
+  36.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change146 {
+  36.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change147 {
+  36.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change147 {
+  36.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change148 {
+  37% {
+    background-color: white;
+  }
+}
+
+@keyframes change148 {
+  37% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change149 {
+  37.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change149 {
+  37.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change150 {
+  37.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change150 {
+  37.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change151 {
+  37.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change151 {
+  37.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change152 {
+  38% {
+    background-color: white;
+  }
+}
+
+@keyframes change152 {
+  38% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change153 {
+  38.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change153 {
+  38.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change154 {
+  38.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change154 {
+  38.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change155 {
+  38.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change155 {
+  38.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change156 {
+  39% {
+    background-color: white;
+  }
+}
+
+@keyframes change156 {
+  39% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change157 {
+  39.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change157 {
+  39.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change158 {
+  39.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change158 {
+  39.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change159 {
+  39.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change159 {
+  39.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change160 {
+  40% {
+    background-color: white;
+  }
+}
+
+@keyframes change160 {
+  40% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change161 {
+  40.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change161 {
+  40.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change162 {
+  40.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change162 {
+  40.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change163 {
+  40.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change163 {
+  40.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change164 {
+  41% {
+    background-color: white;
+  }
+}
+
+@keyframes change164 {
+  41% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change165 {
+  41.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change165 {
+  41.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change166 {
+  41.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change166 {
+  41.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change167 {
+  41.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change167 {
+  41.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change168 {
+  42% {
+    background-color: white;
+  }
+}
+
+@keyframes change168 {
+  42% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change169 {
+  42.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change169 {
+  42.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change170 {
+  42.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change170 {
+  42.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change171 {
+  42.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change171 {
+  42.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change172 {
+  43% {
+    background-color: white;
+  }
+}
+
+@keyframes change172 {
+  43% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change173 {
+  43.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change173 {
+  43.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change174 {
+  43.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change174 {
+  43.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change175 {
+  43.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change175 {
+  43.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change176 {
+  44% {
+    background-color: white;
+  }
+}
+
+@keyframes change176 {
+  44% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change177 {
+  44.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change177 {
+  44.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change178 {
+  44.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change178 {
+  44.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change179 {
+  44.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change179 {
+  44.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change180 {
+  45% {
+    background-color: white;
+  }
+}
+
+@keyframes change180 {
+  45% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change181 {
+  45.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change181 {
+  45.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change182 {
+  45.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change182 {
+  45.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change183 {
+  45.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change183 {
+  45.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change184 {
+  46% {
+    background-color: white;
+  }
+}
+
+@keyframes change184 {
+  46% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change185 {
+  46.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change185 {
+  46.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change186 {
+  46.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change186 {
+  46.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change187 {
+  46.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change187 {
+  46.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change188 {
+  47% {
+    background-color: white;
+  }
+}
+
+@keyframes change188 {
+  47% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change189 {
+  47.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change189 {
+  47.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change190 {
+  47.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change190 {
+  47.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change191 {
+  47.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change191 {
+  47.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change192 {
+  48% {
+    background-color: white;
+  }
+}
+
+@keyframes change192 {
+  48% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change193 {
+  48.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change193 {
+  48.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change194 {
+  48.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change194 {
+  48.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change195 {
+  48.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change195 {
+  48.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change196 {
+  49% {
+    background-color: white;
+  }
+}
+
+@keyframes change196 {
+  49% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change197 {
+  49.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change197 {
+  49.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change198 {
+  49.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change198 {
+  49.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change199 {
+  49.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change199 {
+  49.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change200 {
+  50% {
+    background-color: white;
+  }
+}
+
+@keyframes change200 {
+  50% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change201 {
+  50.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change201 {
+  50.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change202 {
+  50.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change202 {
+  50.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change203 {
+  50.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change203 {
+  50.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change204 {
+  51% {
+    background-color: white;
+  }
+}
+
+@keyframes change204 {
+  51% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change205 {
+  51.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change205 {
+  51.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change206 {
+  51.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change206 {
+  51.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change207 {
+  51.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change207 {
+  51.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change208 {
+  52% {
+    background-color: white;
+  }
+}
+
+@keyframes change208 {
+  52% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change209 {
+  52.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change209 {
+  52.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change210 {
+  52.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change210 {
+  52.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change211 {
+  52.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change211 {
+  52.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change212 {
+  53% {
+    background-color: white;
+  }
+}
+
+@keyframes change212 {
+  53% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change213 {
+  53.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change213 {
+  53.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change214 {
+  53.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change214 {
+  53.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change215 {
+  53.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change215 {
+  53.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change216 {
+  54% {
+    background-color: white;
+  }
+}
+
+@keyframes change216 {
+  54% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change217 {
+  54.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change217 {
+  54.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change218 {
+  54.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change218 {
+  54.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change219 {
+  54.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change219 {
+  54.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change220 {
+  55% {
+    background-color: white;
+  }
+}
+
+@keyframes change220 {
+  55% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change221 {
+  55.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change221 {
+  55.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change222 {
+  55.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change222 {
+  55.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change223 {
+  55.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change223 {
+  55.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change224 {
+  56% {
+    background-color: white;
+  }
+}
+
+@keyframes change224 {
+  56% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change225 {
+  56.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change225 {
+  56.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change226 {
+  56.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change226 {
+  56.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change227 {
+  56.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change227 {
+  56.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change228 {
+  57% {
+    background-color: white;
+  }
+}
+
+@keyframes change228 {
+  57% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change229 {
+  57.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change229 {
+  57.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change230 {
+  57.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change230 {
+  57.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change231 {
+  57.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change231 {
+  57.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change232 {
+  58% {
+    background-color: white;
+  }
+}
+
+@keyframes change232 {
+  58% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change233 {
+  58.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change233 {
+  58.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change234 {
+  58.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change234 {
+  58.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change235 {
+  58.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change235 {
+  58.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change236 {
+  59% {
+    background-color: white;
+  }
+}
+
+@keyframes change236 {
+  59% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change237 {
+  59.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change237 {
+  59.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change238 {
+  59.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change238 {
+  59.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change239 {
+  59.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change239 {
+  59.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change240 {
+  60% {
+    background-color: white;
+  }
+}
+
+@keyframes change240 {
+  60% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change241 {
+  60.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change241 {
+  60.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change242 {
+  60.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change242 {
+  60.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change243 {
+  60.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change243 {
+  60.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change244 {
+  61% {
+    background-color: white;
+  }
+}
+
+@keyframes change244 {
+  61% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change245 {
+  61.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change245 {
+  61.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change246 {
+  61.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change246 {
+  61.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change247 {
+  61.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change247 {
+  61.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change248 {
+  62% {
+    background-color: white;
+  }
+}
+
+@keyframes change248 {
+  62% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change249 {
+  62.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change249 {
+  62.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change250 {
+  62.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change250 {
+  62.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change251 {
+  62.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change251 {
+  62.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change252 {
+  63% {
+    background-color: white;
+  }
+}
+
+@keyframes change252 {
+  63% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change253 {
+  63.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change253 {
+  63.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change254 {
+  63.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change254 {
+  63.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change255 {
+  63.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change255 {
+  63.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change256 {
+  64% {
+    background-color: white;
+  }
+}
+
+@keyframes change256 {
+  64% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change257 {
+  64.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change257 {
+  64.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change258 {
+  64.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change258 {
+  64.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change259 {
+  64.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change259 {
+  64.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change260 {
+  65% {
+    background-color: white;
+  }
+}
+
+@keyframes change260 {
+  65% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change261 {
+  65.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change261 {
+  65.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change262 {
+  65.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change262 {
+  65.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change263 {
+  65.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change263 {
+  65.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change264 {
+  66% {
+    background-color: white;
+  }
+}
+
+@keyframes change264 {
+  66% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change265 {
+  66.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change265 {
+  66.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change266 {
+  66.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change266 {
+  66.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change267 {
+  66.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change267 {
+  66.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change268 {
+  67% {
+    background-color: white;
+  }
+}
+
+@keyframes change268 {
+  67% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change269 {
+  67.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change269 {
+  67.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change270 {
+  67.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change270 {
+  67.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change271 {
+  67.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change271 {
+  67.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change272 {
+  68% {
+    background-color: white;
+  }
+}
+
+@keyframes change272 {
+  68% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change273 {
+  68.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change273 {
+  68.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change274 {
+  68.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change274 {
+  68.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change275 {
+  68.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change275 {
+  68.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change276 {
+  69% {
+    background-color: white;
+  }
+}
+
+@keyframes change276 {
+  69% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change277 {
+  69.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change277 {
+  69.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change278 {
+  69.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change278 {
+  69.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change279 {
+  69.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change279 {
+  69.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change280 {
+  70% {
+    background-color: white;
+  }
+}
+
+@keyframes change280 {
+  70% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change281 {
+  70.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change281 {
+  70.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change282 {
+  70.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change282 {
+  70.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change283 {
+  70.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change283 {
+  70.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change284 {
+  71% {
+    background-color: white;
+  }
+}
+
+@keyframes change284 {
+  71% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change285 {
+  71.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change285 {
+  71.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change286 {
+  71.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change286 {
+  71.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change287 {
+  71.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change287 {
+  71.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change288 {
+  72% {
+    background-color: white;
+  }
+}
+
+@keyframes change288 {
+  72% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change289 {
+  72.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change289 {
+  72.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change290 {
+  72.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change290 {
+  72.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change291 {
+  72.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change291 {
+  72.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change292 {
+  73% {
+    background-color: white;
+  }
+}
+
+@keyframes change292 {
+  73% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change293 {
+  73.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change293 {
+  73.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change294 {
+  73.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change294 {
+  73.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change295 {
+  73.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change295 {
+  73.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change296 {
+  74% {
+    background-color: white;
+  }
+}
+
+@keyframes change296 {
+  74% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change297 {
+  74.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change297 {
+  74.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change298 {
+  74.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change298 {
+  74.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change299 {
+  74.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change299 {
+  74.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change300 {
+  75% {
+    background-color: white;
+  }
+}
+
+@keyframes change300 {
+  75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change301 {
+  75.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change301 {
+  75.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change302 {
+  75.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change302 {
+  75.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change303 {
+  75.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change303 {
+  75.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change304 {
+  76% {
+    background-color: white;
+  }
+}
+
+@keyframes change304 {
+  76% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change305 {
+  76.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change305 {
+  76.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change306 {
+  76.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change306 {
+  76.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change307 {
+  76.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change307 {
+  76.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change308 {
+  77% {
+    background-color: white;
+  }
+}
+
+@keyframes change308 {
+  77% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change309 {
+  77.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change309 {
+  77.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change310 {
+  77.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change310 {
+  77.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change311 {
+  77.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change311 {
+  77.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change312 {
+  78% {
+    background-color: white;
+  }
+}
+
+@keyframes change312 {
+  78% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change313 {
+  78.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change313 {
+  78.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change314 {
+  78.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change314 {
+  78.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change315 {
+  78.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change315 {
+  78.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change316 {
+  79% {
+    background-color: white;
+  }
+}
+
+@keyframes change316 {
+  79% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change317 {
+  79.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change317 {
+  79.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change318 {
+  79.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change318 {
+  79.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change319 {
+  79.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change319 {
+  79.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change320 {
+  80% {
+    background-color: white;
+  }
+}
+
+@keyframes change320 {
+  80% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change321 {
+  80.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change321 {
+  80.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change322 {
+  80.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change322 {
+  80.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change323 {
+  80.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change323 {
+  80.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change324 {
+  81% {
+    background-color: white;
+  }
+}
+
+@keyframes change324 {
+  81% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change325 {
+  81.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change325 {
+  81.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change326 {
+  81.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change326 {
+  81.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change327 {
+  81.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change327 {
+  81.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change328 {
+  82% {
+    background-color: white;
+  }
+}
+
+@keyframes change328 {
+  82% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change329 {
+  82.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change329 {
+  82.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change330 {
+  82.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change330 {
+  82.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change331 {
+  82.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change331 {
+  82.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change332 {
+  83% {
+    background-color: white;
+  }
+}
+
+@keyframes change332 {
+  83% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change333 {
+  83.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change333 {
+  83.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change334 {
+  83.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change334 {
+  83.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change335 {
+  83.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change335 {
+  83.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change336 {
+  84% {
+    background-color: white;
+  }
+}
+
+@keyframes change336 {
+  84% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change337 {
+  84.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change337 {
+  84.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change338 {
+  84.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change338 {
+  84.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change339 {
+  84.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change339 {
+  84.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change340 {
+  85% {
+    background-color: white;
+  }
+}
+
+@keyframes change340 {
+  85% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change341 {
+  85.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change341 {
+  85.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change342 {
+  85.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change342 {
+  85.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change343 {
+  85.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change343 {
+  85.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change344 {
+  86% {
+    background-color: white;
+  }
+}
+
+@keyframes change344 {
+  86% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change345 {
+  86.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change345 {
+  86.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change346 {
+  86.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change346 {
+  86.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change347 {
+  86.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change347 {
+  86.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change348 {
+  87% {
+    background-color: white;
+  }
+}
+
+@keyframes change348 {
+  87% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change349 {
+  87.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change349 {
+  87.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change350 {
+  87.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change350 {
+  87.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change351 {
+  87.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change351 {
+  87.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change352 {
+  88% {
+    background-color: white;
+  }
+}
+
+@keyframes change352 {
+  88% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change353 {
+  88.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change353 {
+  88.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change354 {
+  88.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change354 {
+  88.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change355 {
+  88.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change355 {
+  88.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change356 {
+  89% {
+    background-color: white;
+  }
+}
+
+@keyframes change356 {
+  89% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change357 {
+  89.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change357 {
+  89.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change358 {
+  89.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change358 {
+  89.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change359 {
+  89.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change359 {
+  89.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change360 {
+  90% {
+    background-color: white;
+  }
+}
+
+@keyframes change360 {
+  90% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change361 {
+  90.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change361 {
+  90.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change362 {
+  90.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change362 {
+  90.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change363 {
+  90.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change363 {
+  90.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change364 {
+  91% {
+    background-color: white;
+  }
+}
+
+@keyframes change364 {
+  91% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change365 {
+  91.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change365 {
+  91.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change366 {
+  91.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change366 {
+  91.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change367 {
+  91.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change367 {
+  91.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change368 {
+  92% {
+    background-color: white;
+  }
+}
+
+@keyframes change368 {
+  92% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change369 {
+  92.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change369 {
+  92.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change370 {
+  92.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change370 {
+  92.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change371 {
+  92.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change371 {
+  92.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change372 {
+  93% {
+    background-color: white;
+  }
+}
+
+@keyframes change372 {
+  93% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change373 {
+  93.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change373 {
+  93.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change374 {
+  93.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change374 {
+  93.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change375 {
+  93.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change375 {
+  93.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change376 {
+  94% {
+    background-color: white;
+  }
+}
+
+@keyframes change376 {
+  94% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change377 {
+  94.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change377 {
+  94.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change378 {
+  94.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change378 {
+  94.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change379 {
+  94.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change379 {
+  94.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change380 {
+  95% {
+    background-color: white;
+  }
+}
+
+@keyframes change380 {
+  95% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change381 {
+  95.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change381 {
+  95.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change382 {
+  95.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change382 {
+  95.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change383 {
+  95.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change383 {
+  95.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change384 {
+  96% {
+    background-color: white;
+  }
+}
+
+@keyframes change384 {
+  96% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change385 {
+  96.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change385 {
+  96.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change386 {
+  96.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change386 {
+  96.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change387 {
+  96.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change387 {
+  96.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change388 {
+  97% {
+    background-color: white;
+  }
+}
+
+@keyframes change388 {
+  97% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change389 {
+  97.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change389 {
+  97.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change390 {
+  97.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change390 {
+  97.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change391 {
+  97.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change391 {
+  97.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change392 {
+  98% {
+    background-color: white;
+  }
+}
+
+@keyframes change392 {
+  98% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change393 {
+  98.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change393 {
+  98.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change394 {
+  98.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change394 {
+  98.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change395 {
+  98.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change395 {
+  98.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change396 {
+  99% {
+    background-color: white;
+  }
+}
+
+@keyframes change396 {
+  99% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change397 {
+  99.25% {
+    background-color: white;
+  }
+}
+
+@keyframes change397 {
+  99.25% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change398 {
+  99.5% {
+    background-color: white;
+  }
+}
+
+@keyframes change398 {
+  99.5% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change399 {
+  99.75% {
+    background-color: white;
+  }
+}
+
+@keyframes change399 {
+  99.75% {
+    background-color: white;
+  }
+}
+
+@-webkit-keyframes change400 {
+  100% {
+    background-color: white;
+  }
+}
+
+@keyframes change400 {
+  100% {
+    background-color: white;
+  }
+}
+/*# sourceMappingURL=style.css.map */
