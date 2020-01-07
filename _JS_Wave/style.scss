@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    border: 5px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #wrapper{
+        width:  50vh;
+        height: 50vh;
+
+        border: 2px solid black;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        border-radius: 20px;
+
+        background-color: #861657;
+        background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+
+        .bubble{
+            width: 30px;
+            height: 30px;
+            background-color: blue;
+            margin: 10px 10px;
+            border-radius: 100%;
+        }
+
+        @for $i from 1 through 81{
+            .bub#{$i}{
+                background-color: rgb(random(256), random(256), random(256));
+                animation: bob#{$i} 1s ease-in-out infinite;
+                animation-delay: #{$i+s};
+
+                border: 2px solid black;
+            }
+
+            @keyframes bob#{$i}{
+                0%{
+                    transform: translateY(#{random(10) + px});
+                }
+
+                50%{
+                    transform: translateY(-#{random(10) + px});
+                }
+
+                100%{
+                    transform: translateY(#{random(10) + px});
+                }
+            }
+        }
+
+        
+    }
+}
