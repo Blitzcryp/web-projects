@@ -1,0 +1,1322 @@
+@import url("https://fonts.googleapis.com/css?family=Calligraffitti&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nova+Square&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Calligraffitti';
+  font-size: 1.15rem;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/********************\
+|    NAVIGATION BAR    |
+ \********************/
+.nav {
+  width: 100%;
+  height: 15vh;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  z-index: 3;
+  /********************\
+    |       PHONE        |
+    \********************/
+  background-color: #F7F1FF;
+}
+
+.nav .img {
+  background-image: url("city-girl.jpg");
+  background-size: cover;
+  width: 15vh;
+  height: 15vh;
+}
+
+.nav ul {
+  min-width: 30vw;
+  max-width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 30px;
+    font-size: 2rem;
+  }
+}
+
+/********************\
+|         INTRO        |
+ \********************/
+.intro {
+  height: 100vh;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#F7F1FF), color-stop(30%, #F7F1FF), to(#c5abe6));
+  background-image: linear-gradient(to bottom, #F7F1FF, #F7F1FF 30%, #c5abe6);
+  z-index: -1;
+  /********************\
+    |       PHONE        |
+    \********************/
+  /********************\
+    |       DESKTOP      |
+    \********************/
+  overflow: hidden;
+}
+
+.intro .star0 {
+  position: relative;
+  top: 51vh;
+  left: 87vw;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: star 8s ease-in-out infinite;
+          animation: star 8s ease-in-out infinite;
+  -webkit-animation-delay: 6 s;
+          animation-delay: 6 s;
+}
+
+.intro .star1 {
+  position: relative;
+  top: 59vh;
+  left: 22vw;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: star 5s ease-in-out infinite;
+          animation: star 5s ease-in-out infinite;
+  -webkit-animation-delay: 6 s;
+          animation-delay: 6 s;
+}
+
+.intro .star2 {
+  position: relative;
+  top: 58vh;
+  left: 65vw;
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  -webkit-animation: star 10s ease-in-out infinite;
+          animation: star 10s ease-in-out infinite;
+  -webkit-animation-delay: 10 s;
+          animation-delay: 10 s;
+}
+
+.intro .star3 {
+  position: relative;
+  top: 60vh;
+  left: 52vw;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  -webkit-animation: star 8s ease-in-out infinite;
+          animation: star 8s ease-in-out infinite;
+  -webkit-animation-delay: 7 s;
+          animation-delay: 7 s;
+}
+
+.intro .star4 {
+  position: relative;
+  top: 43vh;
+  left: 15vw;
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  -webkit-animation: star 9s ease-in-out infinite;
+          animation: star 9s ease-in-out infinite;
+  -webkit-animation-delay: 8 s;
+          animation-delay: 8 s;
+}
+
+.intro .star5 {
+  position: relative;
+  top: 53vh;
+  left: 27vw;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  -webkit-animation: star 7s ease-in-out infinite;
+          animation: star 7s ease-in-out infinite;
+  -webkit-animation-delay: 3 s;
+          animation-delay: 3 s;
+}
+
+.intro .star6 {
+  position: relative;
+  top: 48vh;
+  left: 63vw;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  -webkit-animation: star 6s ease-in-out infinite;
+          animation: star 6s ease-in-out infinite;
+  -webkit-animation-delay: 2 s;
+          animation-delay: 2 s;
+}
+
+.intro .star7 {
+  position: relative;
+  top: 57vh;
+  left: 23vw;
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  -webkit-animation: star 9s ease-in-out infinite;
+          animation: star 9s ease-in-out infinite;
+  -webkit-animation-delay: 8 s;
+          animation-delay: 8 s;
+}
+
+.intro .star8 {
+  position: relative;
+  top: 46vh;
+  left: 7vw;
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  -webkit-animation: star 5s ease-in-out infinite;
+          animation: star 5s ease-in-out infinite;
+  -webkit-animation-delay: 10 s;
+          animation-delay: 10 s;
+}
+
+.intro .star9 {
+  position: relative;
+  top: 51vh;
+  left: 68vw;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  -webkit-animation: star 1s ease-in-out infinite;
+          animation: star 1s ease-in-out infinite;
+  -webkit-animation-delay: 2 s;
+          animation-delay: 2 s;
+}
+
+.intro .star10 {
+  position: relative;
+  top: 48vh;
+  left: 93vw;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: star 9s ease-in-out infinite;
+          animation: star 9s ease-in-out infinite;
+  -webkit-animation-delay: 2 s;
+          animation-delay: 2 s;
+}
+
+.intro .star11 {
+  position: relative;
+  top: 56vh;
+  left: 17vw;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: star 4s ease-in-out infinite;
+          animation: star 4s ease-in-out infinite;
+  -webkit-animation-delay: 3 s;
+          animation-delay: 3 s;
+}
+
+.intro .star12 {
+  position: relative;
+  top: 55vh;
+  left: 18vw;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: star 1s ease-in-out infinite;
+          animation: star 1s ease-in-out infinite;
+  -webkit-animation-delay: 10 s;
+          animation-delay: 10 s;
+}
+
+.intro .star13 {
+  position: relative;
+  top: 55vh;
+  left: 65vw;
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  -webkit-animation: star 3s ease-in-out infinite;
+          animation: star 3s ease-in-out infinite;
+  -webkit-animation-delay: 9 s;
+          animation-delay: 9 s;
+}
+
+.intro .star14 {
+  position: relative;
+  top: 43vh;
+  left: 2vw;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  -webkit-animation: star 9s ease-in-out infinite;
+          animation: star 9s ease-in-out infinite;
+  -webkit-animation-delay: 4 s;
+          animation-delay: 4 s;
+}
+
+.intro .star15 {
+  position: relative;
+  top: 60vh;
+  left: 5vw;
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  -webkit-animation: star 3s ease-in-out infinite;
+          animation: star 3s ease-in-out infinite;
+  -webkit-animation-delay: 6 s;
+          animation-delay: 6 s;
+}
+
+.intro .star16 {
+  position: relative;
+  top: 56vh;
+  left: 29vw;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  -webkit-animation: star 9s ease-in-out infinite;
+          animation: star 9s ease-in-out infinite;
+  -webkit-animation-delay: 8 s;
+          animation-delay: 8 s;
+}
+
+.intro .star17 {
+  position: relative;
+  top: 44vh;
+  left: 4vw;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  -webkit-animation: star 9s ease-in-out infinite;
+          animation: star 9s ease-in-out infinite;
+  -webkit-animation-delay: 10 s;
+          animation-delay: 10 s;
+}
+
+.intro .star18 {
+  position: relative;
+  top: 49vh;
+  left: 53vw;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  -webkit-animation: star 8s ease-in-out infinite;
+          animation: star 8s ease-in-out infinite;
+  -webkit-animation-delay: 2 s;
+          animation-delay: 2 s;
+}
+
+.intro .star19 {
+  position: relative;
+  top: 60vh;
+  left: 10vw;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: star 2s ease-in-out infinite;
+          animation: star 2s ease-in-out infinite;
+  -webkit-animation-delay: 5 s;
+          animation-delay: 5 s;
+}
+
+.intro .star20 {
+  position: relative;
+  top: 48vh;
+  left: 66vw;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: star 9s ease-in-out infinite;
+          animation: star 9s ease-in-out infinite;
+  -webkit-animation-delay: 2 s;
+          animation-delay: 2 s;
+}
+
+.intro .star21 {
+  position: relative;
+  top: 47vh;
+  left: 61vw;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  -webkit-animation: star 4s ease-in-out infinite;
+          animation: star 4s ease-in-out infinite;
+  -webkit-animation-delay: 5 s;
+          animation-delay: 5 s;
+}
+
+.intro .star22 {
+  position: relative;
+  top: 46vh;
+  left: 18vw;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: star 6s ease-in-out infinite;
+          animation: star 6s ease-in-out infinite;
+  -webkit-animation-delay: 4 s;
+          animation-delay: 4 s;
+}
+
+.intro .star23 {
+  position: relative;
+  top: 53vh;
+  left: 54vw;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  -webkit-animation: star 9s ease-in-out infinite;
+          animation: star 9s ease-in-out infinite;
+  -webkit-animation-delay: 9 s;
+          animation-delay: 9 s;
+}
+
+.intro .star24 {
+  position: relative;
+  top: 58vh;
+  left: 6vw;
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  -webkit-animation: star 9s ease-in-out infinite;
+          animation: star 9s ease-in-out infinite;
+  -webkit-animation-delay: 10 s;
+          animation-delay: 10 s;
+}
+
+.intro .star25 {
+  position: relative;
+  top: 42vh;
+  left: 12vw;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: star 8s ease-in-out infinite;
+          animation: star 8s ease-in-out infinite;
+  -webkit-animation-delay: 7 s;
+          animation-delay: 7 s;
+}
+
+.intro .star26 {
+  position: relative;
+  top: 44vh;
+  left: 62vw;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  -webkit-animation: star 10s ease-in-out infinite;
+          animation: star 10s ease-in-out infinite;
+  -webkit-animation-delay: 10 s;
+          animation-delay: 10 s;
+}
+
+.intro .star27 {
+  position: relative;
+  top: 52vh;
+  left: 11vw;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: star 6s ease-in-out infinite;
+          animation: star 6s ease-in-out infinite;
+  -webkit-animation-delay: 8 s;
+          animation-delay: 8 s;
+}
+
+.intro .star28 {
+  position: relative;
+  top: 45vh;
+  left: 3vw;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  -webkit-animation: star 5s ease-in-out infinite;
+          animation: star 5s ease-in-out infinite;
+  -webkit-animation-delay: 1 s;
+          animation-delay: 1 s;
+}
+
+.intro .star29 {
+  position: relative;
+  top: 41vh;
+  left: 52vw;
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  -webkit-animation: star 10s ease-in-out infinite;
+          animation: star 10s ease-in-out infinite;
+  -webkit-animation-delay: 3 s;
+          animation-delay: 3 s;
+}
+
+.intro .star30 {
+  position: relative;
+  top: 51vh;
+  left: 80vw;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  -webkit-animation: star 9s ease-in-out infinite;
+          animation: star 9s ease-in-out infinite;
+  -webkit-animation-delay: 4 s;
+          animation-delay: 4 s;
+}
+
+.intro .star31 {
+  position: relative;
+  top: 47vh;
+  left: 79vw;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: star 9s ease-in-out infinite;
+          animation: star 9s ease-in-out infinite;
+  -webkit-animation-delay: 6 s;
+          animation-delay: 6 s;
+}
+
+.intro .star32 {
+  position: relative;
+  top: 42vh;
+  left: 48vw;
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  -webkit-animation: star 5s ease-in-out infinite;
+          animation: star 5s ease-in-out infinite;
+  -webkit-animation-delay: 1 s;
+          animation-delay: 1 s;
+}
+
+.intro .star33 {
+  position: relative;
+  top: 45vh;
+  left: 82vw;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  -webkit-animation: star 9s ease-in-out infinite;
+          animation: star 9s ease-in-out infinite;
+  -webkit-animation-delay: 3 s;
+          animation-delay: 3 s;
+}
+
+.intro .star34 {
+  position: relative;
+  top: 55vh;
+  left: 29vw;
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  -webkit-animation: star 6s ease-in-out infinite;
+          animation: star 6s ease-in-out infinite;
+  -webkit-animation-delay: 7 s;
+          animation-delay: 7 s;
+}
+
+.intro .star35 {
+  position: relative;
+  top: 58vh;
+  left: 35vw;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  -webkit-animation: star 8s ease-in-out infinite;
+          animation: star 8s ease-in-out infinite;
+  -webkit-animation-delay: 7 s;
+          animation-delay: 7 s;
+}
+
+.intro .star36 {
+  position: relative;
+  top: 43vh;
+  left: 30vw;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  -webkit-animation: star 7s ease-in-out infinite;
+          animation: star 7s ease-in-out infinite;
+  -webkit-animation-delay: 8 s;
+          animation-delay: 8 s;
+}
+
+.intro .star37 {
+  position: relative;
+  top: 57vh;
+  left: 4vw;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  -webkit-animation: star 1s ease-in-out infinite;
+          animation: star 1s ease-in-out infinite;
+  -webkit-animation-delay: 9 s;
+          animation-delay: 9 s;
+}
+
+.intro .star38 {
+  position: relative;
+  top: 41vh;
+  left: 43vw;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: star 9s ease-in-out infinite;
+          animation: star 9s ease-in-out infinite;
+  -webkit-animation-delay: 3 s;
+          animation-delay: 3 s;
+}
+
+.intro .star39 {
+  position: relative;
+  top: 42vh;
+  left: 78vw;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  -webkit-animation: star 4s ease-in-out infinite;
+          animation: star 4s ease-in-out infinite;
+  -webkit-animation-delay: 9 s;
+          animation-delay: 9 s;
+}
+
+.intro .star40 {
+  position: relative;
+  top: 51vh;
+  left: 63vw;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  -webkit-animation: star 3s ease-in-out infinite;
+          animation: star 3s ease-in-out infinite;
+  -webkit-animation-delay: 8 s;
+          animation-delay: 8 s;
+}
+
+.intro .star41 {
+  position: relative;
+  top: 60vh;
+  left: 53vw;
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  -webkit-animation: star 1s ease-in-out infinite;
+          animation: star 1s ease-in-out infinite;
+  -webkit-animation-delay: 9 s;
+          animation-delay: 9 s;
+}
+
+.intro .star42 {
+  position: relative;
+  top: 54vh;
+  left: 72vw;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: star 4s ease-in-out infinite;
+          animation: star 4s ease-in-out infinite;
+  -webkit-animation-delay: 8 s;
+          animation-delay: 8 s;
+}
+
+.intro .star43 {
+  position: relative;
+  top: 42vh;
+  left: 36vw;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  -webkit-animation: star 10s ease-in-out infinite;
+          animation: star 10s ease-in-out infinite;
+  -webkit-animation-delay: 9 s;
+          animation-delay: 9 s;
+}
+
+.intro .star44 {
+  position: relative;
+  top: 49vh;
+  left: 15vw;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: star 6s ease-in-out infinite;
+          animation: star 6s ease-in-out infinite;
+  -webkit-animation-delay: 9 s;
+          animation-delay: 9 s;
+}
+
+.intro .star45 {
+  position: relative;
+  top: 47vh;
+  left: 4vw;
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  -webkit-animation: star 7s ease-in-out infinite;
+          animation: star 7s ease-in-out infinite;
+  -webkit-animation-delay: 9 s;
+          animation-delay: 9 s;
+}
+
+.intro .star46 {
+  position: relative;
+  top: 41vh;
+  left: 7vw;
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  -webkit-animation: star 6s ease-in-out infinite;
+          animation: star 6s ease-in-out infinite;
+  -webkit-animation-delay: 8 s;
+          animation-delay: 8 s;
+}
+
+.intro .star47 {
+  position: relative;
+  top: 46vh;
+  left: 41vw;
+  width: 3px;
+  height: 3px;
+  background-color: white;
+  -webkit-animation: star 7s ease-in-out infinite;
+          animation: star 7s ease-in-out infinite;
+  -webkit-animation-delay: 3 s;
+          animation-delay: 3 s;
+}
+
+.intro .star48 {
+  position: relative;
+  top: 50vh;
+  left: 17vw;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  -webkit-animation: star 8s ease-in-out infinite;
+          animation: star 8s ease-in-out infinite;
+  -webkit-animation-delay: 4 s;
+          animation-delay: 4 s;
+}
+
+.intro .star49 {
+  position: relative;
+  top: 57vh;
+  left: 83vw;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  -webkit-animation: star 5s ease-in-out infinite;
+          animation: star 5s ease-in-out infinite;
+  -webkit-animation-delay: 6 s;
+          animation-delay: 6 s;
+}
+
+@media only screen and (max-width: 768px) {
+  .intro .mess {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    text-align: center;
+  }
+  .intro h1 {
+    font-size: 2rem;
+    color: #976fcc;
+    font-family: 'Nova Square';
+  }
+  .intro p, .intro span {
+    font-size: 1.5rem;
+  }
+  .intro p {
+    color: #976fcc;
+  }
+  .intro span {
+    color: #c4236e;
+  }
+}
+
+@media (min-width: 769px) {
+  .intro .mess {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    text-align: center;
+  }
+  .intro h1 {
+    font-size: 4rem;
+    color: #976fcc;
+    font-family: 'Nova Square';
+  }
+  .intro p, .intro span {
+    font-size: 3rem;
+  }
+  .intro p {
+    color: #976fcc;
+  }
+  .intro span {
+    color: #c4236e;
+  }
+}
+
+@-webkit-keyframes star {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes star {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/********************\
+|       PROJECTS       |
+ \********************/
+.projects {
+  width: 100vw;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c5abe6), color-stop(10%, #c5abe6), to(#e6d5ab));
+  background-image: linear-gradient(to bottom, #c5abe6, #c5abe6 10%, #e6d5ab);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /********************\
+    |       PHONE        |
+    \********************/
+  /********************\
+    |       DESKTOP      |
+    \********************/
+}
+
+@media only screen and (max-width: 768px) {
+  .projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .projects .bp {
+    width: 300px;
+    height: 300px;
+    background-color: #abb4e6;
+    margin: 50px 10px;
+  }
+  .projects .bp0 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+  }
+  .projects .img0 {
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to top, #e2ade6 25px, rgba(0, 0, 0, 0) 375px);
+    border: 1px solid black;
+  }
+  .projects .bp1 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+  }
+  .projects .img1 {
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to top, #e2ade6 25px, rgba(0, 0, 0, 0) 375px);
+    border: 1px solid black;
+  }
+  .projects .bp2 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+  }
+  .projects .img2 {
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to top, #e2ade6 25px, rgba(0, 0, 0, 0) 375px);
+    border: 1px solid black;
+  }
+  .projects .bp3 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+  }
+  .projects .img3 {
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to top, #e2ade6 25px, rgba(0, 0, 0, 0) 375px);
+    border: 1px solid black;
+  }
+  .projects .bp4 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+  }
+  .projects .img4 {
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to top, #e2ade6 25px, rgba(0, 0, 0, 0) 375px);
+    border: 1px solid black;
+  }
+  .projects .bp5 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+  }
+  .projects .img5 {
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to top, #e2ade6 25px, rgba(0, 0, 0, 0) 375px);
+    border: 1px solid black;
+  }
+  .projects .bp6 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+  }
+  .projects .img6 {
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to top, #e2ade6 25px, rgba(0, 0, 0, 0) 375px);
+    border: 1px solid black;
+  }
+  .projects .bp7 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+  }
+  .projects .img7 {
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to top, #e2ade6 25px, rgba(0, 0, 0, 0) 375px);
+    border: 1px solid black;
+  }
+  .projects .bp8 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+  }
+  .projects .img8 {
+    z-index: 1;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to top, #e2ade6 25px, rgba(0, 0, 0, 0) 375px);
+    border: 1px solid black;
+  }
+  .projects .title {
+    width: 100%;
+  }
+  .projects .title h1 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 4px solid white;
+    color: white;
+  }
+}
+
+@media (min-width: 768px) {
+  .projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .projects .bp {
+    width: 20vw;
+    height: 20vw;
+    background-color: #abb4e6;
+    margin: 5vw 5vw;
+  }
+  .projects .bp0 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    z-index: 0;
+    border: 2px solid black;
+    overflow: hidden;
+    -webkit-box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+  }
+  .projects .img0 {
+    position: relative;
+    z-index: 1;
+    width: 20vw;
+    height: 20vw;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(2vw, #e2ade6), color-stop(20vw, rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to top, #e2ade6 2vw, rgba(0, 0, 0, 0) 20vw);
+    opacity: 0;
+  }
+  .projects .img0:hover {
+    opacity: 1;
+  }
+  .projects .bp1 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    z-index: 0;
+    border: 2px solid black;
+    overflow: hidden;
+    -webkit-box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+  }
+  .projects .img1 {
+    position: relative;
+    z-index: 1;
+    width: 20vw;
+    height: 20vw;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(2vw, #e2ade6), color-stop(20vw, rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to top, #e2ade6 2vw, rgba(0, 0, 0, 0) 20vw);
+    opacity: 0;
+  }
+  .projects .img1:hover {
+    opacity: 1;
+  }
+  .projects .bp2 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    z-index: 0;
+    border: 2px solid black;
+    overflow: hidden;
+    -webkit-box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+  }
+  .projects .img2 {
+    position: relative;
+    z-index: 1;
+    width: 20vw;
+    height: 20vw;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(2vw, #e2ade6), color-stop(20vw, rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to top, #e2ade6 2vw, rgba(0, 0, 0, 0) 20vw);
+    opacity: 0;
+  }
+  .projects .img2:hover {
+    opacity: 1;
+  }
+  .projects .bp3 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    z-index: 0;
+    border: 2px solid black;
+    overflow: hidden;
+    -webkit-box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+  }
+  .projects .img3 {
+    position: relative;
+    z-index: 1;
+    width: 20vw;
+    height: 20vw;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(2vw, #e2ade6), color-stop(20vw, rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to top, #e2ade6 2vw, rgba(0, 0, 0, 0) 20vw);
+    opacity: 0;
+  }
+  .projects .img3:hover {
+    opacity: 1;
+  }
+  .projects .bp4 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    z-index: 0;
+    border: 2px solid black;
+    overflow: hidden;
+    -webkit-box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+  }
+  .projects .img4 {
+    position: relative;
+    z-index: 1;
+    width: 20vw;
+    height: 20vw;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(2vw, #e2ade6), color-stop(20vw, rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to top, #e2ade6 2vw, rgba(0, 0, 0, 0) 20vw);
+    opacity: 0;
+  }
+  .projects .img4:hover {
+    opacity: 1;
+  }
+  .projects .bp5 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    z-index: 0;
+    border: 2px solid black;
+    overflow: hidden;
+    -webkit-box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+  }
+  .projects .img5 {
+    position: relative;
+    z-index: 1;
+    width: 20vw;
+    height: 20vw;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(2vw, #e2ade6), color-stop(20vw, rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to top, #e2ade6 2vw, rgba(0, 0, 0, 0) 20vw);
+    opacity: 0;
+  }
+  .projects .img5:hover {
+    opacity: 1;
+  }
+  .projects .bp6 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    z-index: 0;
+    border: 2px solid black;
+    overflow: hidden;
+    -webkit-box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+  }
+  .projects .img6 {
+    position: relative;
+    z-index: 1;
+    width: 20vw;
+    height: 20vw;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(2vw, #e2ade6), color-stop(20vw, rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to top, #e2ade6 2vw, rgba(0, 0, 0, 0) 20vw);
+    opacity: 0;
+  }
+  .projects .img6:hover {
+    opacity: 1;
+  }
+  .projects .bp7 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    z-index: 0;
+    border: 2px solid black;
+    overflow: hidden;
+    -webkit-box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+  }
+  .projects .img7 {
+    position: relative;
+    z-index: 1;
+    width: 20vw;
+    height: 20vw;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(2vw, #e2ade6), color-stop(20vw, rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to top, #e2ade6 2vw, rgba(0, 0, 0, 0) 20vw);
+    opacity: 0;
+  }
+  .projects .img7:hover {
+    opacity: 1;
+  }
+  .projects .bp8 {
+    background-image: url("city-girl.jpg");
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    z-index: 0;
+    border: 2px solid black;
+    overflow: hidden;
+    -webkit-box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+            box-shadow: -20px 25px 2px 15px rgba(0, 0, 0, 0.2);
+  }
+  .projects .img8 {
+    position: relative;
+    z-index: 1;
+    width: 20vw;
+    height: 20vw;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(2vw, #e2ade6), color-stop(20vw, rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to top, #e2ade6 2vw, rgba(0, 0, 0, 0) 20vw);
+    opacity: 0;
+  }
+  .projects .img8:hover {
+    opacity: 1;
+  }
+  .projects .title {
+    width: 100%;
+  }
+  .projects .title h1 {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 4px solid white;
+    color: white;
+  }
+}
+
+/*************\
+|     CONTACT   |
+ \*************/
+.contact {
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e6d5ab), color-stop(25%, #e6d5ab), color-stop(50%, #ccb26f), to(#ccb26f));
+  background-image: linear-gradient(to bottom, #e6d5ab, #e6d5ab 25%, #ccb26f 50%, #ccb26f);
+  /********************\
+    |       PHONE        |
+    \********************/
+  /********************\
+    |       DESKTOP      |
+    \********************/
+}
+
+@media only screen and (max-width: 768px) {
+  .contact h1 {
+    position: relative;
+    top: 10vh;
+    text-align: center;
+    color: #976fcc;
+    font-family: 'Nova Square';
+    font-size: 2rem;
+  }
+  .contact .message {
+    position: relative;
+    top: 20vh;
+    width: 100%;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact .message .phone, .contact .message .email {
+    height: 20vh;
+  }
+  .contact .message h1 {
+    font-size: 1.2rem;
+    font-family: 'Nova Square';
+    color: black;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact {
+    overflow: hidden;
+  }
+  .contact h1 {
+    text-align: center;
+    margin-top: 20vh;
+    color: #976fcc;
+    font-family: 'Nova Square';
+    font-size: 4rem;
+  }
+  .contact .message {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: relative;
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+  }
+  .contact .message h1 {
+    font-size: 2rem;
+    font-family: 'Nova Square';
+    color: black;
+  }
+}
+/*# sourceMappingURL=style.css.map */
