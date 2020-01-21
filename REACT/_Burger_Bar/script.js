@@ -16,10 +16,6 @@ function RenderBurger(props){
     }
 }
 
-function renderList(){
-    return false;
-}
-
 class Burger extends React.Component { 
     constructor(props){
         super(props)
