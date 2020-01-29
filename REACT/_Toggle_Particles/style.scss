@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    background-color: whitesmoke;
+
+}
+
+
+@for $i from 0 to 300{
+    /************************\
+    * Manage Bubble Elements *
+    \************************/
+    
+    .bubble#{$i}{
+        $r : random(30)+20;
+        width: $r#{px};
+        height: $r#{px};
+        
+        background-color: rgb(random(255), random(255), random(255));
+    
+        position: absolute;
+        display: block;
+        left: #{$i*19px};
+        top: 500#{px};
+
+        border-radius: 50%;
+    
+        $timing : random(5)+5;
+        animation: #{bubble}#{$i} #{$timing *1s} ease-in-out infinite;
+    
+        filter: blur(#{random(5)*1px});
+    }
+
+
+    @keyframes bubble#{$i}{
+        0%{
+            top: #{ (random(100)-200 )*1px};
+            opacity: 1;
+        }
+
+        100%{
+            top: 1900px;
+            opacity: 0;
+        }
+    }
+
+    /**********************\
+    * Manage Snow Elements *
+    \**********************/
+
+    .snow#{$i}{
+        $r: random(4)+1;
+        width: $r#{px};
+        height: $r#{px};
+        border-radius: 50%;
+
+        left: random(1900)#{px};
+        top: -50px;
+
+        display: block;
+        position: absolute;
+        background-color: white;
+
+        animation: #{snowfall}#{$i} #{random(20)*1s} ease-in-out infinite;
+    
+        filter: blur(#{random(5)*1px});
+    }
+
+    @keyframes snowfall#{$i}{
+        0%{
+            top: -50px;
+        }
+
+        100%{
+            top: 110%;
+        }
+    }
+
+
+}
